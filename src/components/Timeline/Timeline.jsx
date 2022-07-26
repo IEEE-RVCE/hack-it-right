@@ -27,8 +27,6 @@ function TimeLine() {
           <span class="title">End Registrations</span>
           <span>14th Jul 2022</span>
         </div>
-        {/*<p  className="timeline_text" style={{fontSize: "14px"}}>Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed qui veroes praesentium maiores, sint eos vero sapiente voluptas debitis dicta dolore.</p>
-       */}
       </section>
     </div>
     <div class="row row-1">

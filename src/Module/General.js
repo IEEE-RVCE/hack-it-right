@@ -40,8 +40,8 @@ import aneri from "./Assets/teami/Aneri_Sonani.jpg";
 
 
 const TOP_SECTION = {
-  TITLE: "DUHacks",
-  Typed_effect: ["16 July - 17 July", "36 hours of creation", "Win awesome prizes", "Events And Sessions"],
+  TITLE: "Hack4Soc",
+  Typed_effect: ["16  - 17 July", "36 hours of creation", "Win awesome prizes", "Events And Sessions"],
   SHORT_DESCRIPTION:
     "Join us on 16th and 17th of July 2022 for 36 hours of creation, innovation, & fun with over 1000+ students.",
   IMG_SRC: team,

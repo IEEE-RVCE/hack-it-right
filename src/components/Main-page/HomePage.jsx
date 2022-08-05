@@ -172,10 +172,13 @@ export default function HomePage(props) {
 
 
         {/*Theme Section*/}
-        {/* <Row className="prizesection non-coding" id="themes"> */}
-          {/* <PrizeHeading type="Hackathon Themes" /> */}
+        <Row className="prizesection non-coding" id="themes">
+          <PrizeHeading type="Problem Statements" />
+          <p>Problem statement is a concise description of an issue or a condition, to be addressed in the span of this event, to come up with a feasible and practical solution for the same. </p>
+          <br/>
+          <p>These will be given on the spot.</p>
           {/* <ThemeType /> */}
-        {/* </Row> */}
+        </Row>
 
          {/*TimeLine Section*/}
          <Row className="timeline" id="timeline">

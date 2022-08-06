@@ -17,7 +17,7 @@ import { Member } from "../team/team.jsx";
 import koii from "../../Module/Assets/sponsorsLogos/koii.png";
 import pattern from "./pattern4.png";
 import Media from "../media/media.jsx";
-import ThemeType from "../Themes/theme.jsx";
+import CollabType from "../Themes/theme.jsx";
 import TimeLine from "../Timeline/Timeline.jsx";
 import filecoin from "../../Module/Assets/sponsorsLogos/filecoin.png";
 import polygon from "../../Module/Assets/sponsorsLogos/polygon.png";
@@ -30,6 +30,7 @@ import {
   sponsorLogos,
   frequentlyAskedQuestions,
   designlogo,
+  collab,
   titlesponsorLogos,
   bronzeponsorLogos,
   silversponsorLogos,
@@ -173,8 +174,8 @@ export default function HomePage(props) {
 
         {/*Theme Section*/}
         <Row className="prizesection non-coding" id="themes">
-          <PrizeHeading type="Hackathon Themes" />
-          <ThemeType />
+          <PrizeHeading type="Presented by" />
+          <CollabType />
         </Row>
 
          {/*TimeLine Section*/}
@@ -346,7 +347,7 @@ export default function HomePage(props) {
         </Row>*/}
         {/* ********Prizes ending here ***** */}
 
-
+        
         {/* ********Sponsors here ***** */}
 
         <Row className="sponsorSection" id="sponsors">

@@ -18,7 +18,7 @@
 	padding: 20px;
 	width: 100%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	flex-wrap: wrap;
 	
 }
@@ -29,7 +29,7 @@
 }
 .card_inner{
 	/* box-shadow: 5px 10px 15px -5px black; */
-	box-shadow: 5px 10px 15px -5px black;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 	border-radius: 20px;
 }
 
@@ -59,7 +59,7 @@
 }
 
 .cards_wrap .card_item img{
-	width: 230px;
+	width: 250px;
 	height: 230px;
 	margin-bottom: 5px;
 	border-radius: 9px;

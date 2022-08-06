@@ -54,7 +54,7 @@ export default function Footer() {
       <div class="top">
         <div class="logo-details">
           <img src={logo} className="imgfooter" />
-          <span class="logo_name">&nbsp;DUHacks</span>
+          <span class="logo_name">&nbsp;Hack4Soc</span>
         </div>
         <div class="media-icons">
           <a target="_blank" href={SOCIALS.discord}><i class="iconlink fab fa-discord"></i></a>
@@ -73,7 +73,7 @@ export default function Footer() {
     </div>
     <div class="bottom-details">
       <div class="bottom_text">
-        <span class="copyright_text">Copyright © 2022 DUHacks</span>
+        <span class="copyright_text">Copyright © 2022 Hack4Soc</span>
         <span class="policy_terms">
           Made with ❤️
         </span>

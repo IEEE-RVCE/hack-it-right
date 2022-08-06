@@ -1,0 +1,28 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageDiv {
+    flex: 30%;
+}
+
+.image {
+    width: 100%;
+    padding: 20px;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.description {
+    flex: 70%;
+    text-align: justify;
+}
+
+@media (max-width: 800px) {
+    .description, .imageDiv {
+      flex: 100%;
+    }
+  }

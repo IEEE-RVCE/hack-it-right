@@ -93,6 +93,26 @@ const calenderStartingDate = {
   year: 2022
 }
 
+const NGOSection = [
+  {
+    "imgSrc" : "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
+    "imgAlt" : "NGO 1",
+    "imgDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat fermentum felis. Integer scelerisque sapien elit, ut rhoncus enim pretium nec. Nam dolor elit, ullamcorper id eleifend at, rutrum nec turpis. Nunc nunc dolor, rhoncus nec sagittis quis, imperdiet id mi. Etiam mattis est felis. Aliquam erat volutpat. Nunc ultrices odio et enim aliquam, vel congue nibh eleifend. Nullam et libero quis sem ultrices gravida semper vel libero. Nunc varius turpis felis, eget tempus ligula feugiat eu. Mauris consequat vulputate turpis, nec cursus felis ultricies a.",
+    "key" : "1"
+  },
+  {
+    "imgSrc" : "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
+    "imgAlt" : "NGO 1",
+    "imgDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat fermentum felis. Integer scelerisque sapien elit, ut rhoncus enim pretium nec. Nam dolor elit, ullamcorper id eleifend at, rutrum nec turpis. Nunc nunc dolor, rhoncus nec sagittis quis, imperdiet id mi. Etiam mattis est felis. Aliquam erat volutpat. Nunc ultrices odio et enim aliquam, vel congue nibh eleifend. Nullam et libero quis sem ultrices gravida semper vel libero. Nunc varius turpis felis, eget tempus ligula feugiat eu. Mauris consequat vulputate turpis, nec cursus felis ultricies a.",
+    "key" : "2"
+  },
+  {
+    "imgSrc" : "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
+    "imgAlt" : "NGO 1",
+    "imgDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat fermentum felis. Integer scelerisque sapien elit, ut rhoncus enim pretium nec. Nam dolor elit, ullamcorper id eleifend at, rutrum nec turpis. Nunc nunc dolor, rhoncus nec sagittis quis, imperdiet id mi. Etiam mattis est felis. Aliquam erat volutpat. Nunc ultrices odio et enim aliquam, vel congue nibh eleifend. Nullam et libero quis sem ultrices gravida semper vel libero. Nunc varius turpis felis, eget tempus ligula feugiat eu. Mauris consequat vulputate turpis, nec cursus felis ultricies a.",
+    "key" : "3"
+  }
+]
 
 const schedule = [
   {
@@ -418,6 +438,7 @@ export {
   MIDDLE_SECTION,
   SOCIALS,
   FOOTER,
+  NGOSection,
   Prizeinfo,
   sponsorLogos,
   titlesponsorLogos,

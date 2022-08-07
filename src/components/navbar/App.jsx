@@ -1,12 +1,12 @@
-import React, { useState, useEffect, useRef } from "react";
-import HomePage from "../Main-page/HomePage";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { HashLink as Link } from "react-router-hash-link";
-import hamLogo from "./ham.svg";
-import logoClose from "./ham-c.svg";
-import mainlogo from "./LOGO.png";
-import styled from "styled-components";
-import "./styles.scss";
+import React, {useState, useEffect, useRef} from 'react';
+import HomePage from '../Main-page/HomePage';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {HashLink as Link} from 'react-router-hash-link';
+import hamLogo from './ham.svg';
+import logoClose from './ham-c.svg';
+import mainlogo from './LOGO.png';
+import styled from 'styled-components';
+import './styles.scss';
 
 const Wrapper = styled.div`
   display: block;
@@ -14,11 +14,11 @@ const Wrapper = styled.div`
   margin-top: 20px;
   @media (max-width: 712px) {
     margin: 0;
-    display: ${props => (props.toggle ? "none" : "static")};
+    display: ${props => (props.toggle ? 'none' : 'static')};
     height: 160vh;
     width: 100vw;
     position: fixed;
-    top: ${props => (props.toggle ? "-1000px" : "0px")};
+    top: ${props => (props.toggle ? '-1000px' : '0px')};
     transition: top 2s;
     .nav-content {
       height: 50%;
@@ -29,8 +29,8 @@ const Wrapper = styled.div`
 
 const NAVBAR = () => {
   React.useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://apply.devfolio.co/v2/sdk.js";
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
     script.async = true;
     script.defer = true;
     document.body.appendChild(script);
@@ -39,7 +39,7 @@ const NAVBAR = () => {
     };
   }, []);
   const [toggle, setToggle] = useState(true);
-  const [color, setColor] = useState("#121930");
+  const [color, setColor] = useState('#121930');
 
   const navigation = useRef();
 
@@ -65,12 +65,12 @@ const NAVBAR = () => {
   };
 
   useEffect(() => {
-    document.addEventListener("mousedown", e =>
+    document.addEventListener('mousedown', e =>
       handleOutsideCick(e, navigation)
     );
 
     return () => {
-      document.removeEventListener("mousedown", e =>
+      document.removeEventListener('mousedown', e =>
         handleOutsideCick(e, navigation)
       );
     };
@@ -78,52 +78,49 @@ const NAVBAR = () => {
 
   return (
     <Router>
-      <nav className="nav_bar" style={{ backgroundColor: color }}>
-      <li className="headerlogo_container1">
-                <div className="logi_none">
-                  <img alt="img"className="header--logo1" src={mainlogo} />
-                </div>
-              </li>
+      <nav className="nav_bar" style={{backgroundColor: color}}>
+        <li className="headerlogo_container1">
+          <div className="logi_none">
+            <img alt="img" className="header--logo1" src={mainlogo} />
+          </div>
+        </li>
         <Wrapper toggle={toggle} className="nav-wrapper">
-
           <div className="nav-content" ref={navigation}>
             <ul className="ulnav">
               <li className="headerlogo_container">
                 <div className="header_logo">
-                  <img alt="img" className="percentlogomain"  src={mainlogo} />
+                  <img alt="img" className="percentlogomain" src={mainlogo} />
                 </div>
               </li>
-              <div className="padd">
-                
-              </div>
+              <div className="padd"></div>
               <li className="liw list--general">
                 <Link to={`#about`}>
-                  <span className="links">About </span>{" "}
+                  <span className="links">About </span>{' '}
                 </Link>
               </li>
               <li className="liw list--general">
                 <Link to={`#themes`}>
-                  <span className="links">Themes </span>{" "}
+                  <span className="links">Themes </span>{' '}
                 </Link>
               </li>
               <li className="liw list--general">
                 <Link to={`#prizes`}>
-                  <span className="links">Prizes </span>{" "}
+                  <span className="links">Prizes </span>{' '}
                 </Link>
               </li>
               <li className="liw list--general">
                 <Link to={`#sponsors`}>
-                  <span className="links">Sponsors </span>{" "}
+                  <span className="links">Sponsors </span>{' '}
                 </Link>
               </li>
               <li className="liw list--general">
                 <Link to={`#teams`}>
-                  <span className="links">Team </span>{" "}
+                  <span className="links">Team </span>{' '}
                 </Link>
               </li>
-             <li className="liw list--general">
+              <li className="liw list--general">
                 <Link to={`#faqs`}>
-                  <span className="links">FAQ </span>{" "}
+                  <span className="links">FAQ </span>{' '}
                 </Link>
               </li>
               <img

@@ -1,5 +1,5 @@
 {
-  "name": "duhacks",
+  "name": "hack4soc",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://hack.ieee-rvce.org",
@@ -25,16 +25,10 @@
     "babel": "^6.23.0",
     "bootstrap": "^4.6.0",
     "express": "^4.17.1",
-<<<<<<< HEAD
     "node-sass": "^6.0.1",
     "npm": "^8.16.0",
     "prettier": "^2.3.2",
     "react": "^17.0.2",
-=======
-    "node-sass": "^7.0.1",
-    "prettier": "^2.3.2",
-    "react": "^16.0.0",
->>>>>>> master
     "react-bootstrap": "^1.6.1",
     "react-countdown": "^2.3.2",
     "react-dark-mode-toggle": "^0.2.0",

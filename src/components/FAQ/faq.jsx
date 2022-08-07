@@ -23,8 +23,8 @@ class Panel extends React.Component {
   }
 
   render() {
-    const { label, content, activeTab, index, activateTab } = this.props;
-    const { height } = this.state;
+    const {label, content, activeTab, index, activateTab} = this.props;
+    const {height} = this.state;
     const isActive = activeTab === index;
     const innerStyle = {
       height: `${isActive ? height : 0}px`
@@ -33,10 +33,16 @@ class Panel extends React.Component {
     return (
       <div className="panel" role="tabpanel" aria-expanded={isActive}>
         <button className="panel__label" role="tab" onClick={activateTab}>
-          <div style={{ position: "absolute", top: "50%", transform: "translateY(-50%)" }} >
+          <div
+            style={{
+              position: 'absolute',
+              top: '50%',
+              transform: 'translateY(-50%)'
+            }}
+          >
             {label}
           </div>
-        </button >
+        </button>
         <div
           className="panel__inner"
           style={innerStyle}
@@ -44,7 +50,7 @@ class Panel extends React.Component {
         >
           <p className="panel__content">{content}</p>
         </div>
-      </div >
+      </div>
     );
   }
 }
@@ -67,8 +73,8 @@ class Accordion extends React.Component {
   }
 
   render() {
-    const { panels } = this.props;
-    const { activeTab } = this.state;
+    const {panels} = this.props;
+    const {activeTab} = this.state;
     return (
       <div className="accordion" role="tablist">
         {panels.map((panel, index) => (
@@ -85,4 +91,4 @@ class Accordion extends React.Component {
   }
 }
 
-export { Accordion };
+export {Accordion};

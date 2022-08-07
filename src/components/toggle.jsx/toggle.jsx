@@ -1,7 +1,7 @@
-import React, {useState} from "react";
-import "./toggle.scss";
+import React, {useState} from 'react';
+import './toggle.scss';
 
-import DarkModeToggle from "react-dark-mode-toggle";
+import DarkModeToggle from 'react-dark-mode-toggle';
 
 export default () => {
   const [isDarkMode, setIsDarkMode] = useState(() => false);

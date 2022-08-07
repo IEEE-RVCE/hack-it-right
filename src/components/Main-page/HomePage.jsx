@@ -17,7 +17,7 @@ import {Member} from '../team/team.jsx';
 import koii from '../../Module/Assets/sponsorsLogos/koii.png';
 import pattern from './pattern4.png';
 import Media from '../media/media.jsx';
-import ThemeType from '../Themes/theme.jsx';
+import CollabType from '../Themes/theme.jsx';
 import TimeLine from '../Timeline/Timeline.jsx';
 import filecoin from '../../Module/Assets/sponsorsLogos/filecoin.png';
 import polygon from '../../Module/Assets/sponsorsLogos/polygon.png';
@@ -30,6 +30,7 @@ import {
   sponsorLogos,
   frequentlyAskedQuestions,
   designlogo,
+  collab,
   titlesponsorLogos,
   bronzeponsorLogos,
   silversponsorLogos,
@@ -188,15 +189,8 @@ export default function HomePage(props) {
 
         {/*Theme Section*/}
         <Row className="prizesection non-coding" id="themes">
-          <PrizeHeading type="Problem Statements" />
-          <p>
-            Problem statement is a concise description of an issue or a
-            condition, to be addressed in the span of this event, to come up
-            with a feasible and practical solution for the same.
-          </p>
-          <br />
-          <p>These will be given on the spot.</p>
-          {/* <ThemeType /> */}
+          <PrizeHeading type="Presented by" />
+          <CollabType />
         </Row>
 
         <Row className='prizesection non-coding'>

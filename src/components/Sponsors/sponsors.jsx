@@ -1,5 +1,5 @@
-import React from "react";
-import "./sponsors.scss";
+import React from 'react';
+import './sponsors.scss';
 // import {Btn} from "../Top-division-components/Top-division-components.jsx";
 // import {SOCIALS} from "../../Module/General";
 
@@ -15,8 +15,11 @@ function SponsorsHead() {
 function Sponsor(props) {
   return (
     <div className="Sponsor">
-    {/*<h3>coming Soon</h3>*/}
-     <a href={props.link} rel="noreferrer" target="_blank"> <img src={props.srcx} alt="DUHacks"></img></a>
+      {/*<h3>coming Soon</h3>*/}
+      <a href={props.link} rel="noreferrer" target="_blank">
+        {' '}
+        <img src={props.srcx} alt="DUHacks"></img>
+      </a>
     </div>
   );
 }

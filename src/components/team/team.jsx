@@ -1,6 +1,6 @@
-import React from "react";
-import "./team.css";
-import {Btn} from "../Top-division-components/Top-division-components.jsx";
+import React from 'react';
+import './team.css';
+import {Btn} from '../Top-division-components/Top-division-components.jsx';
 
 function JoinTeam({placeholder, formLink, content}) {
   return (

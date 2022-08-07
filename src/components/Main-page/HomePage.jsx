@@ -34,8 +34,10 @@ import {
   titlesponsorLogos,
   bronzeponsorLogos,
   silversponsorLogos,
-  goldsponsorLogos
+  goldsponsorLogos,
+  NGOSection
 } from '../../Module/General';
+import NGOCard from 'components/NGOCard/NGOCard.jsx';
 
 // javascript Map for sponsors
 
@@ -98,6 +100,19 @@ function FrequentlyAsked(props) {
       ))}
     </Row>
   );
+}
+
+const NGOCards = () => {
+  return NGOSection.map((NGO, key) => {
+    return (
+      <NGOCard
+        key={key}
+        imgSrc={NGO.imgSrc}
+        imgAlt={NGO.imgAlt}
+        imgDescription={NGO.imgDescription}
+      />
+    );
+  });
 }
 
 export default function HomePage(props) {
@@ -176,6 +191,12 @@ export default function HomePage(props) {
         <Row className="prizesection non-coding" id="themes">
           <PrizeHeading type="Presented by" />
           <CollabType />
+        </Row>
+
+        <Row className='prizesection non-coding'>
+          <PrizeHeading type="Partnered NGOs" />
+          <br/>
+          <NGOCards />
         </Row>
 
         {/*TimeLine Section*/}

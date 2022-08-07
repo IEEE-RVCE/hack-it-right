@@ -32,6 +32,16 @@ import parshwa from './Assets/teami/Parshwa_Mehta.jpg';
 import ayush from './Assets/teami/Ayush_Rudani.jpg';
 import aneri from './Assets/teami/Aneri_Sonani.jpg';
 
+//Organisation team
+import ashok from './Assets/teami/ashok_sir.jpg';
+import Malavika from './Assets/teami/Malavika_HariPrasad.jpg';
+import Nisarga from './Assets/teami/Nisarga.jpg';
+import prajwal from './Assets/teami/prajwal.jpg';
+import samhitha from './Assets/teami/samhitha.jpg';
+import Shubha from './Assets/teami/ShubhaPrada.jpeg';
+import Sonia from './Assets/teami/Sonia_Singh.jpeg';
+import neha from './Assets/teami/neha.jpeg';
+
 const TOP_SECTION = {
   TITLE: 'Hack4Soc',
   Typed_effect: [
@@ -211,87 +221,65 @@ const Prizeinfo = [
 
 const TeamInfo = [
   [
-    // Array 1
+
     {
-      Name: 'Vashishth Patel',
-      role: 'Lead Organizer',
-      github: 'https://github.com/vasu-1',
-      linkedin: 'https://www.linkedin.com/in/vashishth-patel-312a52204/',
-      img: me
+      Name: 'ShubhaPrada K P',
+      role: 'Chair',
+      //github: 'https://github.com/R-Ayush777',
+     // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
+      img: Shubha 
     },
     {
-      Name: 'Ayush Rudani',
-      role: 'Organizer',
-      github: 'https://github.com/R-Ayush777',
-      linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
-      img: ayush
+      Name: 'Samhitha',
+      role: 'Chair ',
+      //github: '#',
+      //linkedin: 'https://www.linkedin.com/in/nirali-darji-1b766a209',
+      img: samhitha
     },
     {
-      Name: 'Smit Padaliya',
-      role: 'Organizer',
-      github: 'https://github.com/Smit-05',
-      linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
-      img: smit
-    }
+      Name: 'Prajwal P',
+      role: 'Vice Chair',
+      //github: 'https://github.com/Smit-05',
+      //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
+      img: prajwal
+    },
+   
   ],
   [
     // Array 2
     {
-      Name: 'Zenisha Savaliya',
-      role: 'Manager',
-      github: 'https://github.com/zenishasavaliya',
-      linkedin: 'https://www.linkedin.com/in/zenishasavaliya/',
-      img: zenisha
+      Name: 'Malvika Hariprasad',
+      role: 'secretary',
+      //github: 'https://github.com/vasu-1',
+      //linkedin: 'https://www.linkedin.com/in/vashishth-patel-312a52204/',
+      img: Malavika
     },
     {
-      Name: 'Parshwa Mehta',
-      role: 'Manager & Content',
-      github: 'https://github.com/PARSHWA0510',
-      linkedin: 'https://www.linkedin.com/in/parshwa-mehta-949306205',
-      img: parshwa
+      Name: 'Neha',
+      role: 'Secretary',
+      //github: 'https://github.com/AneriSonani09',
+      //linkedin: 'https://www.linkedin.com/in/aneri-sonani-061b44204/',
+      img: neha
     },
     {
-      Name: 'Dharmesh Poriya',
-      role: 'Manager',
-      github: 'https://github.com/Dharmesh-Poriya07',
-      linkedin: 'https://www.linkedin.com/in/dharmesh-poriya/',
-      img: dharmesh
-    }
+      Name: 'Sonia Singh B',
+      role: 'Treasurer',
+      //github: 'https://github.com/R-Ayush777',
+     // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
+      img: Sonia 
+    },
+    {
+      Name: 'Nisarga',
+      role: 'Treasurer',
+      //github: 'https://github.com/Smit-05',
+      //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
+      img: Nisarga
+    },
+    
   ],
-  [
-    // Array 2
-    {
-      Name: 'Aneri Sonani',
-      role: 'Manager & Web',
-      github: 'https://github.com/AneriSonani09',
-      linkedin: 'https://www.linkedin.com/in/aneri-sonani-061b44204/',
-      img: aneri
-    },
-    {
-      Name: 'Nirali Darji',
-      role: 'Design Lead',
-      github: '#',
-      linkedin: 'https://www.linkedin.com/in/nirali-darji-1b766a209',
-      img: nirali
-    },
-    {
-      Name: 'Dhruvi Sherathiya',
-      role: 'Outreach Lead',
-      github: 'https://github.com/DhruviSherathiya',
-      linkedin: 'https://www.linkedin.com/in/dhruvisherathiya',
-      img: dhruvi
-    }
-  ],
-  [
-    // Array 2
-    {
-      Name: 'Manav Shah',
-      role: 'Content Lead',
-      github: 'https://github.com/manavshah25',
-      linkedin: 'https://www.linkedin.com/in/manav-shah-28a521212',
-      img: manav
-    }
-  ]
+
+
+  
 ];
 
 const JudgesInfo = [

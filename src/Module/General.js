@@ -18,22 +18,9 @@ import interviewbuddy from './Assets/sponsorsLogos/ib.png';
 import digitalocean from './Assets/sponsorsLogos/do.png';
 import postman from './Assets/sponsorsLogos/pm.svg';
 
-import zenisha from './Assets/teami/Zenisha_Savaliya.jpeg';
-import dhruvi from './Assets/teami/Dhruvi_Sherathiya.jpg';
-
-import me from './Assets/teami/Vashishth_Patel.jpg';
-import dharmesh from './Assets/teami/Dharmesh_Poriya.jpg';
-import Ryah from './Assets/teami/Ryah.jpg';
-import nirali from './Assets/teami/Nirali.jpeg';
-import smit from './Assets/teami/smit.jpeg';
-import manav from './Assets/teami/manav.jpg';
-// import ruchit from "./Assets/teami/Ruchit_Parekh.jpg";
-import parshwa from './Assets/teami/Parshwa_Mehta.jpg';
-import ayush from './Assets/teami/Ayush_Rudani.jpg';
-import aneri from './Assets/teami/Aneri_Sonani.jpg';
 
 //Organisation team
-import ashok from './Assets/teami/ashok_sir.jpg';
+//import ashok from './Assets/teami/ashok_sir.jpg';
 import Malavika from './Assets/teami/Malavika_HariPrasad.jpg';
 import Nisarga from './Assets/teami/Nisarga.jpg';
 import prajwal from './Assets/teami/prajwal.jpg';
@@ -290,21 +277,21 @@ const JudgesInfo = [
       role: 'Organizer',
       github: '',
       linkedin: '',
-      img: me
+      img: prajwal
     },
     {
       Name: 'Moon',
       role: 'Manager',
       github: '',
       linkedin: '',
-      img: Ryah
+      img: prajwal
     },
     {
       Name: 'Ryah Garcia',
       role: 'Organizer',
       github: '',
       linkedin: '',
-      img: Ryah
+      img: prajwal
     }
   ],
   [
@@ -314,14 +301,14 @@ const JudgesInfo = [
       role: 'Organizer',
       github: '',
       linkedin: '',
-      img: Ryah
+      img: prajwal
     },
     {
       Name: 'Zoheb',
       role: 'Organizer',
       github: '',
       linkedin: '',
-      img: Ryah
+      img: prajwal
     }
   ]
 ];

@@ -210,49 +210,49 @@ export default function HomePage(props) {
         </Row>
         <div class="row1-container">
           <div class="box red">
-            <h2>Overall First</h2>
+            <h2>First</h2>
             <img
               class="imgright"
               src="https://img.icons8.com/emoji/96/000000/1st-place-medal-emoji.png"
               alt=""
             />
             <h4>
-              <b>Prize</b>: Rs. 7000 <br />
-              Swags & Promo Codes
+              <b>Prize</b>: Coming Soon <br />
+              {/* Swags & Promo Codes */}
               <br />
               <br />
-              <a href="https://duhacks.devfolio.co/#prizes">Load More</a>
+              <a href="#">Load More</a>
             </h4>
           </div>
 
           <div class="box box-down cyan">
-            <h2>Overall Second</h2>
+            <h2>Second</h2>
             <img
               className="imgright"
               src="https://img.icons8.com/emoji/96/000000/2nd-place-medal-emoji.png"
               alt=""
             />
             <h4>
-              <b>Prize</b>: Rs. 3000 <br />
-              Swags & Promo Codes
+              <b>Prize</b>: Coming Soon <br />
+             {/* Swags & Promo Codes */}
               <br />
               <br />
-              <a href="https://duhacks.devfolio.co/#prizes" zz>
+              <a href="#" zz>
                 Load More
               </a>
             </h4>
           </div>
 
           <div class="box box-down blue">
-            <h2>Overall Third</h2>
+            <h2>Third</h2>
             <img
               class="imgright"
               src="https://img.icons8.com/emoji/96/000000/3rd-place-medal-emoji.png"
               alt=""
             />
             <h4>
-              <b>Prize</b>: Rs. 2000 <br />
-              Swags & Promo Codes
+              <b>Prize</b>: Coming Soon <br />
+           {/* Swags & Promo Codes */}
               <br />
               <br />
               <a href="https://duhacks.devfolio.co/#prizes">Load More</a>
@@ -268,34 +268,34 @@ export default function HomePage(props) {
       </div>*/}
         <div class="row1-container margfromsponsor">
           <div class="box box-down color2">
-            <h2>Best Women Team</h2>
+            <h2>First</h2>
             <img
               class="imgright"
               src="https://img.icons8.com/cute-clipart/64/000000/granny-lesbian.png"
               alt=""
             />
             <h4>
-              <b>Prize</b>: Rs. 1500 <br />
-              Swags & Promo Codes
+              <b>Prize</b>: Coming Soon <br />
+            {/* Swags & Promo Codes */}
               <br />
               <br />
-              <a href="https://duhacks.devfolio.co/#prizes">Load More</a>
+              <a href="#">Load More</a>
             </h4>
           </div>
 
           <div class="box color1">
-            <h2>Best DDU Team</h2>
+            <h2>Secound</h2>
             <img
               class="imgright"
               src="https://img.icons8.com/emoji/96/000000/sports-medal-emoji.png"
               alt=""
             />
             <h4>
-              <b>Prize</b>: Rs. 1500 <br />
-              Swags & Promo Codes
+              <b>Prize</b>: Coming Soon <br />
+              {/* Swags & Promo Codes */}
               <br />
               <br />
-              <a href="https://duhacks.devfolio.co/#prizes">Load More</a>
+              <a href="#">Load More</a>
             </h4>
           </div>
 
@@ -309,10 +309,10 @@ export default function HomePage(props) {
             <h4>
               <b>Participation Certificate</b>
               <br />
-              Promo Codes
+            {/* Swags & Promo Codes */}
               <br />
               <br />
-              <a href="https://duhacks.devfolio.co/#prizes">Load More</a>
+              <a href="#">Load More</a>
             </h4>
           </div>
         </div>

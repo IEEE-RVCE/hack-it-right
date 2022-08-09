@@ -43,18 +43,17 @@ const TOP_SECTION = {
 };
 
 const SOCIALS = {
-  instagram: 'https://instagram.com/hack4soc2022?igshid=YmMyMTA2M2Y=',
-  discord: 'https://discord.gg/cvHPEK7U3v',
-  linkedin: 'https://www.linkedin.com/company/hack4soc/',
-  twitter: 'https://twitter.com/hack4soc?t=CPjNJmQX1JxhIHb_YI0Tuw&s=09',
-  email: 'mailto:contact@hack4soc.tech',
-  mail: 'contact@hack4soc.tech'
+  instagram: 'https://www.instagram.com/ieee_rvce/',
+  discord: '',
+  linkedin: 'https://www.linkedin.com/company/rv-ieee/',
+  email: 'mailto:ieeervce@rvce.edu.in',
+  mail: 'ieeervce@rvce.edu.in'
 };
 
 const MIDDLE_SECTION = {
   TITLE: 'What is Hac4Soc?',
   LONG_DESCRIPTION:
-    'It is an offline hackathon in which all participants can sharpen their skills and connect with people to grow together. The Hackathon is designed to spark innovation, attract and educate new talent and create new channels for collaboration between performance and capacity professionals. We want to spread the idea that programming is a useful skill that can be enjoyed by anyone. We are planning to host approximately 150+ students offline in the college with proper arrangement and 850+ students online.',
+'Hack4soc is an inter-college hackathon that is being jointly organized by IEEE RVCE Computer Society and IEEE RVCE SIGHT. Teams from colleges from all over the state are invited to build solutions to the given problem statements with a humanitarian theme and claim the prize. We plan to train students for the skills that will be required for the hackathon through hybrid sessions with relevant subject matter experts. For the hackathon itself, we approached various NGOs for the problem statements.We will be inviting mentors to provide advice and suggestions to the participants and judges from different fields of technology to judge the solutions provided by the teams. The event will be a great opportunity for students to apply their technological skills and think of how to solve societal problems.',
   LOGO_EFFECT: true,
   LOGO: ''
 };

@@ -53,7 +53,7 @@ const SOCIALS = {
 const MIDDLE_SECTION = {
   TITLE: 'What is Hac4Soc?',
   LONG_DESCRIPTION:
-'Hack4soc is an inter-college hackathon that is being jointly organized by IEEE RVCE Computer Society and IEEE RVCE SIGHT. Teams from colleges from all over the state are invited to build solutions to the given problem statements with a humanitarian theme and claim the prize. We plan to train students for the skills that will be required for the hackathon through hybrid sessions with relevant subject matter experts. For the hackathon itself, we approached various NGOs for the problem statements.We will be inviting mentors to provide advice and suggestions to the participants and judges from different fields of technology to judge the solutions provided by the teams. The event will be a great opportunity for students to apply their technological skills and think of how to solve societal problems.',
+    'Hack4soc is an inter-college hackathon that is being jointly organized by IEEE RVCE Computer Society and IEEE RVCE SIGHT. Teams from colleges from all over the state are invited to build solutions to the given problem statements with a humanitarian theme and claim the prize. We plan to train students for the skills that will be required for the hackathon through hybrid sessions with relevant subject matter experts. For the hackathon itself, we approached various NGOs for the problem statements.We will be inviting mentors to provide advice and suggestions to the participants and judges from different fields of technology to judge the solutions provided by the teams. The event will be a great opportunity for students to apply their technological skills and think of how to solve societal problems.',
   LOGO_EFFECT: true,
   LOGO: ''
 };

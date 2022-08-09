@@ -384,7 +384,7 @@ const frequentlyAskedQuestions = [
       {
         label: 'Who can attend?',
         content:
-          'hack4soc is open to all undergraduate, high school students, and middle school students from all schools. Unfortunately, only DDU students can attend this event offline. For the rest of the other students, the event would be online.'
+          'hack4soc is open to all undergraduate, high school students, and middle school students from all schools.'
       },
       {
         label: 'I am a first time hacker, what should I do?',

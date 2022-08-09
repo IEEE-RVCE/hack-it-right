@@ -1,9 +1,8 @@
-import team from './Assets/team.gif';
+import hackforsoc from './Assets/hack4soc.gif';
 import digilogo from './Assets/sponsorsLogos/digilogo.png';
 import devfolio from './Assets/sponsorsLogos/devfolio.png';
 import filecoin from './Assets/sponsorsLogos/filecoin.png';
 import polygon from './Assets/sponsorsLogos/polygon.png';
-import shutterbugs from './Assets/sponsorsLogos/shutterbugs.png';
 import alan from './Assets/sponsorsLogos/alan.png';
 import koii from './Assets/sponsorsLogos/koii.png';
 // import celo from "./Assets/sponsorsLogos/celo.png";
@@ -14,10 +13,9 @@ import gfg from './Assets/sponsorsLogos/gfg.png';
 import certopus from './Assets/sponsorsLogos/certopus.png';
 import replit from './Assets/sponsorsLogos/replit.png';
 import taskade from './Assets/sponsorsLogos/taskade.png';
-import interviewbuddy from './Assets/sponsorsLogos/ib.png';
+import interviewbuddy from './Assets/sponsorsLogos/ic.png';
 import digitalocean from './Assets/sponsorsLogos/do.png';
 import postman from './Assets/sponsorsLogos/pm.svg';
-
 
 //Organisation team
 //import ashok from './Assets/teami/ashok_sir.jpg';
@@ -38,19 +36,19 @@ const TOP_SECTION = {
   ],
   SHORT_DESCRIPTION:
     'Join us on 27th and 28th of August 2022 for 24 hours of creation, innovation, & fun with over 100+ students.',
-  IMG_SRC: team,
+  IMG_SRC: hackforsoc,
   DISCORD_LINK: 'https://discord.gg/cvHPEK7U3v',
   JUDGES_FORM_LINK: '#Jugdes Form Link',
   HACKERS_REGISTRATION_FORM_LINK: '#Hackers Registration devfolio link'
 };
 
 const SOCIALS = {
-  instagram: 'https://instagram.com/duhacks2022?igshid=YmMyMTA2M2Y=',
+  instagram: 'https://instagram.com/hack4soc2022?igshid=YmMyMTA2M2Y=',
   discord: 'https://discord.gg/cvHPEK7U3v',
-  linkedin: 'https://www.linkedin.com/company/duhacks/',
-  twitter: 'https://twitter.com/DuHacks?t=CPjNJmQX1JxhIHb_YI0Tuw&s=09',
-  email: 'mailto:contact@duhacks.tech',
-  mail: 'contact@duhacks.tech'
+  linkedin: 'https://www.linkedin.com/company/hack4soc/',
+  twitter: 'https://twitter.com/hack4soc?t=CPjNJmQX1JxhIHb_YI0Tuw&s=09',
+  email: 'mailto:contact@hack4soc.tech',
+  mail: 'contact@hack4soc.tech'
 };
 
 const MIDDLE_SECTION = {
@@ -81,30 +79,36 @@ const FOOTER = {
 };
 
 const calenderStartingDate = {
-  month: 7,
+  month: 8,
   year: 2022
-}
+};
 
 const NGOSection = [
   {
-    "imgSrc" : "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
-    "imgAlt" : "NGO 1",
-    "imgDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat fermentum felis. Integer scelerisque sapien elit, ut rhoncus enim pretium nec. Nam dolor elit, ullamcorper id eleifend at, rutrum nec turpis. Nunc nunc dolor, rhoncus nec sagittis quis, imperdiet id mi. Etiam mattis est felis. Aliquam erat volutpat. Nunc ultrices odio et enim aliquam, vel congue nibh eleifend. Nullam et libero quis sem ultrices gravida semper vel libero. Nunc varius turpis felis, eget tempus ligula feugiat eu. Mauris consequat vulputate turpis, nec cursus felis ultricies a.",
-    "key" : "1"
+    imgSrc:
+      'https://dreampathfoundation.com/wp-content/uploads/2021/10/1454309431-1.png',
+    imgAlt: 'DreamPath Foundation',
+    imgDescription:
+      'DreamPath Foundation is a non-profit organisation operating from Bengaluru. Our work is centred around career awareness and guidance. Our workshops and interventions are designed to fulfill the needs of high-schoolers and adolescents. We are a team of experienced professionals from varied backgrounds who facilitate the workshops and training programs. Since our inception in 2013, we have addressed over 20,000 students, conducted several career awareness workshops and are guiding many children one-on-one in career exploration and decision-making. We have a special focus on underprivileged and marginalized youth, as well as children with learning challenges. We offer a whole range of child and adolescent friendly services in the field of career selection, mentoring, aptitude assessment, study skills and life skills development. ​DreamPath also undertakes teacher training programs in the area of career guidance.',
+    key: '1'
   },
   {
-    "imgSrc" : "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
-    "imgAlt" : "NGO 1",
-    "imgDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat fermentum felis. Integer scelerisque sapien elit, ut rhoncus enim pretium nec. Nam dolor elit, ullamcorper id eleifend at, rutrum nec turpis. Nunc nunc dolor, rhoncus nec sagittis quis, imperdiet id mi. Etiam mattis est felis. Aliquam erat volutpat. Nunc ultrices odio et enim aliquam, vel congue nibh eleifend. Nullam et libero quis sem ultrices gravida semper vel libero. Nunc varius turpis felis, eget tempus ligula feugiat eu. Mauris consequat vulputate turpis, nec cursus felis ultricies a.",
-    "key" : "2"
+    imgSrc:
+      'https://humanityorg.in/wp-content/uploads/2021/05/humanity.png',
+    imgAlt: 'HUManity',
+    imgDescription:
+      'They are committed to support the children living in CCIs through their efficient voluntary model and channelizing various collaborations to create a sustainable community.',
+    key: '2'
   },
-  {
-    "imgSrc" : "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
-    "imgAlt" : "NGO 1",
-    "imgDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat fermentum felis. Integer scelerisque sapien elit, ut rhoncus enim pretium nec. Nam dolor elit, ullamcorper id eleifend at, rutrum nec turpis. Nunc nunc dolor, rhoncus nec sagittis quis, imperdiet id mi. Etiam mattis est felis. Aliquam erat volutpat. Nunc ultrices odio et enim aliquam, vel congue nibh eleifend. Nullam et libero quis sem ultrices gravida semper vel libero. Nunc varius turpis felis, eget tempus ligula feugiat eu. Mauris consequat vulputate turpis, nec cursus felis ultricies a.",
-    "key" : "3"
-  }
-]
+  // {
+  //   imgSrc:
+  //     'https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80',
+  //   imgAlt: 'NGO 1',
+  //   imgDescription:
+  //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat fermentum felis. Integer scelerisque sapien elit, ut rhoncus enim pretium nec. Nam dolor elit, ullamcorper id eleifend at, rutrum nec turpis. Nunc nunc dolor, rhoncus nec sagittis quis, imperdiet id mi. Etiam mattis est felis. Aliquam erat volutpat. Nunc ultrices odio et enim aliquam, vel congue nibh eleifend. Nullam et libero quis sem ultrices gravida semper vel libero. Nunc varius turpis felis, eget tempus ligula feugiat eu. Mauris consequat vulputate turpis, nec cursus felis ultricies a.',
+  //   key: '3'
+  // }
+];
 
 const schedule = [
   {
@@ -208,13 +212,12 @@ const Prizeinfo = [
 
 const TeamInfo = [
   [
-
     {
       Name: 'ShubhaPrada K P',
       role: 'Chair',
       //github: 'https://github.com/R-Ayush777',
-     // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
-      img: Shubha 
+      // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
+      img: Shubha
     },
     {
       Name: 'Samhitha',
@@ -229,8 +232,7 @@ const TeamInfo = [
       //github: 'https://github.com/Smit-05',
       //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
       img: prajwal
-    },
-   
+    }
   ],
   [
     // Array 2
@@ -252,8 +254,8 @@ const TeamInfo = [
       Name: 'Sonia Singh B',
       role: 'Treasurer',
       //github: 'https://github.com/R-Ayush777',
-     // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
-      img: Sonia 
+      // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
+      img: Sonia
     },
     {
       Name: 'Nisarga',
@@ -261,12 +263,8 @@ const TeamInfo = [
       //github: 'https://github.com/Smit-05',
       //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
       img: Nisarga
-    },
-    
-  ],
-
-
-  
+    }
+  ]
 ];
 
 const JudgesInfo = [
@@ -314,67 +312,68 @@ const JudgesInfo = [
 ];
 
 const sponsorLogos = [
-  // [{ src: cfc }, { src: sublime }, { src: echoAR }], //Array 1
-  // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
-  // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
-  // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
-];
-
-const titlesponsorLogos = [
   [
-    {src: devfolio, link: 'https://devfolio.co/'},
-    {src: polygon, link: 'https://polygon.technology/'}
-  ] //Array 1
-  // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
-  // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
-  // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
-];
-
-const goldsponsorLogos = [
-  // [  ], //Array 1
-  [
-    {src: filecoin, link: 'https://filecoin.io/'},
-    {src: gfg, link: 'https://www.geeksforgeeks.org/'},
-    {src: digitalocean, link: 'https://www.digitalocean.com/'}
-  ] //Array 2
-  // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
-  // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
-];
-
-const silversponsorLogos = [
-  [
-    {src: echo3d, link: 'https://www.echo3d.co/'},
     {src: wolfram, link: 'https://www.wolfram.com/'},
-    {src: interviewbuddy, link: 'https://interviewbuddy.in/'}
-  ], //Array 1
-  [{src: alan, link: 'https://alan.app/'}]
-  // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
-  // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
-  // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
-];
-
-const bronzeponsorLogos = [
-  [
-    {src: replit, link: 'https://replit.com/'},
-    {src: certopus, link: 'https://certopus.com/'},
-    {src: taskade, link: 'https://www.taskade.com/'}
-  ], //Array 1
-  [
-    {src: koii, link: 'https://www.koii.network/'},
-    {src: postman, link: 'https://postman.com/'}
-  ]
-  // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
-  // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
-  // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
-];
-
-const designlogo = [
-  [
-    {src: digilogo, link: 'https://www.instagram.com/digicosmic_studio/'},
-    {src: streamyard, link: 'https://streamyard.com/'},
-    {src: shutterbugs, link: 'https://www.instagram.com/shutterbugs_ddu/?hl=en'}
+    {src: interviewbuddy, link: 'https://interviewbuddy.in/'},
+    {src: streamyard, link: 'https://streamyard.com/'}
   ]
 ];
+
+// const titlesponsorLogos = [
+//   [
+//     {src: devfolio, link: 'https://devfolio.co/'},
+//     {src: polygon, link: 'https://polygon.technology/'}
+//   ] //Array 1
+//   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
+//   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
+//   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
+// ];
+
+// const goldsponsorLogos = [
+//   // [  ], //Array 1
+//   [
+//     {src: filecoin, link: 'https://filecoin.io/'},
+//     {src: gfg, link: 'https://www.geeksforgeeks.org/'},
+//     {src: digitalocean, link: 'https://www.digitalocean.com/'}
+//   ] //Array 2
+//   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
+//   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
+// ];
+
+// const silversponsorLogos = [
+//   [
+//     // {src: echo3d, link: 'https://www.echo3d.co/'},
+//     {src: wolfram, link: 'https://www.wolfram.com/'},
+//     {src: interviewbuddy, link: 'https://interviewbuddy.in/'}
+//   ], //Array 1
+//   // [{src: alan, link: 'https://alan.app/'}]
+//   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
+//   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
+//   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
+// ];
+
+// const bronzeponsorLogos = [
+//   [
+//     // {src: replit, link: 'https://replit.com/'},
+//     // {src: certopus, link: 'https://certopus.com/'},
+//     // {src: taskade, link: 'https://www.taskade.com/'}
+//   ], //Array 1
+//   [
+//     // {src: koii, link: 'https://www.koii.network/'},
+//     // {src: postman, link: 'https://postman.com/'}
+//   ]
+//   // [{ src: taskade }, { src: Replit }, { src: qoom }], //Array 2
+//   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
+//   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4
+// ];
+
+// const designlogo = [
+//   [
+//     // {src: digilogo, link: 'https://www.instagram.com/digicosmic_studio/'},
+//     {src: streamyard, link: 'https://streamyard.com/'},
+//     // {src: shutterbugs, link: 'https://www.instagram.com/shutterbugs_ddu/?hl=en'}
+//   ]
+// ];
 
 const frequentlyAskedQuestions = [
   [
@@ -382,12 +381,12 @@ const frequentlyAskedQuestions = [
       {
         label: 'What is a hackathon?',
         content:
-          'A hackathon is a 36 hour event where "hackers" will collaborate on creating a functioning software and hardware by the end of the event.'
+          'A hackathon is a 24 hour event where "hackers" will collaborate on creating a functional prototype software or hardware by the end of the event.'
       },
       {
         label: 'Who can attend?',
         content:
-          'DUHacks is open to all undergraduate, high school students, and middle school students from all schools. Unfortunately, only DDU students can attend this event offline. For the rest of the other students, the event would be online.'
+          'hack4soc is open to all undergraduate, high school students, and middle school students from all schools. Unfortunately, only DDU students can attend this event offline. For the rest of the other students, the event would be online.'
       },
       {
         label: 'I am a first time hacker, what should I do?',
@@ -404,12 +403,13 @@ const frequentlyAskedQuestions = [
       {
         label: 'How to register myself in the hackathon?',
         content:
-          'All you need is to register yourself on devfolio and join discord, we will guide you through everything there.'
-      },
+          // 'All you need is to register yourself on devfolio and join discord, we will guide you through everything there.'
+      'Registrations will be opened soon'
+        },
       {
         label: 'I have more questions?',
         content:
-          'Reach us directly at (contact@duhacks.tech) we would happy to help you.'
+          'Reach us directly at (prajwal.cs20@rvce.edu.in) I would happy to help you.'
       },
       {
         label: 'Can I participate as a individual?',
@@ -433,14 +433,9 @@ export {
   NGOSection,
   Prizeinfo,
   sponsorLogos,
-  titlesponsorLogos,
-  goldsponsorLogos,
-  silversponsorLogos,
-  bronzeponsorLogos,
   TeamInfo,
   JudgesInfo,
   frequentlyAskedQuestions,
   schedule,
-  calenderStartingDate,
-  designlogo
+  calenderStartingDate
 };

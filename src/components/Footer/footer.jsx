@@ -9,11 +9,10 @@ import './footer.scss';
 // import TermsOfUse from "./Terms of use.pdf";
 // import Twitter from "./icons8-twitter.svg";
 // import {Btn} from "../Top-division-components/Top-division-components.jsx";
-import logo from '../navbar/LOGO.png';
-import dsc from './dsc.png';
+import logo from '../../Module/Assets/RV Blue and black logo-01.png';
 // import cross from "./cross.svg";
 import {SOCIALS, FOOTER} from '../../Module/General';
-
+import IEEE_RVCE_Logo_Blue from "../../Module/Assets/IEEE RVCE Logo_Blue.png" 
 // function GithubTemplate({hideTemplate}) {
 //   return (
 //     <div className="template">
@@ -54,22 +53,22 @@ export default function Footer() {
           <div class="top">
             <div class="logo-details">
               <img src={logo} className="imgfooter" />
-              <span class="logo_name">&nbsp;DUHacks</span>
+              <span class="logo_name">&nbsp;hack4soc</span>
             </div>
             <div class="media-icons">
-              <a target="_blank" href={SOCIALS.discord}>
+              <a target="_blank" href={SOCIALS.discord} rel="noreferrer">
                 <i class="iconlink fab fa-discord"></i>
               </a>
-              <a target="_blank" href={SOCIALS.twitter}>
+              <a target="_blank" href={SOCIALS.twitter} rel="noreferrer">
                 <i class="iconlink fab fa-twitter"></i>
               </a>
-              <a target="_blank" href={SOCIALS.instagram}>
+              <a target="_blank" href={SOCIALS.instagram} rel="noreferrer">
                 <i class="iconlink fab fa-instagram"></i>
               </a>
-              <a target="_blank" href={SOCIALS.linkedin}>
+              <a target="_blank" href={SOCIALS.linkedin} rel="noreferrer">
                 <i class="iconlink fab fa-linkedin-in"></i>
               </a>
-              <a target="_blank" href={SOCIALS.email}>
+              <a target="_blank" href={SOCIALS.email} rel="noreferrer">
                 <i class="iconlink fa-solid fa-envelope"></i>
               </a>
             </div>
@@ -77,13 +76,13 @@ export default function Footer() {
           <div class="link-boxes">
             <ul class="box1 input-box1">
               {/*<li class="link_name">Subscribe</li>*/}
-              <img src={dsc} className="imgfooterdsc" />
+              <img src={IEEE_RVCE_Logo_Blue} className="imgfooterdsc" />
             </ul>
           </div>
         </div>
         <div class="bottom-details">
           <div class="bottom_text">
-            <span class="copyright_text">Copyright © 2022 DUHacks</span>
+            <span class="copyright_text">Copyright © 2022 hack4soc</span>
             <span class="policy_terms">Made with ❤️</span>
           </div>
         </div>

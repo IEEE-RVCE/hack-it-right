@@ -8,7 +8,7 @@ function Btn(props) {
   return (
     <div
       className="apply-button"
-      data-hackathon-slug="DUHacks"
+      data-hackathon-slug="hack4soc"
       data-button-theme="light"
       style={{height: '44px', width: '312px'}}
     ></div>
@@ -52,15 +52,14 @@ function Myinfo() {
           Apply With Devfolio
         </button>
 </a>
-      */}
       <div
         class="apply-button"
-        data-hackathon-slug="duhacks"
+        data-hackathon-slug="hack4soc"
         data-button-theme="light"
         // style="height: 44px; width: 312px"
       ></div>
       &nbsp;&nbsp;
-      <a href="https://discord.gg/cvHPEK7U3v" rel="noreferrer" target="_blank">
+       <a href="https://discord.gg/cvHPEK7U3v" rel="noreferrer" target="_blank">
         <button class="dis-button">
           <svg
             className="svgbtn"
@@ -77,11 +76,11 @@ function Myinfo() {
             ></path>{' '}
           </svg>
         </button>
-      </a>
+      </a> */}
       <br />
       <br />
       <br />
-      <a href="https://duhacks.devfolio.co/" target="_blank">
+      <a href="https://hack4soc.devfolio.co/" target="_blank">
         <button>Learn More</button>
       </a>
     </div>

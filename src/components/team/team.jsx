@@ -17,7 +17,7 @@ function Member({info}) {
   const {github, role, Name, img, linkedin} = info;
   return (
     <div className="member">
-      <img src={img} alt="DUHacks"></img>
+      <img src={img} alt="hack4soc"></img>
       <div className="members-link">
         <h3>{Name}</h3>
         <p>{role}</p>

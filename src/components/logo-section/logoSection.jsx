@@ -28,8 +28,8 @@ function Logo() {
   } else {
     myLogo = (
       <div className="logoS">
-        {/*<img className="Logo sym" src={sym} alt="DUHacks" />
-        <img className="Logo logo1" src={logo1} alt="DUHacks" />*/}
+        {/*<img className="Logo sym" src={sym} alt="hack4soc" />
+        <img className="Logo logo1" src={logo1} alt="hack4soc" />*/}
       </div>
     );
   }

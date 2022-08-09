@@ -4,9 +4,9 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import {HashLink as Link} from 'react-router-hash-link';
 import hamLogo from './ham.svg';
 import logoClose from './ham-c.svg';
-import mainlogo from './LOGO.png';
 import styled from 'styled-components';
 import './styles.scss';
+import logo from '../../Module/Assets/RV Blue and black logo-01.png';
 
 const Wrapper = styled.div`
   display: block;
@@ -81,7 +81,7 @@ const NAVBAR = () => {
       <nav className="nav_bar" style={{backgroundColor: color}}>
         <li className="headerlogo_container1">
           <div className="logi_none">
-            <img alt="img" className="header--logo1" src={mainlogo} />
+            <img alt="img" className="header--logo1" src={logo} />
           </div>
         </li>
         <Wrapper toggle={toggle} className="nav-wrapper">
@@ -89,18 +89,13 @@ const NAVBAR = () => {
             <ul className="ulnav">
               <li className="headerlogo_container">
                 <div className="header_logo">
-                  <img alt="img" className="percentlogomain" src={mainlogo} />
+                  <img alt="img" className="percentlogomain" src={logo} />
                 </div>
               </li>
               <div className="padd"></div>
               <li className="liw list--general">
                 <Link to={`#about`}>
                   <span className="links">About </span>{' '}
-                </Link>
-              </li>
-              <li className="liw list--general">
-                <Link to={`#themes`}>
-                  <span className="links">Themes </span>{' '}
                 </Link>
               </li>
               <li className="liw list--general">

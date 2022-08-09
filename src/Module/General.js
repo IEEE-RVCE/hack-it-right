@@ -311,6 +311,10 @@ const JudgesInfo = [
 
 const sponsorLogos = [
   [
+    {
+      src: 'https://icdds.org/img/IEEE-CS-BangaloreChapterOrange.png',
+      link: 'https://cs.ieeebangalore.org/'
+    },
     {src: wolfram, link: 'https://www.wolfram.com/'},
     {src: interviewbuddy, link: 'https://interviewbuddy.in/'},
     {src: streamyard, link: 'https://streamyard.com/'}

@@ -168,20 +168,20 @@ export default function HomePage(props) {
             </Col>
             <Col className="d-image" sm={12} lg={5} md={4}>
               {/* <img alt="img" src={TOP_SECTION.IMG_SRC} /> */}
-              <div className='animation'>
-              <Player
-                autoplay
-                loop
-                src="https://assets10.lottiefiles.com/packages/lf20_ytmy5gwa.json"
-                  style={{ height: '100%', width: '100%' }}
-                  className='asset'
-              >
-                <Controls
-                  visible={false}
-                  buttons={['play', 'repeat', 'frame', 'debug']}
+              <div className="animation">
+                <Player
+                  autoplay
+                  loop
+                  src="https://assets10.lottiefiles.com/packages/lf20_ytmy5gwa.json"
+                  style={{height: '100%', width: '100%'}}
+                  className="asset"
+                >
+                  <Controls
+                    visible={false}
+                    buttons={['play', 'repeat', 'frame', 'debug']}
                   />
-              </Player>
-                  </div>
+                </Player>
+              </div>
               <br />
             </Col>
           </Row>

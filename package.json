@@ -50,7 +50,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && echo \"hack.ieee-rvce.org\" > build/CNAME && touch build/.nojekyll",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",

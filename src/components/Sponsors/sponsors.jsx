@@ -1,5 +1,5 @@
-import { Btn } from 'components/Top-division-components/Top-division-components';
-import { SOCIALS } from 'Module/General';
+import {Btn} from 'components/Top-division-components/Top-division-components';
+import {SOCIALS} from 'Module/General';
 import React from 'react';
 import './sponsors.scss';
 
@@ -30,7 +30,7 @@ function SponsorUS() {
       <h3>Interested in Sponsoring </h3>
       <a href={SOCIALS.email}>
         <Btn className="sponsor_btn" type="Sponsor us" overlay="Send a mail" />
-      </a>{" "}
+      </a>{' '}
     </div>
   );
 }

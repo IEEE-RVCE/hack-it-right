@@ -93,13 +93,12 @@ const NGOSection = [
     key: '1'
   },
   {
-    imgSrc:
-      'https://humanityorg.in/wp-content/uploads/2021/05/humanity.png',
+    imgSrc: 'https://humanityorg.in/wp-content/uploads/2021/05/humanity.png',
     imgAlt: 'HUManity',
     imgDescription:
       'They are committed to support the children living in CCIs through their efficient voluntary model and channelizing various collaborations to create a sustainable community.',
     key: '2'
-  },
+  }
   // {
   //   imgSrc:
   //     'https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80',
@@ -404,8 +403,8 @@ const frequentlyAskedQuestions = [
         label: 'How to register myself in the hackathon?',
         content:
           // 'All you need is to register yourself on devfolio and join discord, we will guide you through everything there.'
-      'Registrations will be opened soon'
-        },
+          'Registrations will be opened soon'
+      },
       {
         label: 'I have more questions?',
         content:

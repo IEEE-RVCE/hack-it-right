@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6c86ac2a.css",
+    "main.js": "/static/js/main.67cc21f2.js",
+    "static/media/prajwal.jpg": "/static/media/prajwal.138c2c314c1c8205e7d7.jpg",
+    "static/media/hack4soc.gif": "/static/media/hack4soc.a02e7e1d30ab85655f6e.gif",
+    "static/media/Malavika_HariPrasad.jpg": "/static/media/Malavika_HariPrasad.aea2a8928c9072170948.jpg",
+    "static/media/Nisarga.jpg": "/static/media/Nisarga.7860a6b3105377545bc0.jpg",
+    "static/media/pattern4.png": "/static/media/pattern4.4b9f3314629a4be2f638.png",
+    "static/media/ShubhaPrada.jpeg": "/static/media/ShubhaPrada.3caec7b55c9ff33159b6.jpeg",
+    "static/media/samhitha.jpg": "/static/media/samhitha.964ebfafa3d158836aa8.jpg",
+    "static/media/wolfram.jpg": "/static/media/wolfram.f6eeae5c289475919e0f.jpg",
+    "static/media/preloader.gif": "/static/media/preloader.efefe51cea43a1ef1138.gif",
+    "static/media/RV Blue and black logo-01.png": "/static/media/RV Blue and black logo-01.d0b7cbe7b1ed99c7bd00.png",
+    "static/media/LOGO.png": "/static/media/LOGO.e39c81bc62ddf76bf7ce.png",
+    "static/media/streamyard1.JPG": "/static/media/streamyard1.88e959f18750418cb934.JPG",
+    "static/media/neha.jpeg": "/static/media/neha.201880711afa1ae01312.jpeg",
+    "static/media/Sonia_Singh.jpeg": "/static/media/Sonia_Singh.bb3d2d198f731d127b80.jpeg",
+    "static/media/IEEE RVCE Logo_Blue.png": "/static/media/IEEE RVCE Logo_Blue.32691588ad8c99d7f82a.png",
+    "static/media/digilogo.png": "/static/media/digilogo.fce122b1365aaa59b007.png",
+    "static/media/ic.png": "/static/media/ic.127b788506af7a873b93.png",
+    "static/media/alan.png": "/static/media/alan.16969bfa1ef84fea2327.png",
+    "static/media/koii.png": "/static/media/koii.df9b65b0788b88396304.png",
+    "static/media/certopus.png": "/static/media/certopus.76bdd21b76a3f7034694.png",
+    "static/media/pm.svg": "/static/media/pm.2cf639007a515db634af02ab6c7e304c.svg",
+    "index.html": "/index.html",
+    "static/media/ham-c.svg": "/static/media/ham-c.8ab7632d2e8f5e05abfb112d11ada71d.svg",
+    "static/media/ham.svg": "/static/media/ham.a63ab4de035aef5e3f6e82283f1bae0a.svg",
+    "main.6c86ac2a.css.map": "/static/css/main.6c86ac2a.css.map",
+    "main.67cc21f2.js.map": "/static/js/main.67cc21f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c86ac2a.css",
+    "static/js/main.67cc21f2.js"
+  ]
+}

@@ -18,7 +18,6 @@ import interviewbuddy from './Assets/sponsorsLogos/ib.png';
 import digitalocean from './Assets/sponsorsLogos/do.png';
 import postman from './Assets/sponsorsLogos/pm.svg';
 
-
 //Organisation team
 //import ashok from './Assets/teami/ashok_sir.jpg';
 import Malavika from './Assets/teami/Malavika_HariPrasad.jpg';
@@ -45,18 +44,17 @@ const TOP_SECTION = {
 };
 
 const SOCIALS = {
-  instagram: 'https://instagram.com/duhacks2022?igshid=YmMyMTA2M2Y=',
-  discord: 'https://discord.gg/cvHPEK7U3v',
-  linkedin: 'https://www.linkedin.com/company/duhacks/',
-  twitter: 'https://twitter.com/DuHacks?t=CPjNJmQX1JxhIHb_YI0Tuw&s=09',
-  email: 'mailto:contact@duhacks.tech',
-  mail: 'contact@duhacks.tech'
+  instagram: 'https://www.instagram.com/ieee_rvce/',
+  discord: '',
+  linkedin: 'https://www.linkedin.com/company/rv-ieee/',
+  email: 'mailto:ieeervce@rvce.edu.in',
+  mail: 'ieeervce@rvce.edu.in'
 };
 
 const MIDDLE_SECTION = {
   TITLE: 'What is Hac4Soc?',
   LONG_DESCRIPTION:
-    'It is an offline hackathon in which all participants can sharpen their skills and connect with people to grow together. The Hackathon is designed to spark innovation, attract and educate new talent and create new channels for collaboration between performance and capacity professionals. We want to spread the idea that programming is a useful skill that can be enjoyed by anyone. We are planning to host approximately 150+ students offline in the college with proper arrangement and 850+ students online.',
+'Hack4soc is an inter-college hackathon that is being jointly organized by IEEE RVCE Computer Society and IEEE RVCE SIGHT. Teams from colleges from all over the state are invited to build solutions to the given problem statements with a humanitarian theme and claim the prize. We plan to train students for the skills that will be required for the hackathon through hybrid sessions with relevant subject matter experts. For the hackathon itself, we approached various NGOs for the problem statements.We will be inviting mentors to provide advice and suggestions to the participants and judges from different fields of technology to judge the solutions provided by the teams. The event will be a great opportunity for students to apply their technological skills and think of how to solve societal problems.',
   LOGO_EFFECT: true,
   LOGO: ''
 };
@@ -83,28 +81,34 @@ const FOOTER = {
 const calenderStartingDate = {
   month: 7,
   year: 2022
-}
+};
 
 const NGOSection = [
   {
-    "imgSrc" : "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
-    "imgAlt" : "NGO 1",
-    "imgDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat fermentum felis. Integer scelerisque sapien elit, ut rhoncus enim pretium nec. Nam dolor elit, ullamcorper id eleifend at, rutrum nec turpis. Nunc nunc dolor, rhoncus nec sagittis quis, imperdiet id mi. Etiam mattis est felis. Aliquam erat volutpat. Nunc ultrices odio et enim aliquam, vel congue nibh eleifend. Nullam et libero quis sem ultrices gravida semper vel libero. Nunc varius turpis felis, eget tempus ligula feugiat eu. Mauris consequat vulputate turpis, nec cursus felis ultricies a.",
-    "key" : "1"
+    imgSrc:
+      'https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80',
+    imgAlt: 'NGO 1',
+    imgDescription:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat fermentum felis. Integer scelerisque sapien elit, ut rhoncus enim pretium nec. Nam dolor elit, ullamcorper id eleifend at, rutrum nec turpis. Nunc nunc dolor, rhoncus nec sagittis quis, imperdiet id mi. Etiam mattis est felis. Aliquam erat volutpat. Nunc ultrices odio et enim aliquam, vel congue nibh eleifend. Nullam et libero quis sem ultrices gravida semper vel libero. Nunc varius turpis felis, eget tempus ligula feugiat eu. Mauris consequat vulputate turpis, nec cursus felis ultricies a.',
+    key: '1'
   },
   {
-    "imgSrc" : "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
-    "imgAlt" : "NGO 1",
-    "imgDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat fermentum felis. Integer scelerisque sapien elit, ut rhoncus enim pretium nec. Nam dolor elit, ullamcorper id eleifend at, rutrum nec turpis. Nunc nunc dolor, rhoncus nec sagittis quis, imperdiet id mi. Etiam mattis est felis. Aliquam erat volutpat. Nunc ultrices odio et enim aliquam, vel congue nibh eleifend. Nullam et libero quis sem ultrices gravida semper vel libero. Nunc varius turpis felis, eget tempus ligula feugiat eu. Mauris consequat vulputate turpis, nec cursus felis ultricies a.",
-    "key" : "2"
+    imgSrc:
+      'https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80',
+    imgAlt: 'NGO 1',
+    imgDescription:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat fermentum felis. Integer scelerisque sapien elit, ut rhoncus enim pretium nec. Nam dolor elit, ullamcorper id eleifend at, rutrum nec turpis. Nunc nunc dolor, rhoncus nec sagittis quis, imperdiet id mi. Etiam mattis est felis. Aliquam erat volutpat. Nunc ultrices odio et enim aliquam, vel congue nibh eleifend. Nullam et libero quis sem ultrices gravida semper vel libero. Nunc varius turpis felis, eget tempus ligula feugiat eu. Mauris consequat vulputate turpis, nec cursus felis ultricies a.',
+    key: '2'
   },
   {
-    "imgSrc" : "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
-    "imgAlt" : "NGO 1",
-    "imgDescription" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat fermentum felis. Integer scelerisque sapien elit, ut rhoncus enim pretium nec. Nam dolor elit, ullamcorper id eleifend at, rutrum nec turpis. Nunc nunc dolor, rhoncus nec sagittis quis, imperdiet id mi. Etiam mattis est felis. Aliquam erat volutpat. Nunc ultrices odio et enim aliquam, vel congue nibh eleifend. Nullam et libero quis sem ultrices gravida semper vel libero. Nunc varius turpis felis, eget tempus ligula feugiat eu. Mauris consequat vulputate turpis, nec cursus felis ultricies a.",
-    "key" : "3"
+    imgSrc:
+      'https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80',
+    imgAlt: 'NGO 1',
+    imgDescription:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat fermentum felis. Integer scelerisque sapien elit, ut rhoncus enim pretium nec. Nam dolor elit, ullamcorper id eleifend at, rutrum nec turpis. Nunc nunc dolor, rhoncus nec sagittis quis, imperdiet id mi. Etiam mattis est felis. Aliquam erat volutpat. Nunc ultrices odio et enim aliquam, vel congue nibh eleifend. Nullam et libero quis sem ultrices gravida semper vel libero. Nunc varius turpis felis, eget tempus ligula feugiat eu. Mauris consequat vulputate turpis, nec cursus felis ultricies a.',
+    key: '3'
   }
-]
+];
 
 const schedule = [
   {
@@ -208,13 +212,12 @@ const Prizeinfo = [
 
 const TeamInfo = [
   [
-
     {
       Name: 'ShubhaPrada K P',
       role: 'Chair',
       //github: 'https://github.com/R-Ayush777',
-     // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
-      img: Shubha 
+      // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
+      img: Shubha
     },
     {
       Name: 'Samhitha',
@@ -229,8 +232,7 @@ const TeamInfo = [
       //github: 'https://github.com/Smit-05',
       //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
       img: prajwal
-    },
-   
+    }
   ],
   [
     // Array 2
@@ -252,8 +254,8 @@ const TeamInfo = [
       Name: 'Sonia Singh B',
       role: 'Treasurer',
       //github: 'https://github.com/R-Ayush777',
-     // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
-      img: Sonia 
+      // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
+      img: Sonia
     },
     {
       Name: 'Nisarga',
@@ -261,12 +263,8 @@ const TeamInfo = [
       //github: 'https://github.com/Smit-05',
       //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
       img: Nisarga
-    },
-    
-  ],
-
-
-  
+    }
+  ]
 ];
 
 const JudgesInfo = [

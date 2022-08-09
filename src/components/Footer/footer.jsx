@@ -12,7 +12,7 @@ import './footer.scss';
 import logo from '../../Module/Assets/RV Blue and black logo-01.png';
 // import cross from "./cross.svg";
 import {SOCIALS, FOOTER} from '../../Module/General';
-import IEEE_RVCE_Logo_Blue from "../../Module/Assets/IEEE RVCE Logo_Blue.png" 
+import IEEE_RVCE_Logo_Blue from '../../Module/Assets/IEEE RVCE Logo_Blue.png';
 // function GithubTemplate({hideTemplate}) {
 //   return (
 //     <div className="template">

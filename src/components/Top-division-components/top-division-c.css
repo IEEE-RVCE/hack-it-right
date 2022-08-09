@@ -23,14 +23,14 @@
   width: 50%;
 
 }
-.dis-button {
+/* .dis-button {
   align-items: center;
   background-color: #7289da;
   border-radius: 4px;
   color: #fff;
   display: inline-flex;
   /* font-size: px; */
-  font-weight: 600;
+  /* font-weight: 600;
   height: 45px;
   top: -9px;
   justify-content: center;
@@ -38,8 +38,7 @@
   padding: 0 0px;
   transition: all 0.1s ease-in 0s;
   white-space: nowrap;
-  width: 10%;
-}
+  width: 10%;} */ 
 
 /* .dis-button {
   align-items: center;

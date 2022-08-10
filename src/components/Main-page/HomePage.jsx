@@ -11,7 +11,7 @@ import {Prizeinfo} from '../../Module/General';
 import {Accordion} from '../FAQ/faq.jsx';
 // import {theme} from "../themes_test/theme.jsx";
 // import {Sponsor, SponsorsHead, SponsorUS} from "../Sponsors/sponsors.jsx";
-import {Sponsor, SponsorsHead} from '../Sponsors/sponsors.jsx';
+import {Sponsor, SponsorsHead, SponsorUS} from '../Sponsors/sponsors.jsx';
 import Birds from '../Birds/birds.jsx';
 import Footer from '../Footer/footer.jsx';
 import {Member} from '../team/team.jsx';
@@ -38,7 +38,13 @@ import NGOCard from 'components/NGOCard/NGOCard.jsx';
 
 function SponsorGroup(props) {
   return (
-    <Row justifyContent="center" alignItems="center">
+    <Row
+      justifyContent="center"
+      alignItems="center"
+      style={{
+        backgroundColor: '#121930'
+      }}
+    >
       {props.map((s, key) => (
         <Col
           key={key}
@@ -52,6 +58,7 @@ function SponsorGroup(props) {
           <Sponsor link={s.link} srcx={s.src} />{' '}
         </Col>
       ))}
+      <SponsorUS/>
     </Row>
   );
 }

@@ -212,21 +212,21 @@ const TeamInfo = [
   [
     {
       Name: 'ShubhaPrada K P',
-      role: 'Chair',
+      role: 'Chair Computer Society',
       //github: 'https://github.com/R-Ayush777',
       // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
       img: Shubha
     },
     {
       Name: 'Samhitha',
-      role: 'Chair ',
+      role: 'Chair, SIGHT',
       //github: '#',
       //linkedin: 'https://www.linkedin.com/in/nirali-darji-1b766a209',
       img: samhitha
     },
     {
       Name: 'Prajwal P',
-      role: 'Vice Chair',
+      role: 'Vice Chair, Computer Society',
       //github: 'https://github.com/Smit-05',
       //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
       img: prajwal
@@ -236,28 +236,28 @@ const TeamInfo = [
     // Array 2
     {
       Name: 'Malvika Hariprasad',
-      role: 'secretary',
+      role: 'Secretary, Computer Society',
       //github: 'https://github.com/vasu-1',
       //linkedin: 'https://www.linkedin.com/in/vashishth-patel-312a52204/',
       img: Malavika
     },
     {
       Name: 'Neha',
-      role: 'Secretary',
+      role: 'Secretary, SIGHT',
       //github: 'https://github.com/AneriSonani09',
       //linkedin: 'https://www.linkedin.com/in/aneri-sonani-061b44204/',
       img: neha
     },
     {
       Name: 'Sonia Singh B',
-      role: 'Treasurer',
+      role: 'Treasurer, Computer Society',
       //github: 'https://github.com/R-Ayush777',
       // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
       img: Sonia
     },
     {
       Name: 'Nisarga',
-      role: 'Treasurer',
+      role: 'Treasurer, SIGHT',
       //github: 'https://github.com/Smit-05',
       //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
       img: Nisarga

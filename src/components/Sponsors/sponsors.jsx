@@ -1,4 +1,3 @@
-import {Btn} from 'components/Top-division-components/Top-division-components';
 import {SOCIALS} from 'Module/General';
 import React from 'react';
 import './sponsors.scss';
@@ -7,7 +6,6 @@ function SponsorsHead() {
   return (
     <div>
       <h1 className="shead">Sponsors & Partners</h1>
-      {/* <h2>Meet Our Supporters</h2> */}
     </div>
   );
 }
@@ -26,14 +24,28 @@ function Sponsor(props) {
 
 function SponsorUS() {
   return (
-    <div className="joinT sponsorUS">
-      <h3>Interested in Sponsoring </h3>
+    <div className="sponsorUS">
+      <h3
+        style={{
+          textAlign: 'center',
+          color: '#fff'
+        }}
+      >
+        Interested in Sponsoring Us
+      </h3>
       <a href={SOCIALS.email}>
-        <Btn className="sponsor_btn" type="Sponsor us" overlay="Send a mail" />
+        <button className="btn">
+          <i
+            className="fas fa-envelope"
+            style={{
+              marginRight: '10px'
+            }}
+          ></i>
+          <span>Mail Us</span>
+        </button>
       </a>{' '}
     </div>
   );
 }
 
-export {SponsorsHead, Sponsor};
-// export {SponsorsHead, Sponsor, SponsorUS};
+export {SponsorsHead, Sponsor, SponsorUS};

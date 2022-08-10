@@ -9,7 +9,7 @@ function CollabType(props) {
           <div class="card_item">
             <div class="card_inner">
               <img
-                src="./images/IEEE-CS_LogoTM-orange.png"
+                src="./images/IEEE RVCE Computer Society Logo (1).png"
                 alt="IEEE Computer Society"
               />
               <br />

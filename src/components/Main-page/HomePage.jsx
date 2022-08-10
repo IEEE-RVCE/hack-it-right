@@ -58,7 +58,7 @@ function SponsorGroup(props) {
           <Sponsor link={s.link} srcx={s.src} />{' '}
         </Col>
       ))}
-      <SponsorUS/>
+      <SponsorUS />
     </Row>
   );
 }

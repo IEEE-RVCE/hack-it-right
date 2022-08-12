@@ -315,6 +315,7 @@ const sponsorLogos = [
       src: 'https://icdds.org/img/IEEE-CS-BangaloreChapterOrange.png',
       link: 'https://cs.ieeebangalore.org/'
     },
+    {src: digitalocean, link: 'https://www.digitalocean.com/'},
     {src: wolfram, link: 'https://www.wolfram.com/'},
     {src: interviewbuddy, link: 'https://interviewbuddy.in/'},
     {src: streamyard, link: 'https://streamyard.com/'}
@@ -336,7 +337,6 @@ const sponsorLogos = [
 //   [
 //     {src: filecoin, link: 'https://filecoin.io/'},
 //     {src: gfg, link: 'https://www.geeksforgeeks.org/'},
-//     {src: digitalocean, link: 'https://www.digitalocean.com/'}
 //   ] //Array 2
 //   // [{ src: interviewC }, { src: pass }, { src: glimpse }], //Array 3
 //   // [{ src: egg }, { src: ll }, { src: ACF }] //Array 4

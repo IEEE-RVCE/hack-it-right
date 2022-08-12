@@ -174,7 +174,6 @@ export default function HomePage(props) {
               <Myinfo />
             </Col>
             <Col className="d-image" sm={12} lg={5} md={4}>
-              {/* <img alt="img" src={TOP_SECTION.IMG_SRC} /> */}
               <div className="animation">
                 <Player
                   autoplay
@@ -182,6 +181,7 @@ export default function HomePage(props) {
                   src="https://assets10.lottiefiles.com/packages/lf20_ytmy5gwa.json"
                   style={{height: '100%', width: '100%'}}
                   className="asset"
+                  speed={0.5}
                 >
                   <Controls
                     visible={false}
@@ -193,11 +193,11 @@ export default function HomePage(props) {
             </Col>
           </Row>
 
-          {/* <Row className="mediaInfo">
+          <Row className="mediaInfo">
             <Col className="" sm={12} lg={12} md={12}>
               <Media />
             </Col>
-          </Row> */}
+          </Row>
         </Container>
       </div>
       <Container fluid>

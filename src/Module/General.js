@@ -211,8 +211,8 @@ const Prizeinfo = [
 const TeamInfo = [
   [
     {
-      Name: 'ShubhaPrada K P',
-      role: 'Chair Computer Society',
+      Name: 'Shubhaprada K P',
+      role: 'Chair,Computer Society',
       //github: 'https://github.com/R-Ayush777',
       // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
       img: Shubha
@@ -235,7 +235,7 @@ const TeamInfo = [
   [
     // Array 2
     {
-      Name: 'Malvika Hariprasad',
+      Name: 'Malavika Hariprasad',
       role: 'Secretary, Computer Society',
       //github: 'https://github.com/vasu-1',
       //linkedin: 'https://www.linkedin.com/in/vashishth-patel-312a52204/',

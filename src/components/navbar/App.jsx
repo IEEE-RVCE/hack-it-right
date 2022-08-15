@@ -6,7 +6,7 @@ import hamLogo from './ham.svg';
 import logoClose from './ham-c.svg';
 import styled from 'styled-components';
 import './styles.scss';
-import logo from '../../Module/Assets/RV Blue and black logo-01.png';
+import logo from '../../Module/Assets/LOGO.png';
 
 const Wrapper = styled.div`
   display: block;

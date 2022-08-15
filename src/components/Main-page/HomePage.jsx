@@ -1,5 +1,5 @@
 import React from 'react';
-import {Player, Controls} from '@lottiefiles/react-lottie-player';
+// import {Player, Controls} from '@lottiefiles/react-lottie-player';
 import {Myinfo} from '../Top-division-components/Top-division-components.jsx';
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
@@ -174,7 +174,7 @@ export default function HomePage(props) {
               <Myinfo />
             </Col>
             <Col className="d-image" sm={12} lg={5} md={4}>
-              <div className="animation">
+              {/* <div className="animation">
                 <Player
                   autoplay
                   loop
@@ -188,7 +188,7 @@ export default function HomePage(props) {
                     buttons={['play', 'repeat', 'frame', 'debug']}
                   />
                 </Player>
-              </div>
+              </div> */}
               <br />
             </Col>
           </Row>
@@ -246,7 +246,6 @@ export default function HomePage(props) {
               {/* Swags & Promo Codes */}
               <br />
               <br />
-              <a href="#">Load More</a>
             </h4>
           </div>
 
@@ -262,9 +261,7 @@ export default function HomePage(props) {
               {/* Swags & Promo Codes */}
               <br />
               <br />
-              <a href="#" zz>
-                Load More
-              </a>
+
             </h4>
           </div>
 
@@ -280,7 +277,6 @@ export default function HomePage(props) {
               {/* Swags & Promo Codes */}
               <br />
               <br />
-              <a href="https://hack4soc.devfolio.co/#prizes">Load More</a>
             </h4>
           </div>
         </div>
@@ -298,7 +294,7 @@ export default function HomePage(props) {
               {/* Swags & Promo Codes */}
               <br />
               <br />
-              <a href="#">Load More</a>
+
             </h4>
           </div>
         </div>

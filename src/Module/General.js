@@ -39,7 +39,7 @@ const TOP_SECTION = {
   IMG_SRC: hackforsoc,
   DISCORD_LINK: 'https://discord.gg/cvHPEK7U3v',
   JUDGES_FORM_LINK: '#Jugdes Form Link',
-  HACKERS_REGISTRATION_FORM_LINK: '#Hackers Registration devfolio link'
+  HACKERS_REGISTRATION_FORM_LINK: 'https://unstop.com/hackathon/hack4soc-where-technology-meets-humanity-rv-college-of-engineering-rvce-bangalore-405582'
 };
 
 const SOCIALS = {
@@ -47,7 +47,7 @@ const SOCIALS = {
   discord: '',
   linkedin: 'https://www.linkedin.com/company/rv-ieee/',
   email: 'mailto:ieeervce@rvce.edu.in',
-  mail: 'ieeervce@rvce.edu.in'
+  mail: 'ieeervce@rvce.edu.in',
 };
 
 const MIDDLE_SECTION = {

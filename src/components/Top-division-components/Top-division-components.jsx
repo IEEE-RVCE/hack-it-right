@@ -91,8 +91,8 @@ function Myinfo() {
         <br />
         <br />
         <br />
-        <a href="https://hack4soc.devfolio.co/" target="_blank">
-          <button>Learn More</button>
+        <a href="https://unstop.com/hackathon/hack4soc-where-technology-meets-humanity-rv-college-of-engineering-rvce-bangalore-405582" target="_blank">
+          <button>Register</button>
         </a>
       </div>
     </>

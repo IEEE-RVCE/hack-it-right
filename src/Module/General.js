@@ -39,7 +39,7 @@ const TOP_SECTION = {
   IMG_SRC: hackforsoc,
   DISCORD_LINK: 'https://discord.gg/cvHPEK7U3v',
   JUDGES_FORM_LINK: '#Jugdes Form Link',
-  HACKERS_REGISTRATION_FORM_LINK: 'https://unstop.com/hackathon/hack4soc-where-technology-meets-humanity-rv-college-of-engineering-rvce-bangalore-405582'
+  HACKERS_REGISTRATION_FORM_LINK: '#Hackers Registration devfolio link'
 };
 
 const SOCIALS = {
@@ -47,7 +47,7 @@ const SOCIALS = {
   discord: '',
   linkedin: 'https://www.linkedin.com/company/rv-ieee/',
   email: 'mailto:ieeervce@rvce.edu.in',
-  mail: 'ieeervce@rvce.edu.in',
+  mail: 'ieeervce@rvce.edu.in'
 };
 
 const MIDDLE_SECTION = {
@@ -405,8 +405,7 @@ const frequentlyAskedQuestions = [
       {
         label: 'How to register myself in the hackathon?',
         content:
-          // 'All you need is to register yourself on devfolio and join discord, we will guide you through everything there.'
-          'Registrations will be opened soon'
+          'All you need is to register yourself on unstop and join discord, we will guide you through everything there.'
       },
       {
         label: 'I have more questions?',

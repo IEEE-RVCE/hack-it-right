@@ -59,9 +59,6 @@ export default function Footer() {
               <a target="_blank" href={SOCIALS.discord} rel="noreferrer">
                 <i class="iconlink fab fa-discord"></i>
               </a>
-              <a target="_blank" href={SOCIALS.twitter} rel="noreferrer">
-                <i class="iconlink fab fa-twitter"></i>
-              </a>
               <a target="_blank" href={SOCIALS.instagram} rel="noreferrer">
                 <i class="iconlink fab fa-instagram"></i>
               </a>

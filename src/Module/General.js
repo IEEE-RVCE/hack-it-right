@@ -35,7 +35,7 @@ const TOP_SECTION = {
     '27 August - 28 August',
     '24 hours of Offline creation',
     'Win awesome prizes',
-    'Offline fun events',
+    'Offline fun events'
   ],
   SHORT_DESCRIPTION:
     'Join us on 27th and 28th of August 2022 for 24 hours of creation, innovation, & fun with over 100+ students.',
@@ -322,7 +322,7 @@ const sponsorLogos = [
     {src: wolfram, link: 'https://www.wolfram.com/'},
     {src: interviecake, link: 'https://interviewcake.com/'},
     {src: interviewbuddy, link: 'https://interviewbuddy.in/'},
-    {src: streamyard, link: 'https://streamyard.com/'},
+    {src: streamyard, link: 'https://streamyard.com/'}
   ]
 ];
 

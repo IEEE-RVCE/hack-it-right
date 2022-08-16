@@ -93,7 +93,8 @@ function Myinfo() {
         <br />
         <a
           href="https://unstop.com/hackathon/codefury-50-university-visvesvaraya-college-of-engineering-uvce-bangalore-380929"
-          target="_blank" rel="noreferrer"
+          target="_blank"
+          rel="noreferrer"
         >
           <button>Register Here</button>
         </a>

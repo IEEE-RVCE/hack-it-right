@@ -13,7 +13,9 @@ import gfg from './Assets/sponsorsLogos/gfg.png';
 import certopus from './Assets/sponsorsLogos/certopus.png';
 import replit from './Assets/sponsorsLogos/replit.png';
 import taskade from './Assets/sponsorsLogos/taskade.png';
-import interviewbuddy from './Assets/sponsorsLogos/ic.png';
+import interviecake from './Assets/sponsorsLogos/ic.png';
+import interviewbuddy from './Assets/sponsorsLogos/ib.png';
+
 import digitalocean from './Assets/sponsorsLogos/do.png';
 import postman from './Assets/sponsorsLogos/pm.svg';
 
@@ -31,8 +33,9 @@ const TOP_SECTION = {
   TITLE: 'Hack4Soc',
   Typed_effect: [
     '27 August - 28 August',
-    '24 hours of creation',
-    'Win awesome prizes'
+    '24 hours of Offline creation',
+    'Win awesome prizes',
+    'Offline fun events',
   ],
   SHORT_DESCRIPTION:
     'Join us on 27th and 28th of August 2022 for 24 hours of creation, innovation, & fun with over 100+ students.',
@@ -317,8 +320,9 @@ const sponsorLogos = [
     },
     {src: digitalocean, link: 'https://www.digitalocean.com/'},
     {src: wolfram, link: 'https://www.wolfram.com/'},
+    {src: interviecake, link: 'https://interviewcake.com/'},
     {src: interviewbuddy, link: 'https://interviewbuddy.in/'},
-    {src: streamyard, link: 'https://streamyard.com/'}
+    {src: streamyard, link: 'https://streamyard.com/'},
   ]
 ];
 

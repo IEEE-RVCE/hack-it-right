@@ -47,7 +47,7 @@ const TOP_SECTION = {
 
 const SOCIALS = {
   instagram: 'https://www.instagram.com/ieee_rvce/',
-  discord: '',
+  discord: 'https://discord.gg/4q5SsRzc',
   linkedin: 'https://www.linkedin.com/company/rv-ieee/',
   email: 'mailto:ieeervce@rvce.edu.in',
   mail: 'ieeervce@rvce.edu.in'

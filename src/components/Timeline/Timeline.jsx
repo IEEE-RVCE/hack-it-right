@@ -14,13 +14,13 @@ function TimeLine() {
           <section>
             <i class="icon fas fa-home"></i>
             <div class="details">
-              <span class="title">Start Registrations</span>
-              <span>1st June 2022</span>
+              <span class="title">Reporting Time (Participants)</span>
+              <span>
+                8:00 AM, <b>27th August</b>
+              </span>
             </div>
             <p className="timeline_text" style={{fontSize: '14px'}}>
-              Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed
-              qui veroes praesentium maiores, sint eos vero sapiente voluptas
-              debitis dicta dolore.
+              The teams are required to report at the venue, by 8:00 AM.
             </p>
           </section>
         </div>
@@ -28,13 +28,15 @@ function TimeLine() {
           <section>
             <i class="icon fas fa-star"></i>
             <div class="details">
-              <span class="title">End Registrations</span>
-              <span>14th Jul 2022</span>
+              <span class="title">Release of Problem Statement</span>
+              <span>
+                8:30AM, <b>27th August</b>
+              </span>
             </div>
             <p className="timeline_text" style={{fontSize: '14px'}}>
-              Lorem ipsum dolor sit ameters consectetur adipisicing elit. Sed
-              qui veroes praesentium maiores, sint eos vero sapiente voluptas
-              debitis dicta dolore.
+              The problem statements will be released at 8:30AM. There will be
+              three statements, of which the teams will be asked to give in
+              their preference order.
             </p>
           </section>
         </div>
@@ -42,36 +44,43 @@ function TimeLine() {
           <section>
             <i class="icon fas fa-rocket"></i>
             <div class="details">
-              <span class="title">Opening Ceremony</span>
-              <span>16th July 2022</span>
+              <span class="title">Choosing Problem Statement</span>
+              <span>
+                8:45 AM, <b>27th August</b>
+              </span>
             </div>
             <p className="timeline_text" style={{fontSize: '14px'}}>
-              Hackathon opening ceremony will start 9:00 AM onwards.
+              Google form will be shared at the venue to collect your preference
+              order of the problem statements. The assignment will be by first
+              come first serve basis.
             </p>
           </section>
         </div>
         <div class="row row-2">
           <section>
             <i class="icon fas fa-globe"></i>
+            <div class="details">
+              <span class="title">Inauguration</span>
+              <span>
+                9:00 AM, <b>27th August</b>
+              </span>
+            </div>
+            <p className="timeline_text" style={{fontSize: '14px'}}>
+              Inauguration of the event will be held at the venue.
+            </p>
+          </section>
+        </div>
+        <div class="row row-1">
+          <section>
+            <i class="icon fas fa-paper-plane"></i>
             <div class="details">
               <span class="title">Hackathon Starts</span>
-              <span>16th July 2022</span>
+              <span>
+                10:00 AM, <b>27th August</b>
+              </span>
             </div>
             <p className="timeline_text" style={{fontSize: '14px'}}>
-              Hackathon coding period will start from 10:30 AM onwards.
-            </p>
-          </section>
-        </div>
-        <div class="row row-1">
-          <section>
-            <i class="icon fas fa-paper-plane"></i>
-            <div class="details">
-              <span class="title">Session from GeeksforGeeks</span>
-              <span>16th July 2022</span>
-            </div>
-            <p className="timeline_text" style={{fontSize: '14px'}}>
-              Session on Complete Interview Preperation by GeeksForGeeks on
-              11.30 AM Onwards.
+              Hackathon will start from 10:00 AM.
             </p>
           </section>
         </div>
@@ -79,11 +88,14 @@ function TimeLine() {
           <section>
             <i class="icon fas fa-paper-plane"></i>
             <div class="details">
-              <span class="title">Coming Soon</span>
-              <span>16th-17th July 2022</span>
+              <span class="title">Hackathon Ends</span>
+              <span>
+                10:00 AM, <b>28th August</b>
+              </span>
             </div>
             <p className="timeline_text" style={{fontSize: '14px'}}>
-              Coming soon.
+              All the teams will be asked to make their final commits at
+              10:00AM. Commits after this time wont be considered.
             </p>
           </section>
         </div>
@@ -91,11 +103,29 @@ function TimeLine() {
           <section>
             <i class="icon fas fa-globe"></i>
             <div class="details">
-              <span class="title">Hackathon Ends</span>
-              <span>17th July 2022</span>
+              <span class="title">Presentation to the Judges</span>
+              <span>
+                11:00 AM, <b>28th August</b>
+              </span>
             </div>
             <p className="timeline_text" style={{fontSize: '14px'}}>
-              Hackathon coding period will end on 10:30 PM.
+              All teams will be asked to present their prototype and their idea
+              to the judges at 11:00 AM.
+            </p>
+          </section>
+        </div>
+        <div class="row row-2">
+          <section>
+            <i class="icon fas fa-globe"></i>
+            <div class="details">
+              <span class="title">Concluding ceremony and RESULTS!</span>
+              <span>
+                2:30PM, <b>28th August</b>
+              </span>
+            </div>
+            <p className="timeline_text" style={{fontSize: '14px'}}>
+              On August 28th, the valedictory ceremony followed by felicitation
+              ceremony will be held at 2:30 pm.
             </p>
           </section>
         </div>

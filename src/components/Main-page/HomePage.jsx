@@ -128,9 +128,6 @@ const NGOCards = () => {
 export default function HomePage(props) {
   window.onscroll = () => {
     toggleTopButton();
-    console.log(document.body.scrollHeight);
-    console.log(document.body.scrollTop);
-    console.log('Diff', document.body.scrollHeight - document.body.scrollTop);
   };
 
   const scrollToTop = event => {
@@ -226,8 +223,8 @@ export default function HomePage(props) {
         {/*TimeLine Section*/}
         <Row className="timeline" id="timeline">
           <PrizeHeading type="Hackathon TimeLine" />
-          {/* <TimeLine /> */}
-          <h1>Coming Soon..</h1>
+          <TimeLine />
+          {/* <h1>Coming Soon..</h1> */}
         </Row>
 
         <Row className="prizesection" id="prizes">

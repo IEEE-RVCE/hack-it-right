@@ -92,7 +92,7 @@ function Myinfo() {
         <br />
         <br />
         <a
-          href="https://unstop.com/hackathon/codefury-50-university-visvesvaraya-college-of-engineering-uvce-bangalore-380929"
+          href="https://unstop.com/hackathon/hack4soc-where-technology-meets-humanity-rv-college-of-engineering-rvce-bangalore-405582"
           target="_blank"
           rel="noreferrer"
         >

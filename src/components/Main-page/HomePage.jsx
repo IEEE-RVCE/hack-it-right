@@ -230,57 +230,7 @@ export default function HomePage(props) {
         <Row className="prizesection" id="prizes">
           <PrizeHeading type="Prizes" />
         </Row>
-        <div class="row1-container">
-          <div class="box red">
-            <h2>First</h2>
-            <img
-              class="imgright"
-              src="https://img.icons8.com/emoji/96/000000/1st-place-medal-emoji.png"
-              alt=""
-            />
-            <h4>
-              <b>Prize</b>: Coming Soon <br />
-              {/* Swags & Promo Codes */}
-              <br />
-              <br />
-              <a href="#">Load More</a>
-            </h4>
-          </div>
-
-          <div class="box box-down cyan">
-            <h2>Second</h2>
-            <img
-              className="imgright"
-              src="https://img.icons8.com/emoji/96/000000/2nd-place-medal-emoji.png"
-              alt=""
-            />
-            <h4>
-              <b>Prize</b>: Coming Soon <br />
-              {/* Swags & Promo Codes */}
-              <br />
-              <br />
-              <a href="#" zz>
-                Load More
-              </a>
-            </h4>
-          </div>
-
-          <div class="box box-down blue">
-            <h2>Third</h2>
-            <img
-              class="imgright"
-              src="https://img.icons8.com/emoji/96/000000/3rd-place-medal-emoji.png"
-              alt=""
-            />
-            <h4>
-              <b>Prize</b>: Coming Soon <br />
-              {/* Swags & Promo Codes */}
-              <br />
-              <br />
-              <a href="https://hack4soc.devfolio.co/#prizes">Load More</a>
-            </h4>
-          </div>
-        </div>
+        <PrizeState />
         <div class="row1-container margfromsponsor">
           <div class="box box-down orange">
             <h2>All Participants</h2>
@@ -291,11 +241,6 @@ export default function HomePage(props) {
             />
             <h4>
               <b>Participation Certificate & Other exciting swags</b>
-              <br />
-              {/* Swags & Promo Codes */}
-              <br />
-              <br />
-              <a href="#">Load More</a>
             </h4>
           </div>
         </div>
@@ -368,3 +313,32 @@ export default function HomePage(props) {
     </div>
   );
 }
+
+const PrizeState = () => {
+  return (
+    <div class="row1-container">
+      <div class="box red">
+        <h2>All Tracks</h2>
+        <img
+          class="imgright"
+          src="https://img.icons8.com/emoji/96/000000/1st-place-medal-emoji.png"
+          alt=""
+        />
+        <h4>
+          <b>Prize</b>: Cash Prize + Vouchers
+        </h4>
+      </div>
+      <div class="box box-down cyan">
+        <h2>All Tracks</h2>
+        <img
+          className="imgright"
+          src="https://img.icons8.com/emoji/96/000000/2nd-place-medal-emoji.png"
+          alt=""
+        />
+        <h4>
+          <b>Prize</b>: Cash Prize + Vouchers
+        </h4>
+      </div>
+    </div>
+  );
+};

@@ -284,6 +284,7 @@ export default function HomePage(props) {
         {/* ********Team ending here ***** */}
 
         {/* ********Team ending here ***** */}
+       
         <br />
         <h1 id="faqs">FAQs</h1>
         {/* ********Frequently asked Questions here ***** */}

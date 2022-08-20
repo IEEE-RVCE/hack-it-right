@@ -28,6 +28,9 @@ import samhitha from './Assets/teami/samhitha.jpg';
 import Shubha from './Assets/teami/ShubhaPrada.jpeg';
 import Sonia from './Assets/teami/Sonia_Singh.jpeg';
 import neha from './Assets/teami/neha.jpeg';
+import naveen from './Assets/teami/naveen.jpg';
+import sannidhi from './Assets/teami/sannidhi.jpg';
+import mayur from './Assets/teami/mayur.jpg';
 
 const TOP_SECTION = {
   TITLE: 'Hack4Soc',
@@ -235,6 +238,7 @@ const TeamInfo = [
       img: prajwal
     }
   ],
+
   [
     // Array 2
     {
@@ -264,6 +268,28 @@ const TeamInfo = [
       //github: 'https://github.com/Smit-05',
       //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
       img: Nisarga
+    },
+  
+    {
+      Name: 'Sannidhi ',
+      role: 'Web team',
+      //github: 'https://github.com/Smit-05',
+      //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
+      img: sannidhi
+    },
+    {
+      Name: 'Naveen B Teli',
+      role: 'Web team',
+      //github: 'https://github.com/Smit-05',
+      //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
+      img: naveen
+    },
+    {
+      Name: 'Mayur S chittaragi',
+      role: 'Web team',
+      //github: 'https://github.com/Smit-05',
+      //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
+      img: mayur
     }
   ]
 ];

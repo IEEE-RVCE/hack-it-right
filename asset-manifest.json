@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.07d650b9.css",
-    "main.js": "/static/js/main.86097505.js",
+    "main.js": "/static/js/main.fb04231b.js",
+    "static/media/Apoorva.jpg": "/static/media/Apoorva.e7e66d08dd1063bd43ae.jpg",
     "static/media/prajwal.jpg": "/static/media/prajwal.138c2c314c1c8205e7d7.jpg",
     "static/media/hack4soc.gif": "/static/media/hack4soc.a02e7e1d30ab85655f6e.gif",
     "static/media/Malavika_HariPrasad.jpg": "/static/media/Malavika_HariPrasad.aea2a8928c9072170948.jpg",
@@ -9,14 +10,23 @@
     "static/media/ib.png": "/static/media/ib.4a43ef230f0352e75c2b.png",
     "static/media/LOGO.png": "/static/media/LOGO.10860f043a8109e3330f.png",
     "static/media/pattern4.png": "/static/media/pattern4.4b9f3314629a4be2f638.png",
+    "static/media/jahnavi.jpg": "/static/media/jahnavi.0f0a572c85872ce35a00.jpg",
+    "static/media/anushka.jpg": "/static/media/anushka.05e2cf8b6785f9f7235b.jpg",
+    "static/media/naveen.jpg": "/static/media/naveen.afd1c6c518f3bac7be38.jpg",
+    "static/media/vaibhavi.jpeg": "/static/media/vaibhavi.27aff04c16badef3ac88.jpeg",
+    "static/media/vivek.jpg": "/static/media/vivek.a8234cc098139c31229b.jpg",
     "static/media/ShubhaPrada.jpeg": "/static/media/ShubhaPrada.3caec7b55c9ff33159b6.jpeg",
+    "static/media/adarsh.jpeg": "/static/media/adarsh.862983063463f08243f5.jpeg",
     "static/media/samhitha.jpg": "/static/media/samhitha.964ebfafa3d158836aa8.jpg",
     "static/media/wolfram.jpg": "/static/media/wolfram.f6eeae5c289475919e0f.jpg",
     "static/media/preloader.gif": "/static/media/preloader.efefe51cea43a1ef1138.gif",
+    "static/media/mayur.jpg": "/static/media/mayur.4b0b318504b7320030df.jpg",
+    "static/media/sannidhi.jpg": "/static/media/sannidhi.eb9e8069f3fa70ca08f6.jpg",
     "static/media/streamyard1.JPG": "/static/media/streamyard1.88e959f18750418cb934.JPG",
     "static/media/neha.jpeg": "/static/media/neha.201880711afa1ae01312.jpeg",
     "static/media/Sonia_Singh.jpeg": "/static/media/Sonia_Singh.bb3d2d198f731d127b80.jpeg",
     "static/media/IEEE RVCE Logo_Blue.png": "/static/media/IEEE RVCE Logo_Blue.32691588ad8c99d7f82a.png",
+    "static/media/shashank.jpeg": "/static/media/shashank.db0180df00e8bd1ec364.jpeg",
     "static/media/digilogo.png": "/static/media/digilogo.fce122b1365aaa59b007.png",
     "static/media/ic.png": "/static/media/ic.127b788506af7a873b93.png",
     "static/media/alan.png": "/static/media/alan.16969bfa1ef84fea2327.png",
@@ -27,10 +37,10 @@
     "static/media/ham-c.svg": "/static/media/ham-c.8ab7632d2e8f5e05abfb112d11ada71d.svg",
     "static/media/ham.svg": "/static/media/ham.a63ab4de035aef5e3f6e82283f1bae0a.svg",
     "main.07d650b9.css.map": "/static/css/main.07d650b9.css.map",
-    "main.86097505.js.map": "/static/js/main.86097505.js.map"
+    "main.fb04231b.js.map": "/static/js/main.fb04231b.js.map"
   },
   "entrypoints": [
     "static/css/main.07d650b9.css",
-    "static/js/main.86097505.js"
+    "static/js/main.fb04231b.js"
   ]
 }

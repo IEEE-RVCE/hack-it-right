@@ -243,10 +243,7 @@ const TeamInfo = [
       //github: 'https://github.com/Smit-05',
       //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
       img: prajwal
-    }
-  ],
-
-  [
+    },
     // Array 2
     {
       Name: 'Malavika Hariprasad',
@@ -268,18 +265,48 @@ const TeamInfo = [
       //github: 'https://github.com/R-Ayush777',
       // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
       img: Sonia
-    }
-  ]
-  ,
-  [
+    },
     {
       Name: 'Nisarga',
       role: 'Treasurer, SIGHT',
       //github: 'https://github.com/Smit-05',
       //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
       img: Nisarga
+    }
+  ],
+  [
+    // Array 3
+
+    {
+      Name: 'Shashank Dhavala',
+      role: 'Main Execom',
+      //github: 'https://github.com/vasu-1',
+      //linkedin: 'https://www.linkedin.com/in/vashishth-patel-312a52204/',
+      img: shashank
     },
-  
+    {
+      Name: 'Anushka Subhramanian',
+      role: 'Main Execom',
+      //github: 'https://github.com/Smit-05',
+      //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
+      img: Anushka
+    },
+    {
+      Name: 'Jahnavi Urs',
+      role: 'Main Execom',
+      //github: 'https://github.com/AneriSonani09',
+      //linkedin: 'https://www.linkedin.com/in/aneri-sonani-061b44204/',
+      img: jahnavi
+    },
+    {
+      Name: 'Vivek',
+      role: 'Main Execom',
+      //github: 'https://github.com/R-Ayush777',
+      // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
+      img: vivek
+    }
+  ],
+  [
     {
       Name: 'Sannidhi ',
       role: 'Web team',
@@ -294,69 +321,36 @@ const TeamInfo = [
       //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
       img: naveen
     },
-    
-  ],
-  [
-    // Array 3
     {
       Name: 'Mayur S chittaragi',
       role: 'Web team',
       //github: 'https://github.com/Smit-05',
       //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
       img: mayur
-    },
-    {
-      Name: 'Shashank ',
-      role: 'chair',
-      //github: 'https://github.com/vasu-1',
-      //linkedin: 'https://www.linkedin.com/in/vashishth-patel-312a52204/',
-      img: shashank
-    },
-    {
-      Name: 'Jahnvi Urs',
-      role: '',
-      //github: 'https://github.com/AneriSonani09',
-      //linkedin: 'https://www.linkedin.com/in/aneri-sonani-061b44204/',
-      img: jahnavi
     }
   ],
-    [
+  [
     {
-      Name: 'Vivek',
-      role: ' ',
-      //github: 'https://github.com/R-Ayush777',
-      // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
-      img: vivek
-    },
-    {
-      Name: 'Anushka',
-      role: '',
-      //github: 'https://github.com/Smit-05',
-      //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
-      img: Anushka
-    },
-  
-    {
-      Name: 'Apoorva ',
-      role: '',
+      Name: 'Apoorva',
+      role: 'Design Team Head',
       //github: 'https://github.com/Smit-05',
       //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
       img: Apoorva
     },
     {
       Name: 'Adarsh',
-      role: '',
+      role: 'Design Team',
+      img: adarsh
       //github: 'https://github.com/Smit-05',
       //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
-      img: adarsh
     },
     {
-      Name: 'vaibhavi ',
-      role: '',
+      Name: 'Vaibhavi ',
+      role: 'Content & Curation',
       //github: 'https://github.com/Smit-05',
       //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
       img: vaibhavi
-    },
+    }
   ]
 ];
 

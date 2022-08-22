@@ -31,6 +31,13 @@ import neha from './Assets/teami/neha.jpeg';
 import naveen from './Assets/teami/naveen.jpg';
 import sannidhi from './Assets/teami/sannidhi.jpg';
 import mayur from './Assets/teami/mayur.jpg';
+import vivek from './Assets/teami/vivek.jpg';
+import vaibhavi from './Assets/teami/vaibhavi.jpeg';
+import shashank from './Assets/teami/shashank.jpeg';
+import jahnavi from './Assets/teami/jahnavi.jpg';
+import Apoorva from './Assets/teami/Apoorva.jpg';
+import Anushka from './Assets/teami/anushka.jpg';
+import adarsh from './Assets/teami/adarsh.jpeg';
 
 const TOP_SECTION = {
   TITLE: 'Hack4Soc',
@@ -261,7 +268,10 @@ const TeamInfo = [
       //github: 'https://github.com/R-Ayush777',
       // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
       img: Sonia
-    },
+    }
+  ]
+  ,
+  [
     {
       Name: 'Nisarga',
       role: 'Treasurer, SIGHT',
@@ -284,13 +294,69 @@ const TeamInfo = [
       //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
       img: naveen
     },
+    
+  ],
+  [
+    // Array 3
     {
       Name: 'Mayur S chittaragi',
       role: 'Web team',
       //github: 'https://github.com/Smit-05',
       //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
       img: mayur
+    },
+    {
+      Name: 'Shashank ',
+      role: 'chair',
+      //github: 'https://github.com/vasu-1',
+      //linkedin: 'https://www.linkedin.com/in/vashishth-patel-312a52204/',
+      img: shashank
+    },
+    {
+      Name: 'Jahnvi Urs',
+      role: '',
+      //github: 'https://github.com/AneriSonani09',
+      //linkedin: 'https://www.linkedin.com/in/aneri-sonani-061b44204/',
+      img: jahnavi
     }
+  ],
+    [
+    {
+      Name: 'Vivek',
+      role: ' ',
+      //github: 'https://github.com/R-Ayush777',
+      // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
+      img: vivek
+    },
+    {
+      Name: 'Anushka',
+      role: '',
+      //github: 'https://github.com/Smit-05',
+      //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
+      img: Anushka
+    },
+  
+    {
+      Name: 'Apoorva ',
+      role: '',
+      //github: 'https://github.com/Smit-05',
+      //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
+      img: Apoorva
+    },
+    {
+      Name: 'Adarsh',
+      role: '',
+      //github: 'https://github.com/Smit-05',
+      //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
+      img: adarsh
+    },
+    {
+      Name: 'vaibhavi ',
+      role: '',
+      //github: 'https://github.com/Smit-05',
+      //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
+      img: vaibhavi
+    },
   ]
 ];
 

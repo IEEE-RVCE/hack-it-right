@@ -20,7 +20,7 @@ function TimeLine() {
               </span>
             </div>
             <p className="timeline_text" style={{fontSize: '14px'}}>
-              The teams are required to report at the venue, by 8:00 AM.
+              The teams are required to report at the venue, by 7:30 AM.
             </p>
           </section>
         </div>

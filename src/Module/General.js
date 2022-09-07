@@ -40,7 +40,8 @@ import Anushka from './Assets/teami/anushka.jpg';
 import adarsh from './Assets/teami/adarsh.jpeg';
 
 const TOP_SECTION = {
-  TITLE: 'Hack4Soc',
+  TITLE: 'Hack4Soc 1.0',
+  //!TODO uncomment the TypedEffect component in the Top Division and add the text you want to show
   Typed_effect: [
     '27 August - 28 August',
     '24 hours of Offline creation',
@@ -48,7 +49,7 @@ const TOP_SECTION = {
     'Offline fun events'
   ],
   SHORT_DESCRIPTION:
-    'Join us on 27th and 28th of August 2022 for 24 hours of creation, innovation, & fun with over 100+ students.',
+    'Event has Ended ! Thank you for your participation. Stay tuned for more updates.',
   IMG_SRC: hackforsoc,
   DISCORD_LINK: 'https://discord.gg/cvHPEK7U3v',
   JUDGES_FORM_LINK: '#Jugdes Form Link',

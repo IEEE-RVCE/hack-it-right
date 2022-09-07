@@ -19,7 +19,7 @@ function About() {
   return (
     <div className="AboutMe">
       <h2>{TOP_SECTION.TITLE}</h2>
-      <MytypedComponent />
+      {/* <MytypedComponent /> */}
     </div>
   );
 }
@@ -61,15 +61,11 @@ function Myinfo() {
         // style="height: 44px; width: 312px"
       ></div>
       &nbsp;&nbsp;
-<<<<<<< HEAD
-       <a href="https://discord.gg/cvHPEK7U3v" rel="noreferrer" target="_blank">
-=======
       <a
         href="https://discord.gg/cvHPEK7U3v"
         rel="noreferrer"
         target="_blank"
       >
->>>>>>> 4a64c9a9af8c11ae38e7d85f91a26352615052ae
 <button class="dis-button">
           <svg
             className="svgbtn"
@@ -88,16 +84,13 @@ function Myinfo() {
         </button>
         <<<<<<< HEAD
       </a> */}
-        <br />
-        <br />
-        <br />
-        <a
+        {/* <a
           href="https://unstop.com/hackathon/hack4soc-where-technology-meets-humanity-rv-college-of-engineering-rvce-bangalore-405582"
           target="_blank"
           rel="noreferrer"
         >
           <button>Register Here</button>
-        </a>
+        </a> */}
       </div>
     </>
   );

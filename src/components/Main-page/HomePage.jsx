@@ -214,20 +214,19 @@ export default function HomePage(props) {
           <CollabType />
         </Row>
 
-        <Row className="prizesection non-coding">
+        {/* <Row className="prizesection non-coding">
           <PrizeHeading type="Partnered NGOs" />
           <br />
           <NGOCards />
-        </Row>
+        </Row> */}
 
         {/*TimeLine Section*/}
-        <Row className="timeline" id="timeline">
+        {/* <Row className="timeline" id="timeline">
           <PrizeHeading type="Hackathon TimeLine" />
           <TimeLine />
-          {/* <h1>Coming Soon..</h1> */}
-        </Row>
+        </Row> */}
 
-        <Row className="prizesection" id="prizes">
+        {/* <Row className="prizesection" id="prizes">
           <PrizeHeading type="Prizes" />
         </Row>
         <PrizeState />
@@ -243,9 +242,8 @@ export default function HomePage(props) {
               <b>Participation Certificate & Other exciting swags</b>
             </h4>
           </div>
-        </div>
+        </div> */}
 
-        {/*Theme end*/}
 
         <Birds top="100vh" left="0vh" type="" />
 
@@ -260,10 +258,10 @@ export default function HomePage(props) {
 
         {/* ********Sponsors here ***** */}
 
-        <Row className="sponsorSection" id="sponsors">
+        {/* <Row className="sponsorSection" id="sponsors">
           <SponsorsHead />
           {sponsorLogos.map(SponsorGroup)}
-        </Row>
+        </Row> */}
         {/* ********Sponsors ending here ***** */}
 
         {/* ********Team here ***** */}
@@ -281,10 +279,6 @@ export default function HomePage(props) {
           />
         )} */}
         {TeamInfo.map(TeamMembers)}
-        {/* ********Team ending here ***** */}
-
-        {/* ********Team ending here ***** */}
-       
         <br />
         <h1 id="faqs">FAQs</h1>
         {/* ********Frequently asked Questions here ***** */}
@@ -294,15 +288,6 @@ export default function HomePage(props) {
         </div>
       </Container>
       <br />
-      {/* <center>
-        <div
-          class="apply-button"
-          data-hackathon-slug="hack4soc"
-          data-button-theme="light"
-          // style="height: 44px; width: 312px"
-        ></div>
-      </center> */}
-
       <Footer />
       <div class="backtotop" id="back-to-up">
         <a onClick={scrollToTop}>

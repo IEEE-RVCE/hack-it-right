@@ -5,8 +5,11 @@ import {SOCIALS} from '../../Module/General';
 export default function Media() {
   return (
     <div style={{display: 'flex', justifyContent: 'center'}}>
-      <div className="media">
+      <div className="media" style={{display:"flex", flexDirection:"column",justifyContent:'center'}}>
+        <div>
         <p>Follow us on social media for updates</p>
+        </div>
+        <div>
         <div className="single">
           <a
             aria-label="Instagram Link"
@@ -39,6 +42,7 @@ export default function Media() {
             <i className="fab fa-3x fa-dev"></i>
           </a>
         </div>
+      </div>
       </div>
     </div>
   );

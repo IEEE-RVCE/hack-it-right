@@ -292,14 +292,14 @@ const TeamInfo = [
     },
     {
       Name: 'Jayanth C',
-      role: "Joint Treasurer, Computer Society '23",
+      role: "Joint Secretary, Computer Society '23",
       //github: 'https://github.com/R-Ayush777',
       // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
       img: jayanth
     },
     {
       Name: 'Sneha P M',
-      role: "Joint Treasurer, Computer Society '23",
+      role: "Joint Secretary, Computer Society '23",
       //github: 'https://github.com/R-Ayush777',
       // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
       img: sneha

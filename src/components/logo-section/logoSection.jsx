@@ -14,8 +14,8 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function LogoSectionAbout() {
   return (
-    <div className="LogoSectionAbout">
-      <h1>{MIDDLE_SECTION.TITLE}</h1>
+    <div className="LogoSectionAbout" style={{marginTop:"100px"}}>
+      <h1 style={{fontSize:50}}>{MIDDLE_SECTION.TITLE}</h1>
       <p>{MIDDLE_SECTION.LONG_DESCRIPTION}</p>
     </div>
   );

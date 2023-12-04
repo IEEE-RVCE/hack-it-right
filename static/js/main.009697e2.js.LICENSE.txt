@@ -11,6 +11,12 @@ object-assign
 */
 
 /*!
+	Copyright (c) 2018 Jed Watson.
+	Licensed under the MIT License (MIT), see
+	http://jedwatson.github.io/classnames
+*/
+
+/*!
      * 
      *   typed.js - A JavaScript Typing Animation Library
      *   Author: Matt Boldt <me@mattboldt.com>
@@ -19,12 +25,6 @@ object-assign
      *   License(s): MIT
      * 
      */
-
-/*!
-  Copyright (c) 2018 Jed Watson.
-  Licensed under the MIT License (MIT), see
-  http://jedwatson.github.io/classnames
-*/
 
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation.
@@ -103,3 +103,5 @@ PERFORMANCE OF THIS SOFTWARE.
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
+
+//!TODO uncomment the TypedEffect component in the Top Division and add the text you want to show

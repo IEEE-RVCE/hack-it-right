@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.07d650b9.css",
-    "main.js": "/static/js/main.b24125a3.js",
+    "main.css": "/static/css/main.69414bb8.css",
+    "main.js": "/static/js/main.009697e2.js",
     "static/media/Apoorva.jpg": "/static/media/Apoorva.e7e66d08dd1063bd43ae.jpg",
     "static/media/prajwal.jpg": "/static/media/prajwal.138c2c314c1c8205e7d7.jpg",
     "static/media/hack4soc.gif": "/static/media/hack4soc.a02e7e1d30ab85655f6e.gif",
     "static/media/Malavika_HariPrasad.jpg": "/static/media/Malavika_HariPrasad.aea2a8928c9072170948.jpg",
     "static/media/Nisarga.jpg": "/static/media/Nisarga.7860a6b3105377545bc0.jpg",
+    "static/media/likhith.jpg": "/static/media/likhith.254edbdcfe75fac4c271.jpg",
     "static/media/ib.png": "/static/media/ib.4a43ef230f0352e75c2b.png",
     "static/media/LOGO.png": "/static/media/LOGO.10860f043a8109e3330f.png",
     "static/media/pattern4.png": "/static/media/pattern4.4b9f3314629a4be2f638.png",
     "static/media/jahnavi.jpg": "/static/media/jahnavi.0f0a572c85872ce35a00.jpg",
+    "static/media/sneha.jpg": "/static/media/sneha.09fc92df48f3194ca541.jpg",
     "static/media/anushka.jpg": "/static/media/anushka.05e2cf8b6785f9f7235b.jpg",
     "static/media/naveen.jpg": "/static/media/naveen.afd1c6c518f3bac7be38.jpg",
+    "static/media/joshua.jpg": "/static/media/joshua.1ffb5d39b1ce0194f3d0.jpg",
     "static/media/vaibhavi.jpeg": "/static/media/vaibhavi.27aff04c16badef3ac88.jpeg",
+    "static/media/jayanth.jpg": "/static/media/jayanth.b74c7cae86eecebbf1af.jpg",
     "static/media/vivek.jpg": "/static/media/vivek.a8234cc098139c31229b.jpg",
     "static/media/ShubhaPrada.jpeg": "/static/media/ShubhaPrada.3caec7b55c9ff33159b6.jpeg",
     "static/media/adarsh.jpeg": "/static/media/adarsh.862983063463f08243f5.jpeg",
@@ -26,21 +30,25 @@
     "static/media/neha.jpeg": "/static/media/neha.201880711afa1ae01312.jpeg",
     "static/media/Sonia_Singh.jpeg": "/static/media/Sonia_Singh.bb3d2d198f731d127b80.jpeg",
     "static/media/IEEE RVCE Logo_Blue.png": "/static/media/IEEE RVCE Logo_Blue.32691588ad8c99d7f82a.png",
+    "static/media/PrajwalM.jpg": "/static/media/PrajwalM.be6f31626ebc327fa03c.jpg",
     "static/media/shashank.jpeg": "/static/media/shashank.db0180df00e8bd1ec364.jpeg",
     "static/media/digilogo.png": "/static/media/digilogo.fce122b1365aaa59b007.png",
     "static/media/ic.png": "/static/media/ic.127b788506af7a873b93.png",
+    "static/media/fintech.png": "/static/media/fintech.dc1ce89bae1628ce8f5e.png",
     "static/media/alan.png": "/static/media/alan.16969bfa1ef84fea2327.png",
+    "static/media/ai-img.png": "/static/media/ai-img.26fbe600a685571de8d7.png",
+    "static/media/blockchain.png": "/static/media/blockchain.306626c77d8b6328ab8e.png",
     "static/media/koii.png": "/static/media/koii.df9b65b0788b88396304.png",
     "static/media/certopus.png": "/static/media/certopus.76bdd21b76a3f7034694.png",
     "static/media/pm.svg": "/static/media/pm.2cf639007a515db634af02ab6c7e304c.svg",
     "index.html": "/index.html",
     "static/media/ham-c.svg": "/static/media/ham-c.8ab7632d2e8f5e05abfb112d11ada71d.svg",
     "static/media/ham.svg": "/static/media/ham.a63ab4de035aef5e3f6e82283f1bae0a.svg",
-    "main.07d650b9.css.map": "/static/css/main.07d650b9.css.map",
-    "main.b24125a3.js.map": "/static/js/main.b24125a3.js.map"
+    "main.69414bb8.css.map": "/static/css/main.69414bb8.css.map",
+    "main.009697e2.js.map": "/static/js/main.009697e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.07d650b9.css",
-    "static/js/main.b24125a3.js"
+    "static/css/main.69414bb8.css",
+    "static/js/main.009697e2.js"
   ]
 }

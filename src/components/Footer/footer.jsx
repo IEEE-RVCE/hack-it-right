@@ -73,7 +73,10 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          <div class="link-boxes" style={{display:'flex', justifyContent:'center'}}>
+          <div
+            class="link-boxes"
+            style={{display: 'flex', justifyContent: 'center'}}
+          >
             <ul class="box1 input-box1">
               {/*<li class="link_name">Subscribe</li>*/}
               {/* <img src={IEEE_RVCE_Logo_Blue} className="imgfooterdsc" /> */}

@@ -359,7 +359,7 @@ const TeamInfo = [
       //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
       img: mayur
     }
-  ],
+  ]
   // [
   //   {
   //     Name: 'Apoorva',

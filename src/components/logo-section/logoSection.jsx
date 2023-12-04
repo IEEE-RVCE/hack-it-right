@@ -2,7 +2,7 @@ import React from 'react';
 import './logoSection.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import sym from './sym.png';
-import { HACKATHON_TRACKS } from '../../Module/General';
+import {HACKATHON_TRACKS} from '../../Module/General';
 // import logo1 from './logo4.png';
 import mainlogo from './LOGO.png';
 // import logo3 from './logo3.png';
@@ -40,41 +40,36 @@ function Logo() {
   return myLogo;
 }
 
-function HackathonTracks(){
+function HackathonTracks() {
   return (
-    <div className='LogoSectionAbout' >
-      <h1 style={{fontWeight:600, fontSize:35}}>{HACKATHON_TRACKS.title}</h1>
+    <div className="LogoSectionAbout">
+      <h1 style={{fontWeight: 600, fontSize: 35}}>{HACKATHON_TRACKS.title}</h1>
       <br />
-      {
-        HACKATHON_TRACKS.tracks.map((track)=>{
-          return (
-            <div>
-              <h3 style={{fontWeight:600}}>{track.title}</h3>
-              <p>{track.description}</p>
-              </div>
-          )
-        })
-      }
+      {HACKATHON_TRACKS.tracks.map(track => {
+        return (
+          <div>
+            <h3 style={{fontWeight: 500,fontSize:23}}>{track.title}</h3>
+            <p>{track.description}</p>
+          </div>
+        );
+      })}
     </div>
-
-  )
+  );
 }
-function TrackCarousel(){
+function TrackCarousel() {
   return (
-  <Carousel>
-  <Carousel.Item interval={500}>
-    <img className='d-block w-100' src={ai}/>
-  </Carousel.Item>
-  <Carousel.Item interval={500}>
-    <img className='d-block w-100' src={fintech}/>
-  </Carousel.Item>
-  <Carousel.Item interval={500}>
-    <img className='d-block w-100' src={blockchain} />
-  </Carousel.Item>
-</Carousel>
-
-);
+    <Carousel >
+      <Carousel.Item interval={500}>
+        <img className="d-block w-100 imgHeight" src={ai} />
+      </Carousel.Item>
+      <Carousel.Item interval={500}>
+        <img className="d-block w-100 imgHeight" src={fintech} />
+      </Carousel.Item>
+      <Carousel.Item interval={500}>
+        <img className="d-block w-100 imgHeight" src={blockchain} />
+      </Carousel.Item>
+    </Carousel>
+  );
 }
 
-
-export {Logo, LogoSectionAbout,HackathonTracks,TrackCarousel};
+export {Logo, LogoSectionAbout, HackathonTracks, TrackCarousel};

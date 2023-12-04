@@ -38,6 +38,11 @@ import jahnavi from './Assets/teami/jahnavi.jpg';
 import Apoorva from './Assets/teami/Apoorva.jpg';
 import Anushka from './Assets/teami/anushka.jpg';
 import adarsh from './Assets/teami/adarsh.jpeg';
+import prajwalPawar from './Assets/teami/PrajwalM.jpg';
+import sneha from './Assets/teami/sneha.jpg';
+import jayanth from './Assets/teami/jayanth.jpg';
+import joshua from './Assets/teami/joshua.jpg';
+import likhith from './Assets/teami/likhith.jpg';
 
 const TOP_SECTION = {
   TITLE: 'Hack4Soc 2.0',
@@ -66,7 +71,7 @@ const SOCIALS = {
 
 const MIDDLE_SECTION = {
   TITLE: 'What is Hac4Soc 2.0?',
-  LONG_DESCRIPTION: 'Hack4soc 2.0 is an inter-college hackathon organized by IEEE RVCE Computer Society. Teams from colleges across the country will be invited to build solutions addressing various problem statements with a humanitarian theme , aiming to claim the prize',
+  LONG_DESCRIPTION: 'Hack4soc 2.0 is an inter-college hackathon organized by IEEE RVCE Computer Society. Teams from colleges across the country will be invited to build solutions addressing various problem statements with a humanitarian theme , aiming to claim the prize.',
   LOGO_EFFECT: true,
   LOGO: ''
 };
@@ -240,57 +245,64 @@ const Prizeinfo = [
 ];
 
 const TeamInfo = [
-  [
+  [ {
+    Name: 'Prajwal M Pawar',
+    role: 'Chair,Computer Society \'23',
+    //github: 'https://github.com/R-Ayush777',
+    // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
+    img: prajwalPawar
+  },
+  {
+    Name: 'Likhith',
+    role: 'Vice Chair,Computer Society \'23',
+    //github: 'https://github.com/R-Ayush777',
+    // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
+    img: likhith
+  },
     {
       Name: 'Shubhaprada K P',
-      role: 'Chair,Computer Society',
+      role: 'Chair,Computer Society \'22',
       //github: 'https://github.com/R-Ayush777',
       // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
       img: Shubha
     },
     {
-      Name: 'Samhitha',
-      role: 'Chair, SIGHT',
-      //github: '#',
-      //linkedin: 'https://www.linkedin.com/in/nirali-darji-1b766a209',
-      img: samhitha
-    },
-    {
       Name: 'Prajwal P',
-      role: 'Vice Chair, Computer Society',
+      role: 'Vice Chair, Computer Society \'22',
       //github: 'https://github.com/Smit-05',
       //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
       img: prajwal
     },
-    // Array 2
     {
-      Name: 'Malavika Hariprasad',
-      role: 'Secretary, Computer Society',
-      //github: 'https://github.com/vasu-1',
-      //linkedin: 'https://www.linkedin.com/in/vashishth-patel-312a52204/',
-      img: Malavika
+      Name: 'Joshua Elias Alva',
+      role: 'Treasurer, Computer Society \'23',
+      //github: '#',
+      //linkedin: 'https://www.linkedin.com/in/nirali-darji-1b766a209',
+      img: joshua
     },
-    {
-      Name: 'Neha',
-      role: 'Secretary, SIGHT',
-      //github: 'https://github.com/AneriSonani09',
-      //linkedin: 'https://www.linkedin.com/in/aneri-sonani-061b44204/',
-      img: neha
-    },
+  
     {
       Name: 'Sonia Singh B',
-      role: 'Treasurer, Computer Society',
+      role: 'Treasurer, Computer Society \'22',
       //github: 'https://github.com/R-Ayush777',
       // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
       img: Sonia
     },
     {
-      Name: 'Nisarga',
-      role: 'Treasurer, SIGHT',
-      //github: 'https://github.com/Smit-05',
-      //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
-      img: Nisarga
-    }
+      Name: 'Jayanth C',
+      role: 'Joint Treasurer, Computer Society \'23',
+      //github: 'https://github.com/R-Ayush777',
+      // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
+      img: jayanth
+    },
+    {
+      Name: 'Sneha P M',
+      role: 'Joint Treasurer, Computer Society \'23',
+      //github: 'https://github.com/R-Ayush777',
+      // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
+      img: sneha
+    },
+
   ],
   [
     // Array 3
@@ -519,7 +531,7 @@ const frequentlyAskedQuestions = [
       {
         label: 'I have more questions?',
         content:
-          'Reach us directly at (prajwal.cs20@rvce.edu.in) I would happy to help you.'
+          'Reach us directly at (prajwalmp.ai21@rvce.edu.in) I would happy to help you.'
       },
       {
         label: 'Can I participate as a individual?',

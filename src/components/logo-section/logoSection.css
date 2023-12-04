@@ -107,3 +107,7 @@ transition: 0.4s;
     }
   }
 
+.imgHeight {
+  height: 300px;
+  border-radius: 30px;
+}

@@ -292,51 +292,51 @@ const TeamInfo = [
     },
     {
       Name: 'Jayanth C',
-      role: "Joint Treasurer, Computer Society '23",
+      role: "Joint Secretary, Computer Society '23",
       //github: 'https://github.com/R-Ayush777',
       // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
       img: jayanth
     },
     {
       Name: 'Sneha P M',
-      role: "Joint Treasurer, Computer Society '23",
+      role: "Joint Secretary, Computer Society '23",
       //github: 'https://github.com/R-Ayush777',
       // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
       img: sneha
     }
   ],
-  [
-    // Array 3
+  // [
+  //   // Array 3
 
-    {
-      Name: 'Shashank Dhavala',
-      role: 'Main Execom',
-      //github: 'https://github.com/vasu-1',
-      //linkedin: 'https://www.linkedin.com/in/vashishth-patel-312a52204/',
-      img: shashank
-    },
-    {
-      Name: 'Anushka Subhramanian',
-      role: 'Main Execom',
-      //github: 'https://github.com/Smit-05',
-      //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
-      img: Anushka
-    },
-    {
-      Name: 'Jahnavi Urs',
-      role: 'Main Execom',
-      //github: 'https://github.com/AneriSonani09',
-      //linkedin: 'https://www.linkedin.com/in/aneri-sonani-061b44204/',
-      img: jahnavi
-    },
-    {
-      Name: 'Vivek',
-      role: 'Main Execom',
-      //github: 'https://github.com/R-Ayush777',
-      // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
-      img: vivek
-    }
-  ],
+  //   {
+  //     Name: 'Shashank Dhavala',
+  //     role: 'Main Execom',
+  //     //github: 'https://github.com/vasu-1',
+  //     //linkedin: 'https://www.linkedin.com/in/vashishth-patel-312a52204/',
+  //     img: shashank
+  //   },
+  //   {
+  //     Name: 'Anushka Subhramanian',
+  //     role: 'Main Execom',
+  //     //github: 'https://github.com/Smit-05',
+  //     //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
+  //     img: Anushka
+  //   },
+  //   {
+  //     Name: 'Jahnavi Urs',
+  //     role: 'Main Execom',
+  //     //github: 'https://github.com/AneriSonani09',
+  //     //linkedin: 'https://www.linkedin.com/in/aneri-sonani-061b44204/',
+  //     img: jahnavi
+  //   },
+  //   {
+  //     Name: 'Vivek',
+  //     role: 'Main Execom',
+  //     //github: 'https://github.com/R-Ayush777',
+  //     // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
+  //     img: vivek
+  //   }
+  // ],
   [
     {
       Name: 'Sannidhi ',
@@ -359,30 +359,30 @@ const TeamInfo = [
       //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
       img: mayur
     }
-  ],
-  [
-    {
-      Name: 'Apoorva',
-      role: 'Design Team Head',
-      //github: 'https://github.com/Smit-05',
-      //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
-      img: Apoorva
-    },
-    {
-      Name: 'Adarsh',
-      role: 'Design Team',
-      img: adarsh
-      //github: 'https://github.com/Smit-05',
-      //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
-    },
-    {
-      Name: 'Vaibhavi ',
-      role: 'Content & Curation',
-      //github: 'https://github.com/Smit-05',
-      //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
-      img: vaibhavi
-    }
   ]
+  // [
+  //   {
+  //     Name: 'Apoorva',
+  //     role: 'Design Team Head',
+  //     //github: 'https://github.com/Smit-05',
+  //     //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
+  //     img: Apoorva
+  //   },
+  //   {
+  //     Name: 'Adarsh',
+  //     role: 'Design Team',
+  //     img: adarsh
+  //     //github: 'https://github.com/Smit-05',
+  //     //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
+  //   },
+  //   {
+  //     Name: 'Vaibhavi ',
+  //     role: 'Content & Curation',
+  //     //github: 'https://github.com/Smit-05',
+  //     //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
+  //     img: vaibhavi
+  //   }
+  // ]
 ];
 
 const JudgesInfo = [

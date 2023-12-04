@@ -53,7 +53,7 @@ export default function Footer() {
           <div class="top">
             <div class="logo-details">
               <img src={logo} className="imgfooter" />
-              <span class="logo_name">&nbsp;hack4soc</span>
+              <span class="logo_name">&nbsp;hack4soc 2.0</span>
             </div>
             <div class="media-icons">
               <a target="_blank" href={SOCIALS.discord} rel="noreferrer">
@@ -73,16 +73,24 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          <div class="link-boxes">
+          <div
+            class="link-boxes"
+            style={{display: 'flex', justifyContent: 'center'}}
+          >
             <ul class="box1 input-box1">
               {/*<li class="link_name">Subscribe</li>*/}
-              <img src={IEEE_RVCE_Logo_Blue} className="imgfooterdsc" />
+              {/* <img src={IEEE_RVCE_Logo_Blue} className="imgfooterdsc" /> */}
+              <img
+                src="./images/IEEE RVCE Computer Society Logo (1).png"
+                alt="IEEE Computer Society"
+                className="imgfooterdsc"
+              />
             </ul>
           </div>
         </div>
         <div class="bottom-details">
           <div class="bottom_text">
-            <span class="copyright_text">Copyright © 2023 hack4soc</span>
+            <span class="copyright_text">Copyright © 2023 hack4soc 2.0</span>
             <span class="policy_terms">Made with ❤️</span>
           </div>
         </div>

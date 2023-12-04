@@ -53,8 +53,7 @@ const TOP_SECTION = {
     'Win awesome prizes',
     'Offline fun events'
   ],
-  SHORT_DESCRIPTION:
-    'Where technology meets humanity...',
+  SHORT_DESCRIPTION: 'Where technology meets humanity...',
   IMG_SRC: hackforsoc,
   DISCORD_LINK: 'https://discord.gg/cvHPEK7U3v',
   JUDGES_FORM_LINK: '#Jugdes Form Link',
@@ -71,28 +70,30 @@ const SOCIALS = {
 
 const MIDDLE_SECTION = {
   TITLE: 'What is Hac4Soc 2.0?',
-  LONG_DESCRIPTION: 'Hack4soc 2.0 is an inter-college hackathon organized by IEEE RVCE Computer Society. Teams from colleges across the country will be invited to build solutions addressing various problem statements with a humanitarian theme , aiming to claim the prize.',
+  LONG_DESCRIPTION:
+    'Hack4soc 2.0 is an inter-college hackathon organized by IEEE RVCE Computer Society. Teams from colleges across the country will be invited to build solutions addressing various problem statements with a humanitarian theme , aiming to claim the prize.',
   LOGO_EFFECT: true,
   LOGO: ''
 };
 
 const HACKATHON_TRACKS = {
-  title : "Our Hackathon Tracks",
-  tracks : [{
-    title : "Generative AI 4 Soc",
-    description : "A world created by algorithms for social good"
-  },
-  {
-    title : "Fintech 4 Soc",
-    description : "Innovative finance solutions driving societal impact"
-  },
-  {
-    title : " Blockchain 4 Soc",
-    description :"Revolutionizing Social Impact through Blockchain"
-  }
-],
-  images : []
-}
+  title: 'Our Hackathon Tracks',
+  tracks: [
+    {
+      title: 'Generative AI 4 Soc',
+      description: 'A world created by algorithms for social good'
+    },
+    {
+      title: 'Fintech 4 Soc',
+      description: 'Innovative finance solutions driving societal impact'
+    },
+    {
+      title: ' Blockchain 4 Soc',
+      description: 'Revolutionizing Social Impact through Blockchain'
+    }
+  ],
+  images: []
+};
 
 const FOOTER = {
   VOLUNTEERING_FORM: {
@@ -245,64 +246,64 @@ const Prizeinfo = [
 ];
 
 const TeamInfo = [
-  [ {
-    Name: 'Prajwal M Pawar',
-    role: 'Chair,Computer Society \'23',
-    //github: 'https://github.com/R-Ayush777',
-    // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
-    img: prajwalPawar
-  },
-  {
-    Name: 'Likhith',
-    role: 'Vice Chair,Computer Society \'23',
-    //github: 'https://github.com/R-Ayush777',
-    // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
-    img: likhith
-  },
+  [
+    {
+      Name: 'Prajwal M Pawar',
+      role: "Chair,Computer Society '23",
+      //github: 'https://github.com/R-Ayush777',
+      // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
+      img: prajwalPawar
+    },
+    {
+      Name: 'Likhith',
+      role: "Vice Chair,Computer Society '23",
+      //github: 'https://github.com/R-Ayush777',
+      // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
+      img: likhith
+    },
     {
       Name: 'Shubhaprada K P',
-      role: 'Chair,Computer Society \'22',
+      role: "Chair,Computer Society '22",
       //github: 'https://github.com/R-Ayush777',
       // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
       img: Shubha
     },
     {
       Name: 'Prajwal P',
-      role: 'Vice Chair, Computer Society \'22',
+      role: "Vice Chair, Computer Society '22",
       //github: 'https://github.com/Smit-05',
       //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
       img: prajwal
     },
     {
       Name: 'Joshua Elias Alva',
-      role: 'Treasurer, Computer Society \'23',
+      role: "Treasurer, Computer Society '23",
       //github: '#',
       //linkedin: 'https://www.linkedin.com/in/nirali-darji-1b766a209',
       img: joshua
     },
-  
+
     {
       Name: 'Sonia Singh B',
-      role: 'Treasurer, Computer Society \'22',
+      role: "Treasurer, Computer Society '22",
       //github: 'https://github.com/R-Ayush777',
       // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
       img: Sonia
     },
     {
       Name: 'Jayanth C',
-      role: 'Joint Treasurer, Computer Society \'23',
+      role: "Joint Treasurer, Computer Society '23",
       //github: 'https://github.com/R-Ayush777',
       // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
       img: jayanth
     },
     {
       Name: 'Sneha P M',
-      role: 'Joint Treasurer, Computer Society \'23',
+      role: "Joint Treasurer, Computer Society '23",
       //github: 'https://github.com/R-Ayush777',
       // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
       img: sneha
-    },
-
+    }
   ],
   [
     // Array 3

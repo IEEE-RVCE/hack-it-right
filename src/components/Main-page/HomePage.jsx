@@ -213,15 +213,18 @@ export default function HomePage(props) {
           </Col>
         </Row>
         <Row className=" logoSection" id="about">
-          <Col className='info-div' sm={12} lg={8} md={8}>
-              <HackathonTracks />
+          <Col className="info-div" sm={12} lg={8} md={8}>
+            <HackathonTracks />
           </Col>
-          <Col className='info-div' sm={12} lg={4} md={4} style={{margin:'-20px'}}>
-            
+          <Col
+            className="info-div"
+            sm={12}
+            lg={4}
+            md={4}
+            style={{margin: '-20px'}}
+          >
             <TrackCarousel />
-            
           </Col>
-  
         </Row>
 
         {/*Theme Section*/}

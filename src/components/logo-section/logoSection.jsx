@@ -48,7 +48,7 @@ function HackathonTracks() {
       {HACKATHON_TRACKS.tracks.map(track => {
         return (
           <div>
-            <h3 style={{fontWeight: 500,fontSize:23}}>{track.title}</h3>
+            <h3 style={{fontWeight: 500, fontSize: 23}}>{track.title}</h3>
             <p>{track.description}</p>
           </div>
         );
@@ -58,7 +58,7 @@ function HackathonTracks() {
 }
 function TrackCarousel() {
   return (
-    <Carousel >
+    <Carousel>
       <Carousel.Item interval={500}>
         <img className="d-block w-100 imgHeight" src={ai} />
       </Carousel.Item>

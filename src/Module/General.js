@@ -40,7 +40,7 @@ import Anushka from './Assets/teami/anushka.jpg';
 import adarsh from './Assets/teami/adarsh.jpeg';
 
 const TOP_SECTION = {
-  TITLE: 'Hack4Soc 1.0',
+  TITLE: 'Hack4Soc 2.0',
   //!TODO uncomment the TypedEffect component in the Top Division and add the text you want to show
   Typed_effect: [
     '27 August - 28 August',
@@ -49,7 +49,7 @@ const TOP_SECTION = {
     'Offline fun events'
   ],
   SHORT_DESCRIPTION:
-    'Event has Ended ! Thank you for your participation. Stay tuned for more updates.',
+    'Where technology meets humanity...',
   IMG_SRC: hackforsoc,
   DISCORD_LINK: 'https://discord.gg/cvHPEK7U3v',
   JUDGES_FORM_LINK: '#Jugdes Form Link',
@@ -65,12 +65,29 @@ const SOCIALS = {
 };
 
 const MIDDLE_SECTION = {
-  TITLE: 'What is Hac4Soc?',
-  LONG_DESCRIPTION:
-    'Hack4soc is an inter-college hackathon that is being jointly organized by IEEE RVCE Computer Society and IEEE RVCE SIGHT. Teams from colleges from all over the state are invited to build solutions to the given problem statements with a humanitarian theme and claim the prize. We plan to train students for the skills that will be required for the hackathon through hybrid sessions with relevant subject matter experts. For the hackathon itself, we approached various NGOs for the problem statements.We will be inviting mentors to provide advice and suggestions to the participants and judges from different fields of technology to judge the solutions provided by the teams. The event will be a great opportunity for students to apply their technological skills and think of how to solve societal problems.',
+  TITLE: 'What is Hac4Soc 2.0?',
+  LONG_DESCRIPTION: 'Hack4soc 2.0 is an inter-college hackathon organized by IEEE RVCE Computer Society. Teams from colleges across the country will be invited to build solutions addressing various problem statements with a humanitarian theme , aiming to claim the prize',
   LOGO_EFFECT: true,
   LOGO: ''
 };
+
+const HACKATHON_TRACKS = {
+  title : "Our Hackathon Tracks",
+  tracks : [{
+    title : "Generative AI 4 Soc",
+    description : "A world created by algorithms for social good"
+  },
+  {
+    title : "Fintech 4 Soc",
+    description : "Innovative finance solutions driving societal impact"
+  },
+  {
+    title : " Blockchain 4 Soc",
+    description :"Revolutionizing Social Impact through Blockchain"
+  }
+],
+  images : []
+}
 
 const FOOTER = {
   VOLUNTEERING_FORM: {
@@ -530,5 +547,6 @@ export {
   JudgesInfo,
   frequentlyAskedQuestions,
   schedule,
-  calenderStartingDate
+  calenderStartingDate,
+  HACKATHON_TRACKS
 };

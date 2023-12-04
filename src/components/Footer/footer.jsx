@@ -82,7 +82,7 @@ export default function Footer() {
         </div>
         <div class="bottom-details">
           <div class="bottom_text">
-            <span class="copyright_text">Copyright © 2022 hack4soc</span>
+            <span class="copyright_text">© 2023 hack4soc</span>
             <span class="policy_terms">Made with ❤️</span>
           </div>
         </div>

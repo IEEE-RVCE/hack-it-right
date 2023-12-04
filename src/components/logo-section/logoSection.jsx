@@ -1,12 +1,16 @@
 import React from 'react';
 import './logoSection.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import sym from './sym.png';
-
+import { HACKATHON_TRACKS } from '../../Module/General';
 // import logo1 from './logo4.png';
 import mainlogo from './LOGO.png';
 // import logo3 from './logo3.png';
-
+import ai from './ai-img.png';
+import fintech from './fintech.png';
+import blockchain from './blockchain.png';
 import {MIDDLE_SECTION} from '../../Module/General';
+import Carousel from 'react-bootstrap/Carousel';
 
 function LogoSectionAbout() {
   return (
@@ -36,4 +40,41 @@ function Logo() {
   return myLogo;
 }
 
-export {Logo, LogoSectionAbout};
+function HackathonTracks(){
+  return (
+    <div className='LogoSectionAbout' >
+      <h1 style={{fontWeight:600, fontSize:35}}>{HACKATHON_TRACKS.title}</h1>
+      <br />
+      {
+        HACKATHON_TRACKS.tracks.map((track)=>{
+          return (
+            <div>
+              <h3 style={{fontWeight:600}}>{track.title}</h3>
+              <p>{track.description}</p>
+              </div>
+          )
+        })
+      }
+    </div>
+
+  )
+}
+function TrackCarousel(){
+  return (
+  <Carousel>
+  <Carousel.Item interval={500}>
+    <img className='d-block w-100' src={ai}/>
+  </Carousel.Item>
+  <Carousel.Item interval={500}>
+    <img className='d-block w-100' src={fintech}/>
+  </Carousel.Item>
+  <Carousel.Item interval={500}>
+    <img className='d-block w-100' src={blockchain} />
+  </Carousel.Item>
+</Carousel>
+
+);
+}
+
+
+export {Logo, LogoSectionAbout,HackathonTracks,TrackCarousel};

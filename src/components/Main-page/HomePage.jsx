@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import './about.css';
-import {Logo, LogoSectionAbout} from '../logo-section/logoSection.jsx';
+import {HackathonTracks, Logo, LogoSectionAbout} from '../logo-section/logoSection.jsx';
 import {FirstPrize, PrizeHeading} from '../prize tracks/prizes.jsx';
 import {Prizeinfo} from '../../Module/General';
 import {Accordion} from '../FAQ/faq.jsx';
@@ -23,6 +23,7 @@ import TimeLine from '../Timeline/Timeline.jsx';
 import filecoin from '../../Module/Assets/sponsorsLogos/filecoin.png';
 import polygon from '../../Module/Assets/sponsorsLogos/polygon.png';
 import alan from '../../Module/Assets/sponsorsLogos/alan.png';
+import { TrackCarousel } from '../logo-section/logoSection.jsx';
 
 import {
   TOP_SECTION,
@@ -207,6 +208,17 @@ export default function HomePage(props) {
             <Logo />
           </Col>
         </Row>
+        {/* <Row className=" logoSection" id="about">
+          <Col className='info-div' sm={12} lg={8} md={8}>
+              <HackathonTracks />
+          </Col>
+          <Col className='info-div' sm={12} lg={4} md={4} style={{margin:'-20px'}}>
+            
+            <TrackCarousel />
+            
+          </Col>
+  
+        </Row> */}
 
         {/*Theme Section*/}
         <Row className="prizesection non-coding" id="themes">

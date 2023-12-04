@@ -16,13 +16,13 @@ function CollabType(props) {
               <br />
             </div>
           </div>
-          <div class="card_item">
+          {/* <div class="card_item">
             <div class="card_inner">
               <img src="./images/ieee_sight_rvce.png" alt="IEEE Sight" />
               <br />
               <br />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -369,8 +369,7 @@ const TeamInfo = [
       //github: 'https://github.com/Smit-05',
       //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
       img: tejas
-    },
-
+    }
   ]
   // [
   //   {

@@ -43,6 +43,10 @@ import sneha from './Assets/teami/sneha.jpg';
 import jayanth from './Assets/teami/jayanth.jpg';
 import joshua from './Assets/teami/joshua.jpg';
 import likhith from './Assets/teami/likhith.jpg';
+import chirag from './Assets/teami/chiragjs.png';
+import sundarakrishnan from './Assets/teami/sundarakrishnan.png';
+import ayush from './Assets/teami/ayushRatan.png';
+import tejas from './Assets/teami/tejasPattar.png';
 
 const TOP_SECTION = {
   TITLE: 'Hack4Soc 2.0',
@@ -339,25 +343,32 @@ const TeamInfo = [
   // ],
   [
     {
-      Name: 'Sannidhi ',
+      Name: 'Chirag kr Jaiswal ',
       role: 'Web team',
       //github: 'https://github.com/Smit-05',
       //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
-      img: sannidhi
+      img: chirag
     },
     {
-      Name: 'Naveen B Teli',
+      Name: 'Sundarakrishnan N',
       role: 'Web team',
       //github: 'https://github.com/Smit-05',
       //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
-      img: naveen
+      img: sundarakrishnan
     },
     {
-      Name: 'Mayur S chittaragi',
+      Name: 'Ayush Ratan',
       role: 'Web team',
       //github: 'https://github.com/Smit-05',
       //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
-      img: mayur
+      img: ayush
+    },
+    {
+      Name: 'Tejas Pattar',
+      role: 'Web team',
+      //github: 'https://github.com/Smit-05',
+      //linkedin: 'https://www.linkedin.com/in/smit-padaliya-aa03291b8/',
+      img: tejas
     }
   ]
   // [

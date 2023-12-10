@@ -530,8 +530,7 @@ const frequentlyAskedQuestions = [
       {
         label: 'How do I form teams?',
         content:
-          "Each team needs to have 3 participants at least, and 4 participants at max"
-          
+          'Each team needs to have 3 participants at least, and 4 participants at max'
       }
     ],
     [
@@ -547,7 +546,8 @@ const frequentlyAskedQuestions = [
           'Do not hesitate to reach out to prajwalmp.ai21@rvce.edu.in for more queries'
       },
       {
-        label: 'Can I make a team with my friends from different streams and colleges?',
+        label:
+          'Can I make a team with my friends from different streams and colleges?',
         content:
           'All members of the team should be a part of the same institution/college (different campuses, if any, will be considered as one)'
       },

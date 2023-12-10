@@ -11,6 +11,7 @@
   /* background-color: #ffefe6; */
   border-radius: 12px;
   margin-top: 10px;
+  height:auto
 }
 
 .panel__label {
@@ -20,6 +21,7 @@
   border: none;
   text-align: left;
   padding: 27px 65px 27px 30px;
+  margin: 20px 0px 20px 0px;
   font-weight: 400;
   font-size: 18px;
   font-family: inherit;

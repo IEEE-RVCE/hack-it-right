@@ -38,7 +38,7 @@ class Panel extends React.Component {
               position: 'absolute',
               top: '50%',
               transform: 'translateY(-50%)',
-              width: '80%'
+              width: '80%'           
             }}
           >
             {label}

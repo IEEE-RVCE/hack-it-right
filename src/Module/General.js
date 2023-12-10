@@ -515,45 +515,51 @@ const frequentlyAskedQuestions = [
       {
         label: 'What is a hackathon?',
         content:
-          'A hackathon is a 24 hour event where "hackers" will collaborate on creating a functional prototype software or hardware by the end of the event.'
+          'A hackathon is a 24 hour event where "hackers" will collaborate on creating a functional prototype software or hardware by the end of the event'
       },
       {
         label: 'Who can attend?',
         content:
-          'hack4soc is open to all undergraduate, high school students, and middle school students from all schools.'
+          'Hack4Soc 2.0 is open to all undergraduate, high school students, and middle school students from all schools'
       },
       {
         label: 'I am a first time hacker, what should I do?',
         content:
-          'No worries, we love to welcome first-time hackers and start their hacking journey from a hackathon. We have some awesome workshops and events which will help you get started with hackathons and hacking in general.'
+          'No worries, we love to welcome first-time hackers and start their hacking journey from a hackathon. We have some awesome workshops and events which will help you get started with hackathons and hacking in general'
       },
       {
-        label: 'How team formation works?',
+        label: 'How do I form teams?',
         content:
-          "You can form a team with 4 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team."
+          "Each team needs to have 3 participants at least, and 4 participants at max"
+          
       }
     ],
     [
       {
-        label: 'How to register myself in the hackathon?',
+        label: 'How do I register?',
         content:
           // 'All you need is to register yourself on devfolio and join discord, we will guide you through everything there.'
           'Registrations will be opened soon'
       },
       {
-        label: 'I have more questions?',
+        label: 'Question not found?',
         content:
-          'Reach us directly at (prajwalmp.ai21@rvce.edu.in) I would happy to help you.'
+          'Do not hesitate to reach out to prajwalmp.ai21@rvce.edu.in for more queries'
       },
       {
-        label: 'Can I participate as a individual?',
+        label: 'Can I make a team with my friends from different streams and colleges?',
         content:
-          'No, Because our goal is collaborative learning, we encourage everyone to participate as a team of at least two people.'
+          'All members of the team should be a part of the same institution/college (different campuses, if any, will be considered as one)'
+      },
+      {
+        label: 'Is there any registration fee for participation?',
+        content:
+          'You do not have to pay any fee to apply for the hackathon and make your idea submission. However, the shortlisted top 40 teams will be required to pay a nominal fee, which will be communicated further'
       },
       {
         label: 'Will there be swag?',
         content:
-          'Yes, Participants and winners will receive swags, certificates, promo codes, and much more!'
+          'Yes, participants and winners will receive swags, certificates, promo codes, and much more!'
       }
     ]
   ]

@@ -253,21 +253,21 @@ const TeamInfo = [
   [
     {
       Name: 'Prajwal M Pawar',
-      role: "Chair,Computer Society '23",
+      role: "Chair, Computer Society '23",
       //github: 'https://github.com/R-Ayush777',
       // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
       img: prajwalPawar
     },
     {
       Name: 'Likhith',
-      role: "Vice Chair,Computer Society '23",
+      role: "Vice Chair, Computer Society '23",
       //github: 'https://github.com/R-Ayush777',
       // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
       img: likhith
     },
     {
       Name: 'Shubhaprada K P',
-      role: "Chair,Computer Society '22",
+      role: "Chair, Computer Society '22",
       //github: 'https://github.com/R-Ayush777',
       // linkedin: 'https://www.linkedin.com/in/ayush-rudani-7a3516204/',
       img: Shubha

@@ -34,7 +34,9 @@ function Myinfo() {
         <br />
         <br />
         <br />
-        <p className="shortjoin" style={{fontSize:30,fontWeight:500}}>{TOP_SECTION.KNOW_MORE}</p>
+        <p className="shortjoin" style={{fontSize: 30, fontWeight: 500}}>
+          {TOP_SECTION.KNOW_MORE}
+        </p>
         <br />
         <br />
 

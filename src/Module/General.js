@@ -58,6 +58,7 @@ const TOP_SECTION = {
     'Offline fun events'
   ],
   SHORT_DESCRIPTION: 'Where technology meets humanity...',
+  KNOW_MORE: 'Stay tuned for more',
   IMG_SRC: hackforsoc,
   DISCORD_LINK: 'https://discord.gg/cvHPEK7U3v',
   JUDGES_FORM_LINK: '#Jugdes Form Link',

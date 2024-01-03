@@ -43,11 +43,7 @@ import NGOCard from 'components/NGOCard/NGOCard.jsx';
 
 function SponsorGroup(props) {
   return (
-    <Row
-      justifyContent="center"
-      alignItems="center"
-      
-    >
+    <Row justifyContent="center" alignItems="center">
       {props.map((s, key) => (
         <Col
           key={key}

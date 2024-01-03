@@ -12,9 +12,8 @@
     display: inline-block;
     object-fit: contain;
     margin: 4rem;
-    border: 2px solid #333;
-    border-radius: 8px; /* Adjust the value to control the amount of rounding */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
 

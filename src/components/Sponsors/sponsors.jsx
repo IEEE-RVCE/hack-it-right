@@ -25,10 +25,10 @@ function Sponsor(props) {
 function SponsorUS() {
   return (
     <div className="sponsorUS">
-      <h3
+      {/* <h3
         style={{
           textAlign: 'center',
-          color: '#fff'
+          
         }}
       >
         Interested in Sponsoring Us
@@ -43,7 +43,7 @@ function SponsorUS() {
           ></i>
           <span>Mail Us</span>
         </button>
-      </a>{' '}
+      </a>{' '} */}
     </div>
   );
 }

@@ -46,9 +46,7 @@ function SponsorGroup(props) {
     <Row
       justifyContent="center"
       alignItems="center"
-      style={{
-        backgroundColor: '#121930'
-      }}
+      
     >
       {props.map((s, key) => (
         <Col
@@ -276,10 +274,10 @@ export default function HomePage(props) {
 
         {/* ********Sponsors here ***** */}
 
-        {/* <Row className="sponsorSection" id="sponsors">
+        <Row className="sponsorSection" id="sponsors">
           <SponsorsHead />
           {sponsorLogos.map(SponsorGroup)}
-        </Row> */}
+        </Row>
         {/* ********Sponsors ending here ***** */}
 
         {/* ********Team here ***** */}

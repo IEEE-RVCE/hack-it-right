@@ -7,9 +7,15 @@
   transform: scale(1.1);
 }
 .Sponsor img{
-    width: 25rem;
+    width: 300px;
+    height: 200px;
     display: inline-block;
-    margin: 0;
+    object-fit: contain;
+    margin: 4rem;
+    border: 2px solid #333;
+    border-radius: 8px; /* Adjust the value to control the amount of rounding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
 }
 
 .shead{
@@ -32,16 +38,16 @@
   margin-bottom: 3rem;
 }
 }
-  // .Sponsor img{
+  .Sponsor img{
  
-  //  -webkit-animation: mover 1s infinite  alternate;
-  //  animation: mover 2s infinite  alternate;
-  // }
-  // @-webkit-keyframes mover {
-  //   0% { transform: translateY(0); }
-  //   100% { transform: translateY(8px); }
-  // }
-  // @keyframes mover {
-  //   0% { transform: translateY(0); }
-  //   100% { transform: translateY(8px); }
-  // }
+   -webkit-animation: mover 1s infinite  alternate;
+   animation: mover 2s infinite  alternate;
+  }
+  @-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(8px); }
+  }
+  @keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(8px); }
+  }

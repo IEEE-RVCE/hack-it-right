@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.30d8a53e.css",
-    "main.js": "/static/js/main.6d3fd9f9.js",
+    "main.css": "/static/css/main.a251469e.css",
+    "main.js": "/static/js/main.fcc9f0ba.js",
     "static/media/Apoorva.jpg": "/static/media/Apoorva.e7e66d08dd1063bd43ae.jpg",
     "static/media/prajwal.jpg": "/static/media/prajwal.138c2c314c1c8205e7d7.jpg",
     "static/media/hack4soc.gif": "/static/media/hack4soc.a02e7e1d30ab85655f6e.gif",
@@ -23,10 +23,10 @@
     "static/media/ShubhaPrada.jpeg": "/static/media/ShubhaPrada.3caec7b55c9ff33159b6.jpeg",
     "static/media/adarsh.jpeg": "/static/media/adarsh.862983063463f08243f5.jpeg",
     "static/media/samhitha.jpg": "/static/media/samhitha.964ebfafa3d158836aa8.jpg",
-    "static/media/wolfram.jpg": "/static/media/wolfram.f6eeae5c289475919e0f.jpg",
     "static/media/preloader.gif": "/static/media/preloader.efefe51cea43a1ef1138.gif",
     "static/media/chiragjs.png": "/static/media/chiragjs.e873d65152ea4351c756.png",
     "static/media/mayur.jpg": "/static/media/mayur.4b0b318504b7320030df.jpg",
+    "static/media/IEEEbangloreSection.jpg": "/static/media/IEEEbangloreSection.859a8641dcb4b77ccb62.jpg",
     "static/media/sannidhi.jpg": "/static/media/sannidhi.eb9e8069f3fa70ca08f6.jpg",
     "static/media/ayushRatan.png": "/static/media/ayushRatan.f5ff97373e6c5a800627.png",
     "static/media/streamyard1.JPG": "/static/media/streamyard1.88e959f18750418cb934.JPG",
@@ -36,6 +36,7 @@
     "static/media/PrajwalM.jpg": "/static/media/PrajwalM.be6f31626ebc327fa03c.jpg",
     "static/media/shashank.jpeg": "/static/media/shashank.db0180df00e8bd1ec364.jpeg",
     "static/media/digilogo.png": "/static/media/digilogo.fce122b1365aaa59b007.png",
+    "static/media/wolfram.jpg": "/static/media/wolfram.c2d69080a27032f51d42.jpg",
     "static/media/ic.png": "/static/media/ic.127b788506af7a873b93.png",
     "static/media/fintech.png": "/static/media/fintech.dc1ce89bae1628ce8f5e.png",
     "static/media/tejasPattar.png": "/static/media/tejasPattar.c91fa2e7fbe695f31bd9.png",
@@ -48,11 +49,11 @@
     "index.html": "/index.html",
     "static/media/ham-c.svg": "/static/media/ham-c.8ab7632d2e8f5e05abfb112d11ada71d.svg",
     "static/media/ham.svg": "/static/media/ham.a63ab4de035aef5e3f6e82283f1bae0a.svg",
-    "main.30d8a53e.css.map": "/static/css/main.30d8a53e.css.map",
-    "main.6d3fd9f9.js.map": "/static/js/main.6d3fd9f9.js.map"
+    "main.a251469e.css.map": "/static/css/main.a251469e.css.map",
+    "main.fcc9f0ba.js.map": "/static/js/main.fcc9f0ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.30d8a53e.css",
-    "static/js/main.6d3fd9f9.js"
+    "static/css/main.a251469e.css",
+    "static/js/main.fcc9f0ba.js"
   ]
 }

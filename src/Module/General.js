@@ -16,6 +16,7 @@ import taskade from './Assets/sponsorsLogos/taskade.png';
 import interviecake from './Assets/sponsorsLogos/ic.png';
 import interviewbuddy from './Assets/sponsorsLogos/ib.png';
 import ieeeBangloreSection from './Assets/sponsorsLogos/IEEEbangloreSection.jpg';
+import hack2Skill from './Assets/sponsorsLogos/Hack2Skill.jpg'
 import digitalocean from './Assets/sponsorsLogos/do.png';
 import postman from './Assets/sponsorsLogos/pm.svg';
 
@@ -449,7 +450,8 @@ const sponsorLogos = [
     // },
     // {src: digitalocean, link: 'https://www.digitalocean.com/'},
     {src: wolfram, link: 'https://www.wolfram.com/'},
-    {src: ieeeBangloreSection, link: 'https://ieeebangalore.org/'}
+    {src: ieeeBangloreSection, link: 'https://ieeebangalore.org/'},
+    {src : hack2Skill,link:'https://hack2skill.com/'}
     // {src: interviecake, link: 'https://interviewcake.com/'},
     // {src: interviewbuddy, link: 'https://interviewbuddy.in/'},
     // {src: streamyard, link: 'https://streamyard.com/'}

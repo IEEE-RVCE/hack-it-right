@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a251469e.css",
-    "main.js": "/static/js/main.fcc9f0ba.js",
+    "main.js": "/static/js/main.5f62bc08.js",
     "static/media/Apoorva.jpg": "/static/media/Apoorva.e7e66d08dd1063bd43ae.jpg",
     "static/media/prajwal.jpg": "/static/media/prajwal.138c2c314c1c8205e7d7.jpg",
     "static/media/hack4soc.gif": "/static/media/hack4soc.a02e7e1d30ab85655f6e.gif",
@@ -44,16 +44,17 @@
     "static/media/ai-img.png": "/static/media/ai-img.26fbe600a685571de8d7.png",
     "static/media/blockchain.png": "/static/media/blockchain.306626c77d8b6328ab8e.png",
     "static/media/koii.png": "/static/media/koii.df9b65b0788b88396304.png",
+    "static/media/Hack2Skill.jpg": "/static/media/Hack2Skill.9e76be2ac5c6dbb213a4.jpg",
     "static/media/certopus.png": "/static/media/certopus.76bdd21b76a3f7034694.png",
     "static/media/pm.svg": "/static/media/pm.2cf639007a515db634af02ab6c7e304c.svg",
     "index.html": "/index.html",
     "static/media/ham-c.svg": "/static/media/ham-c.8ab7632d2e8f5e05abfb112d11ada71d.svg",
     "static/media/ham.svg": "/static/media/ham.a63ab4de035aef5e3f6e82283f1bae0a.svg",
     "main.a251469e.css.map": "/static/css/main.a251469e.css.map",
-    "main.fcc9f0ba.js.map": "/static/js/main.fcc9f0ba.js.map"
+    "main.5f62bc08.js.map": "/static/js/main.5f62bc08.js.map"
   },
   "entrypoints": [
     "static/css/main.a251469e.css",
-    "static/js/main.fcc9f0ba.js"
+    "static/js/main.5f62bc08.js"
   ]
 }

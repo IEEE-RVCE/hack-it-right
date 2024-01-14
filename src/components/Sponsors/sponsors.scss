@@ -3,6 +3,11 @@
   margin: 5rem;
   transition: 0.3s;
 }
+#platformPartner img{
+  width: 400px;
+  height: 300px;
+  object-fit: contain;
+}
 .Sponsor:hover{
   transform: scale(1.1);
 }
@@ -50,3 +55,63 @@
     0% { transform: translateY(0); }
     100% { transform: translateY(8px); }
   }
+  .Sponsor{
+ 
+  margin: 5rem;
+  transition: 0.3s;
+}
+.PlatformPartner img{
+  width: 400px;
+  height: 300px;
+  object-fit: contain;
+}
+.Sponsor:hover{
+  transform: scale(1.1);
+}
+.Sponsor img{
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    object-fit: contain;
+    margin: 4rem;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.shead{
+    font-size: 6rem;
+    margin-bottom: 6rem;
+   margin-top: -3rem;
+}
+
+.sponsorUS {
+  margin-bottom: 7rem;
+}
+
+/* more smaller */
+@media  (max-width: 570px){
+  .shead{
+    margin-top:0;
+  }
+  .Sponsor img{
+
+  margin-bottom: 3rem;
+}
+}
+  .Sponsor img{
+ 
+   -webkit-animation: mover 1s infinite  alternate;
+   animation: mover 2s infinite  alternate;
+  }
+  @-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(8px); }
+  }
+  @keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(8px); }
+  }
+
+  // ******Platform-Partner******
+  

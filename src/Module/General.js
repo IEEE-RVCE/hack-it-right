@@ -451,12 +451,19 @@ const sponsorLogos = [
     // {src: digitalocean, link: 'https://www.digitalocean.com/'},
     {src: wolfram, link: 'https://www.wolfram.com/'},
     {src: ieeeBangloreSection, link: 'https://ieeebangalore.org/'},
-    {src: hack2Skill, link: 'https://hack2skill.com/'}
+    // {src: hack2Skill, link: 'https://hack2skill.com/'}
     // {src: interviecake, link: 'https://interviewcake.com/'},
     // {src: interviewbuddy, link: 'https://interviewbuddy.in/'},
     // {src: streamyard, link: 'https://streamyard.com/'}
   ]
 ];
+
+const platformPartner =[
+  [
+    {src: hack2Skill, link: 'https://hack2skill.com/'}
+  ]
+]
+
 
 // const titlesponsorLogos = [
 //   [
@@ -577,6 +584,7 @@ export {
   NGOSection,
   Prizeinfo,
   sponsorLogos,
+  platformPartner,
   TeamInfo,
   JudgesInfo,
   frequentlyAskedQuestions,

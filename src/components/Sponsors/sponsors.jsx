@@ -10,6 +10,25 @@ function SponsorsHead() {
   );
 }
 
+function PlatformPartnerHeading() {
+  return (
+    <div>
+      <h1 className="shead">Platform Partner</h1>
+    </div>
+  );
+}
+function PlatformPartner(props) {
+  return (
+    <div className="Sponsor" id="platformPartner">
+      {/*<h3>coming Soon</h3>*/}
+      <a href={props.link} rel="noreferrer" target="_blank">
+        {' '}
+        <img src={props.srcx} alt="hack4soc"></img>
+      </a>
+    </div>
+  );
+}
+
 function Sponsor(props) {
   return (
     <div className="Sponsor">
@@ -48,4 +67,4 @@ function SponsorUS() {
   );
 }
 
-export {SponsorsHead, Sponsor, SponsorUS};
+export {SponsorsHead, Sponsor, SponsorUS, PlatformPartnerHeading,PlatformPartner};

@@ -1,36 +1,70 @@
+/* Timeline.css */
 
-.wrap{
+.wrap {
   max-width: 1210px;
   margin: 50px auto;
   padding: 0 20px;
   position: relative;
 }
-.wrap .center-line{
+
+.wrap .center-line {
   position: absolute;
   height: 100%;
   width: 4px;
-  background: black;
+  background: #333; /* Dark gray background for the center line */
   left: 50%;
   top: 20px;
   transform: translateX(-50%);
 }
-.wrap .row{
+
+.wrap .row {
   display: flex;
+  opacity: 0;
+  transform: translateY(20px) scale(0.95);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+  margin-bottom: 20px;
 }
-.wrap .row-1{
+
+.wrap .row.in-view {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  transition-delay: 0.2s; /* Delay for a smoother animation */
+}
+
+
+.wrap .row-1 {
   justify-content: flex-start;
 }
-.wrap .row-2{
+
+.wrap .row-2 {
   justify-content: flex-end;
 }
-.wrap .row section{
-  background: rgb(237, 237, 237);
-  border-radius: 5px;
+
+.wrap .row section {
   width: calc(50% - 40px);
   padding: 15px;
   position: relative;
+  box-shadow: 0 5px 9px rgba(0, 0, 0, 0.8);
+  transition: box-shadow 0.3s ease, background-color 0.3s ease, transform 0.3s ease, opacity 0.3s ease; /* Updated transition for opacity */
+  border-radius: 10px;
 }
-.wrap .row section::before{
+
+.wrap .row-1 section {
+  background: #441782ea; /* Dark blue background for row-1 */
+  color: #ecf0f1; /* Light text color for better contrast */
+}
+
+.wrap .row-2 section {
+  background: #091b5be4; /* Darker blue background for row-2 */
+  color: #ecf0f1; /* Light text color for better contrast */
+}
+
+.wrap .row:hover section {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Darker box shadow on hover */
+  opacity: 0.9; /* Slightly reduce opacity on hover */
+}
+
+.wrap .row section::before {
   position: absolute;
   content: "";
   height: 15px;
@@ -39,15 +73,19 @@
   top: 28px;
   z-index: -1;
   transform: rotate(45deg);
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Added opacity transition */
 }
-.row-1 section::before{
+
+.row-1 section::before {
   right: -7px;
 }
-.row-2 section::before{
+
+.row-2 section::before {
   left: -7px;
 }
+
 .row section .icon,
-.center-line .scroll-icon{
+.center-line .scroll-icon {
   position: absolute;
   background: #f1f1f1;
   height: 40px;
@@ -57,78 +95,107 @@
   border-radius: 50%;
   color: black;
   font-size: 20px;
-  box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05);
+  box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease; /* Added transition for smooth effect */
 }
-.center-line .scroll-icon{
+
+.center-line .scroll-icon {
   bottom: 0px;
   left: 50%;
   font-size: 15px;
   transform: translateX(-50%);
 }
-.row-1 section .icon{
+
+.row-1 section .icon {
   top: 15px;
   right: -60px;
 }
-.row-2 section .icon{
+
+.row-2 section .icon {
   top: 15px;
   left: -60px;
 }
 
+.row:hover section .icon,
+.row-1:hover section .icon,
+.row-2:hover section .icon,
+.center-line:hover .scroll-icon {
+  transform: scale(1.2); /* Additional rotation on hover */
+}
 
 .row section .details,
-.row section .bottom{
+.row section .bottom {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  transition: opacity 0.3s ease, transform 0.3s ease; /* Updated transition for transform */
 }
-.row section .details .title{
+
+.row:hover section .details,
+.row-1:hover section .details,
+.row-2:hover section .details {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.row section .details .title {
   font-size: 19px;
   font-weight: 600;
 }
-.row section p{
+
+.row section p {
   margin: 10px 0 17px 0;
+  font-size: 14px; /* Adjusted font size for better readability */
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease; /* Fade-in effect */
+}
+.row.in-view section p {
+  opacity: 1;
+  transform: translateY(0);
 }
 
-@media(max-width: 790px){
-  .wrap .center-line{
+@media (max-width: 790px) {
+  .wrap .center-line {
     left: 40px;
   }
-  .wrap .row{
+  .wrap .row {
     margin: 30px 0 3px 60px;
   }
-  .wrap .row section{
+  .wrap .row section {
     width: 100%;
   }
-  .row-1 section::before{
+  .row-1 section::before {
     left: -7px;
   }
-  .row-1 section .icon{
+  .row-1 section .icon {
     left: -60px;
   }
 }
-@media(max-width: 440px){
+
+@media (max-width: 440px) {
   .wrap .center-line,
   .row section::before,
-  .row section .icon{
+  .row section .icon {
     /* display: none; */
   }
-  .wrap .row{
+  .wrap .row {
     margin: 50px 0;
   }
 
-  .wrap .center-line{
+  .wrap .center-line {
     left: 40px;
   }
-  .wrap .row{
+  .wrap .row {
     margin: 40px 0 10px 60px;
   }
-  .wrap .row section{
+  .wrap .row section {
     width: 100%;
   }
-  .row-1 section::before{
+  .row-1 section::before {
     left: -6px;
   }
-  .row-1 section .icon{
+  .row-1 section .icon {
     left: -60px;
   }
 }

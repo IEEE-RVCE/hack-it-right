@@ -49,9 +49,7 @@ function TimeLine() {
   return (
     <div>
       <div class="wrap">
-        <div class="center-line">
-          
-        </div>
+        <div class="center-line"></div>
         <div class="row row-1">
           <section>
             <i class="icon fas fa-home"></i>

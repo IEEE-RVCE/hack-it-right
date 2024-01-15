@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import './about.css';
+
 import {
   HackathonTracks,
   Logo,
@@ -260,11 +261,11 @@ export default function HomePage(props) {
           <NGOCards />
         </Row> */}
         {/*TimeLine Section*/}
-        <PrizeHeading type="Hackathon TimeLine" />
+        <div>
+          <h1 className='myCustomFontSize'>Hackathon Timeline</h1>
+          </div>
         <Row className="timeline justify-content-center" id="timeline">
-        
-          
-           <TimeLine />
+          <TimeLine />
         </Row>
         {/* <Row className="prizesection" id="prizes">
           <PrizeHeading type="Prizes" />

@@ -50,9 +50,7 @@ function TimeLine() {
     <div>
       <div class="wrap">
         <div class="center-line">
-          <a href="#" class="scroll-icon">
-            <i class="fas fa-caret-up"></i>
-          </a>
+          
         </div>
         <div class="row row-1">
           <section>

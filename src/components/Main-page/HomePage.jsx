@@ -259,10 +259,12 @@ export default function HomePage(props) {
           <br />
           <NGOCards />
         </Row> */}
-        TimeLine Section
-        <Row className="timeline" id="timeline">
-          <PrizeHeading type="Hackathon TimeLine" />
-          <TimeLine />
+        {/*TimeLine Section*/}
+        <PrizeHeading type="Hackathon TimeLine" />
+        <Row className="timeline justify-content-center" id="timeline">
+        
+          
+           <TimeLine />
         </Row>
         {/* <Row className="prizesection" id="prizes">
           <PrizeHeading type="Prizes" />

@@ -15,7 +15,7 @@ import {Prizeinfo} from '../../Module/General';
 import {Accordion} from '../FAQ/faq.jsx';
 // import {theme} from "../themes_test/theme.jsx";
 // import {Sponsor, SponsorsHead, SponsorUS} from "../Sponsors/sponsors.jsx";
-import {Sponsor, SponsorsHead, SponsorUS} from '../Sponsors/sponsors.jsx';
+import {Sponsor, SponsorsHead, SponsorUS, PlatformPartner,PlatformPartnerHeading} from '../Sponsors/sponsors.jsx';
 import Birds from '../Birds/birds.jsx';
 import Footer from '../Footer/footer.jsx';
 import {Member} from '../team/team.jsx';
@@ -33,6 +33,7 @@ import {
   TOP_SECTION,
   TeamInfo,
   // JudgesInfo,
+  platformPartner,
   sponsorLogos,
   frequentlyAskedQuestions,
   NGOSection
@@ -58,6 +59,29 @@ function SponsorGroup(props) {
         </Col>
       ))}
       <SponsorUS />
+    </Row>
+  );
+}
+
+// javascript Map for Platform-Partner
+
+function Platform_partner(props) {
+  return (
+    <Row justifyContent="center" alignItems="center">
+      {props.map((s, key) => (
+        <Col
+          key={key}
+          justifyContent="center"
+          alignItems="center"
+          sm={12}
+          lg={4}
+          md={6}
+        >
+          {' '}
+          <PlatformPartner link={s.link} srcx={s.src} />{' '}
+        </Col>
+      ))}
+      
     </Row>
   );
 }
@@ -267,6 +291,12 @@ export default function HomePage(props) {
           </div>
         </Row>*/}
         {/* ********Prizes ending here ***** */}
+        {/* Platform Partner Here */}
+        <Row className="sponsorSection" id="sponsors">
+          <PlatformPartnerHeading />
+          {platformPartner.map(Platform_partner)}
+        </Row>
+
 
         {/* ********Sponsors here ***** */}
 
@@ -290,7 +320,7 @@ export default function HomePage(props) {
             content="Interested in joining our team"
           />
         )} */}
-        {TeamInfo.map(TeamMembers)}
+        {/* {TeamInfo.map(TeamMembers)} */}
         <br />
         <h1 id="faqs">FAQs</h1>
         {/* ********Frequently asked Questions here ***** */}

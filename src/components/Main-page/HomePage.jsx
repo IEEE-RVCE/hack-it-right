@@ -15,7 +15,13 @@ import {Prizeinfo} from '../../Module/General';
 import {Accordion} from '../FAQ/faq.jsx';
 // import {theme} from "../themes_test/theme.jsx";
 // import {Sponsor, SponsorsHead, SponsorUS} from "../Sponsors/sponsors.jsx";
-import {Sponsor, SponsorsHead, SponsorUS, PlatformPartner,PlatformPartnerHeading} from '../Sponsors/sponsors.jsx';
+import {
+  Sponsor,
+  SponsorsHead,
+  SponsorUS,
+  PlatformPartner,
+  PlatformPartnerHeading
+} from '../Sponsors/sponsors.jsx';
 import Birds from '../Birds/birds.jsx';
 import Footer from '../Footer/footer.jsx';
 import {Member} from '../team/team.jsx';
@@ -81,7 +87,6 @@ function Platform_partner(props) {
           <PlatformPartner link={s.link} srcx={s.src} />{' '}
         </Col>
       ))}
-      
     </Row>
   );
 }
@@ -244,25 +249,21 @@ export default function HomePage(props) {
             <TrackCarousel />
           </Col>
         </Row>
-
         {/*Theme Section*/}
         <Row className="prizesection non-coding" id="themes">
           <PrizeHeading type="Presented by" />
           <CollabType />
         </Row>
-
         {/* <Row className="prizesection non-coding">
           <PrizeHeading type="Partnered NGOs" />
           <br />
           <NGOCards />
         </Row> */}
-
         TimeLine Section
-         <Row className="timeline" id="timeline">
+        <Row className="timeline" id="timeline">
           <PrizeHeading type="Hackathon TimeLine" />
           <TimeLine />
-        </Row> 
-
+        </Row>
         {/* <Row className="prizesection" id="prizes">
           <PrizeHeading type="Prizes" />
         </Row>
@@ -280,9 +281,7 @@ export default function HomePage(props) {
             </h4>
           </div>
         </div> */}
-
         <Birds top="100vh" left="0vh" type="" />
-
         {/* *******Prizes here ***** */}
         {/*        <Row className="prizesection" id="prizes">
           <PrizeHeading type="Prizes" /><br/>
@@ -296,22 +295,17 @@ export default function HomePage(props) {
           <PlatformPartnerHeading />
           {platformPartner.map(Platform_partner)}
         </Row>
-
-
         {/* ********Sponsors here ***** */}
-
         <Row className="sponsorSection" id="sponsors">
           <SponsorsHead />
           {sponsorLogos.map(SponsorGroup)}
         </Row>
         {/* ********Sponsors ending here ***** */}
-
         {/* ********Team here ***** */}
         {/* <h1 id="team">Mentor</h1>
 
 
         {JudgesInfo.map(TeamMembers)} */}
-
         <h1 id="teams">Our Team</h1>
         {/* {FOOTER.JOIN_TEAM.required && (
           <JoinTeam

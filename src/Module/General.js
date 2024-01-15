@@ -450,7 +450,7 @@ const sponsorLogos = [
     // },
     // {src: digitalocean, link: 'https://www.digitalocean.com/'},
     {src: wolfram, link: 'https://www.wolfram.com/'},
-    {src: ieeeBangloreSection, link: 'https://ieeebangalore.org/'},
+    {src: ieeeBangloreSection, link: 'https://ieeebangalore.org/'}
     // {src: hack2Skill, link: 'https://hack2skill.com/'}
     // {src: interviecake, link: 'https://interviewcake.com/'},
     // {src: interviewbuddy, link: 'https://interviewbuddy.in/'},
@@ -458,12 +458,7 @@ const sponsorLogos = [
   ]
 ];
 
-const platformPartner =[
-  [
-    {src: hack2Skill, link: 'https://hack2skill.com/'}
-  ]
-]
-
+const platformPartner = [[{src: hack2Skill, link: 'https://hack2skill.com/'}]];
 
 // const titlesponsorLogos = [
 //   [

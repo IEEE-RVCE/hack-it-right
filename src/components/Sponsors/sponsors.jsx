@@ -67,4 +67,10 @@ function SponsorUS() {
   );
 }
 
-export {SponsorsHead, Sponsor, SponsorUS, PlatformPartnerHeading,PlatformPartner};
+export {
+  SponsorsHead,
+  Sponsor,
+  SponsorUS,
+  PlatformPartnerHeading,
+  PlatformPartner
+};

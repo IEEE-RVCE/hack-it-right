@@ -104,6 +104,11 @@ const NAVBAR = () => {
                 </Link>
               </li>
               <li className="liw list--general">
+                <Link to={`#timeline`}>
+                  <span className="links">TimeLine</span>{' '}
+                </Link>
+              </li>
+              <li className="liw list--general">
                 <Link to={`#sponsors`}>
                   <span className="links">Sponsors </span>{' '}
                 </Link>

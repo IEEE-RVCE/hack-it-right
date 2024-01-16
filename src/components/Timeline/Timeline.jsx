@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import './Timeline.css';
 
 function TimeLine() {
@@ -7,7 +7,9 @@ function TimeLine() {
   const handleScroll = () => {
     const currentScroll = window.scrollY;
 
-    if (currentScroll > (window.pageYOffset || document.documentElement.scrollTop)) {
+    if (
+      currentScroll > (window.pageYOffset || document.documentElement.scrollTop)
+    ) {
       setScrollDirection('down');
     } else {
       setScrollDirection('up');
@@ -18,8 +20,8 @@ function TimeLine() {
     const timelineSections = document.querySelectorAll('.wrap .row');
 
     const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
+      entries => {
+        entries.forEach(entry => {
           if (entry.isIntersecting) {
             entry.target.classList.add('in-view');
           } else {
@@ -27,10 +29,10 @@ function TimeLine() {
           }
         });
       },
-      { threshold: 0.5 } // Adjust the threshold as needed
+      {threshold: 0.5} // Adjust the threshold as needed
     );
 
-    timelineSections.forEach((section) => {
+    timelineSections.forEach(section => {
       observer.observe(section);
     });
 
@@ -38,7 +40,7 @@ function TimeLine() {
 
     // Cleanup observer and scroll event listener on component unmount
     return () => {
-      timelineSections.forEach((section) => {
+      timelineSections.forEach(section => {
         observer.unobserve(section);
       });
       window.removeEventListener('scroll', handleScroll);
@@ -47,11 +49,7 @@ function TimeLine() {
   return (
     <div>
       <div class="wrap">
-        <div class="center-line">
-          <a href="#" class="scroll-icon">
-            <i class="fas fa-caret-up"></i>
-          </a>
-        </div>
+        <div class="center-line"></div>
         <div class="row row-1">
           <section>
             <i class="icon fas fa-home"></i>
@@ -62,8 +60,9 @@ function TimeLine() {
               </span>
             </div>
             <p className="timeline_text" style={{fontSize: '14px'}}>
-            Hack4Soc 2.0 , the second iteration of our 24-hour flagship national-level hackathon, is opening its registration from 16th January 2024. Hurry up! Register soon! 
-
+              Hack4Soc 2.0 , the second iteration of our 24-hour flagship
+              national-level hackathon, is opening its registration from 16th
+              January 2024. Hurry up! Register soon!
             </p>
           </section>
         </div>
@@ -77,7 +76,8 @@ function TimeLine() {
               </span>
             </div>
             <p className="timeline_text" style={{fontSize: '14px'}}>
-            The registrations are going to be closed on 27th January. Register if you have not already!
+              The registrations are going to be closed on 27th January. Register
+              if you have not already!
             </p>
           </section>
         </div>
@@ -91,9 +91,8 @@ function TimeLine() {
               </span>
             </div>
             <p className="timeline_text" style={{fontSize: '14px'}}>
-            Announcing the Shortlisted Teams<br></br> 
-            Teams shortlisted for the offline event, get ready!
-
+              Announcing the Shortlisted Teams<br></br>
+              Teams shortlisted for the offline event, get ready!
             </p>
           </section>
         </div>
@@ -107,13 +106,11 @@ function TimeLine() {
               </span>
             </div>
             <p className="timeline_text" style={{fontSize: '14px'}}>
-            Teams shortlisted for the offline event, get ready!
-
-
+              Teams shortlisted for the offline event, get ready!
             </p>
           </section>
         </div>
-         <div class="row row-1">
+        <div class="row row-1">
           <section>
             <i class="icon fas fa-paper-plane"></i>
             <div class="details">
@@ -123,8 +120,7 @@ function TimeLine() {
               </span>
             </div>
             <p className="timeline_text" style={{fontSize: '14px'}}>
-            The main event day! Teams compete and hack the event.
-
+              The main event day! Teams compete and hack the event.
             </p>
           </section>
         </div>

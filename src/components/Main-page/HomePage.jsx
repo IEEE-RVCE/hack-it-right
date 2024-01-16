@@ -262,8 +262,8 @@ export default function HomePage(props) {
         </Row> */}
         {/*TimeLine Section*/}
         <div>
-          <h1 className='myCustomFontSize'>Hackathon Timeline</h1>
-          </div>
+          <h1 className="myCustomFontSize">Hackathon Timeline</h1>
+        </div>
         <Row className="timeline justify-content-center" id="timeline">
           <TimeLine />
         </Row>
@@ -309,7 +309,7 @@ export default function HomePage(props) {
 
 
         {JudgesInfo.map(TeamMembers)} */}
-        <h1 id="teams">Our Team</h1>
+        {/* <h1 id="teams">Our Team</h1> */}
         {/* {FOOTER.JOIN_TEAM.required && (
           <JoinTeam
             placeholder="Join our team"

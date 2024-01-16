@@ -309,7 +309,7 @@ export default function HomePage(props) {
 
 
         {JudgesInfo.map(TeamMembers)} */}
-        <h1 id="teams">Our Team</h1>
+        {/* <h1 id="teams">Our Team</h1> */}
         {/* {FOOTER.JOIN_TEAM.required && (
           <JoinTeam
             placeholder="Join our team"

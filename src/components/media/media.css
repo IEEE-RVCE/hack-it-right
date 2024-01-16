@@ -1,11 +1,18 @@
 .media {
   color: white;
+  display: flex; /* Change to flexbox */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index:10; 
+  
 }
 .single {
   display: inline-block;
   margin-left: 25px;
   margin-right: 25px;
   cursor: pointer;
+  z-index:10; 
 }
 .single a {
   color: rgba(231, 228, 228);
@@ -15,7 +22,7 @@
 }
 .single a:hover {
   color: white;
-  top: -5px;
+  transform: translateY(-5px);
 }
 @media (max-width: 570px) {
   .single {

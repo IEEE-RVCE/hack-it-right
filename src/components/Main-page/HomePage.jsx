@@ -262,8 +262,8 @@ export default function HomePage(props) {
         </Row> */}
         {/*TimeLine Section*/}
         <div>
-          <h1 className='myCustomFontSize'>Hackathon Timeline</h1>
-          </div>
+          <h1 className="myCustomFontSize">Hackathon Timeline</h1>
+        </div>
         <Row className="timeline justify-content-center" id="timeline">
           <TimeLine />
         </Row>

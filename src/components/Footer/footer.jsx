@@ -55,13 +55,11 @@ export default function Footer() {
               <img src={logo} className="imgfooter" />
               <span class="logo_name">&nbsp;Hack4Soc 2.0</span>
             </div>
+            <div class="middle">
+            <img src="./images/IEEE RVCE Computer Society Logo (1).png" className="compsocLogo" />
+            </div>
             <div class="media-icons">
-              <a target="_blank" href={SOCIALS.discord} rel="noreferrer">
-                <i class="iconlink fab fa-discord"></i>
-              </a>
-              <a target="_blank" href={SOCIALS.twitter} rel="noreferrer">
-                <i class="iconlink fab fa-twitter"></i>
-              </a>
+             
               <a target="_blank" href={SOCIALS.instagram} rel="noreferrer">
                 <i class="iconlink fab fa-instagram"></i>
               </a>
@@ -73,20 +71,7 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          <div
-            class="link-boxes"
-            style={{display: 'flex', justifyContent: 'center'}}
-          >
-            <ul class="box1 input-box1">
-              {/*<li class="link_name">Subscribe</li>*/}
-              {/* <img src={IEEE_RVCE_Logo_Blue} className="imgfooterdsc" /> */}
-              <img
-                src="./images/IEEE RVCE Computer Society Logo (1).png"
-                alt="IEEE Computer Society"
-                className="imgfooterdsc"
-              />
-            </ul>
-          </div>
+          
         </div>
         <div class="bottom-details">
           <div class="bottom_text">

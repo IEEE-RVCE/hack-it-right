@@ -33,9 +33,14 @@ export default function Media() {
               <i className="fab fa-3x fa-linkedin-in"></i>
             </a>
           </div>
-          <div className='single'><a target="_blank" href={SOCIALS.email} rel="noreferrer">
-                <i class="iconlink fa-solid fa-3x fa-envelope" style={{color:'white'}}></i>
-              </a></div>
+          <div className="single">
+            <a target="_blank" href={SOCIALS.email} rel="noreferrer">
+              <i
+                class="iconlink fa-solid fa-3x fa-envelope"
+                style={{color: 'white'}}
+              ></i>
+            </a>
+          </div>
         </div>
       </div>
     </div>

@@ -37,8 +37,22 @@ function Myinfo() {
         {/* <p className="shortjoin" style={{fontSize: 30, fontWeight: 500}}>
           {TOP_SECTION.KNOW_MORE}
         </p> */}
-        <a href='https://hack2skill.com/hack/hack4soc' target='_blank' rel='noreferrer'>
-        <button style={{backgroundColor:'transparent',borderWidth:'2px',borderStyle:'solid',borderRadius:'20px',fontSize:20}}>Register Now</button>
+        <a
+          href="https://hack2skill.com/hack/hack4soc"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button
+            style={{
+              backgroundColor: 'transparent',
+              borderWidth: '2px',
+              borderStyle: 'solid',
+              borderRadius: '20px',
+              fontSize: 20
+            }}
+          >
+            Register Now
+          </button>
         </a>
         <br />
         <br />

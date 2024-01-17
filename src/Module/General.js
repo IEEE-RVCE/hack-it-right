@@ -542,41 +542,40 @@ const frequentlyAskedQuestions = [
         label: 'Who is organising Hack4Soc 2.0?',
         content:
           'Hack4Soc 2.0 is orchestrated by the IEEE RVCE Computer Society, a dynamic organization at RV College of Engineering. This event exemplifies their commitment to fostering innovation and collaboration in the realm of technology.'
-      },,
+      },
+      ,
       {
         label: 'Question not found?',
-        content:
-          "If you have questions,reach out to hack4soc@gmail.com"
-          
-      },
-      
-      
+        content: 'If you have questions,reach out to hack4soc@gmail.com'
+      }
     ],
     [
       {
-        label: 'Is physical presence required at the venue for the hackathon, or can I attend online if the rest of my team is participating virtually?',
+        label:
+          'Is physical presence required at the venue for the hackathon, or can I attend online if the rest of my team is participating virtually?',
         content:
           'To participate, you and your team must be at RVCE, Bangalore, for the entire 24-hour hackathon on February 3rd and 4th, 2024. It is essential to stay within the college campus during the event.'
-          //question not found label(previously)
-      },
-       {
-        label: 'Will the organizers furnish essential needs like food, refreshments, and internet for both days of Hack4Soc 2.0?',
-        content:
-          "Absolutely! The Hack4Soc 2.0 organizers will manage provisions for breakfast, lunch, snacks, and dinner on Day 1, as well as breakfast on Day 2. High-speed Wi-Fi will be available for all participants. You're welcome to bring your own broadband/hotspot devices for added convenience."
+        //question not found label(previously)
       },
       {
         label:
-          'Is there a registration fee for the event',
+          'Will the organizers furnish essential needs like food, refreshments, and internet for both days of Hack4Soc 2.0?',
         content:
-          'No, registering for the event is free of charge. However, teams shortlisted for the second round will be required to pay Rs. 1000 per team.'
+          'Ensure you have your valid university ID card, a signed parental consent form (to be provided), and a signed college authorization letter (for non-RVCE students). Remember to bring your laptops, chargers, and any necessary hardware for your hack. Personal toiletries are also recommended. Note that firearms, weapons, alcohol, or illegal drugs are not permitted on campus. If selected, you will receive a detailed code of conduct.'
       },
-     
+      {
+        label: 'Is there a registration fee for the event',
+        content:
+          "Absolutely! The Hack4Soc 2.0 organizers will manage provisions for breakfast, lunch, snacks, and dinner on Day 1, as well as breakfast on Day 2. High-speed Wi-Fi will be available for all participants. You're welcome to bring your own broadband/hotspot devices for added convenience."
+      },
+
       {
         label: 'How are teams shortlisted?',
+        label: 'How are teams shortlisted?',
         content:
-          "A proficient panel comprising seasoned mentors, professors, and industry professionals will meticulously review all idea submissions across various themes. The top ideas will be shortlisted, and these teams will be invited to the offline hackathon to develop their prototypes."
-          
-      },{
+          'A proficient panel comprising seasoned mentors, professors, and industry professionals will meticulously review all idea submissions across various themes. The top ideas will be shortlisted, and these teams will be invited to the offline hackathon to develop their prototypes.'
+      },
+      {
         label: 'What should I bring for the hackathon?',
         content:
           'Ensure you have your valid university ID card, a signed parental consent form (to be provided), and a signed college authorization letter (for non-RVCE students). Remember to bring your laptops, chargers, and any necessary hardware for your hack. Personal toiletries are also recommended. Note that firearms, weapons, alcohol, or illegal drugs are not permitted on campus. If selected, you will receive a detailed code of conduct.'

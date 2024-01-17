@@ -9,7 +9,7 @@ class Panel extends React.Component {
 
     this.state = {
       height: 0,
-      mainHeight:0
+      mainHeight: 0
     };
   }
 
@@ -19,10 +19,10 @@ class Panel extends React.Component {
       const height = el.querySelector('.panel__inner').scrollHeight;
       const mainHeight = el.querySelector('.panel__label').scrollHeight;
       console.log('Height:', height);
-    console.log('MainHeight:', mainHeight);
+      console.log('MainHeight:', mainHeight);
       this.setState({
-        height:height,
-        mainHeight:mainHeight
+        height: height,
+        mainHeight: mainHeight
       });
     }, 400);
   }
@@ -30,19 +30,25 @@ class Panel extends React.Component {
   render() {
     console.log('Render State:', this.state);
     const {label, content, activeTab, index, activateTab} = this.props;
-    const {height,mainHeight} = this.state;
+    const {height, mainHeight} = this.state;
     const isActive = activeTab === index;
     const innerStyle = {
       height: `${isActive ? height : 0}px`
     };
     const outerStyle = {
-      height: `${!isActive ? (mainHeight>54?(mainHeight + 60):mainHeight) : 0}px`,
+      height: `${
+        !isActive ? (mainHeight > 54 ? mainHeight + 60 : mainHeight) : 0
+      }px`
     };
 
-
     return (
-      <div className="panel" role="tabpanel"  aria-expanded={isActive}>
-        <button className="panel__label"  style={outerStyle} role="tab"  onClick={activateTab}>
+      <div className="panel" role="tabpanel" aria-expanded={isActive}>
+        <button
+          className="panel__label"
+          style={outerStyle}
+          role="tab"
+          onClick={activateTab}
+        >
           <p
             style={{
               position: 'absolute',

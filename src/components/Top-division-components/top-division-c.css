@@ -267,3 +267,20 @@ button:hover .overlay {
     width: "12px";
   }
 }
+
+.registerButton{
+  transition: box-shadow 0.3s,text-shadow 0.3s,color 0.3s;
+}
+.registerButton:hover{
+  /* background-color: rgba(52, 152, 219, 0.2); Semi-transparent darker background on hover */
+  /* color: greenyellow; */
+  /* filter: brightness(90%); Darken the button on hover */
+  color: #eb89ff;
+  box-shadow: 0 0 15px #eb89ff;
+  text-shadow: 0 0 15px #eb89ff;
+}
+.registerButton:active{
+  color: #eb89ff;
+  box-shadow: 0 0 15px #eb89ff;
+  text-shadow: 0 0 15px #eb89ff;
+}

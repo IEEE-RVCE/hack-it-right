@@ -26,6 +26,8 @@
   transition: color 0.1s linear;
   cursor: pointer;
   color: black;
+  overflow: hidden;
+  will-change: height;
 }
 
 .panel__label:focus {

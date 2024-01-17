@@ -49,7 +49,8 @@ function Myinfo() {
               borderStyle: 'solid',
               borderRadius: '20px',
               fontSize: 20
-            }} className='registerButton'
+            }}
+            className="registerButton"
           >
             Register Now
           </button>

@@ -521,51 +521,61 @@ const frequentlyAskedQuestions = [
       {
         label: 'What is a hackathon?',
         content:
-          'A hackathon is a 24 hour event where "hackers" will collaborate on creating a functional prototype software or hardware by the end of the event'
+          'A hackathon is a collaborative event where participants work within a set timeframe to create innovative software or hardware projects, fostering creativity and competition. The projects are presented at the end for recognition and awards.'
       },
       {
-        label: 'Who can attend?',
+        label: 'I am a first time hacker. Can I participate?',
         content:
-          'Hack4Soc 2.0 is open to all undergraduate, high school students, and middle school students from all schools'
+          'Certainly! A hackathon is a great opportunity for first-time hackers to learn new skills, take initiative, and contribute to societal advancement through innovative projects.'
       },
       {
-        label: 'I am a first time hacker, what should I do?',
+        label: 'Who all can participate?',
         content:
-          'No worries, we love to welcome first-time hackers and start their hacking journey from a hackathon. We have some awesome workshops and events which will help you get started with hackathons and hacking in general'
+          'Participation is open to all currently enrolled engineering students from any institute across India.'
       },
       {
-        label: 'How do I form teams?',
+        label: 'How many participants are allowed per team?',
         content:
-          'Each team needs to have 3 participants at least, and 4 participants at max'
+          'Teams must consist of a minimum of 3 participants and a maximum of 4 participants.'
       }
     ],
     [
       {
-        label: 'How do I register?',
+        label: "Who's organising Hack4Soc 2 0?",
         content:
           // 'All you need is to register yourself on devfolio and join discord, we will guide you through everything there.'
-          'Registrations will be opened soon'
-      },
-      {
-        label: 'Question not found?',
-        content:
-          'Do not hesitate to reach out to prajwalmp.ai21@rvce.edu.in for more queries'
+          'Hack4Soc 2.0 is orchestrated by the IEEE RVCE Computer Society, a dynamic organization at RV College of Engineering. This event exemplifies their commitment to fostering innovation and collaboration in the realm of technology.'
       },
       {
         label:
-          'Can I make a team with my friends from different streams and colleges?',
+          'Is physical presence required at the venue for the hackathon, or can I attend online if the rest of my team is participating virtually?',
         content:
-          'All members of the team should be a part of the same institution/college (different campuses, if any, will be considered as one)'
+          "To participate, you and your team must be at RVCE, Bangalore, for the entire 24-hour hackathon on February 3rd and 4th, 2024. It's essential to stay within the college campus during the event."
       },
       {
-        label: 'Is there any registration fee for participation?',
+        label: 'Is there a registration fee for the event?',
         content:
-          'You do not have to pay any fee to apply for the hackathon and make your idea submission. However, the shortlisted top 40 teams will be required to pay a nominal fee, which will be communicated further'
+          'No, registering for the event is free of charge. However, teams shortlisted for the second round will be required to pay Rs. 1000 per team.'
       },
       {
-        label: 'Will there be swag?',
+        label: 'What should I bring for the hackathon?',
         content:
-          'Yes, participants and winners will receive swags, certificates, promo codes, and much more!'
+          'Ensure you have your valid university ID card, a signed parental consent form (to be provided), and a signed college authorization letter (for non-RVCE students). Remember to bring your laptops, chargers, and any necessary hardware for your hack. Personal toiletries are also recommended. Note that firearms, weapons, alcohol, or illegal drugs are not permitted on campus. If selected, you will receive a detailed code of conduct.'
+      },
+      {
+        label:
+          'Will the organizers furnish essential needs like food, refreshments, and internet for both days of Hack4Soc 2.0?',
+        content:
+          "Absolutely! The Hack4Soc 2.0 organizers will manage provisions for breakfast, lunch, snacks, and dinner on Day 1, as well as breakfast on Day 2. High-speed Wi-Fi will be available for all participants. You're welcome to bring your own broadband/hotspot devices for added convenience."
+      },
+      {
+        label: 'How are teams shortlisted?',
+        content:
+          'A proficient panel comprising seasoned mentors, professors, and industry professionals will meticulously review all idea submissions across various themes. The top ideas will be shortlisted, and these teams will be invited to the offline hackathon to develop their prototypes.'
+      },
+      {
+        label: 'Question not found?',
+        content: 'If you have questions, reach out to hack4soc@gmail.com.'
       }
     ]
   ]

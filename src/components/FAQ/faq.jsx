@@ -8,7 +8,8 @@ class Panel extends React.Component {
     super(props);
 
     this.state = {
-      height: 0
+      height: 0,
+      mainHeight: 0
     };
   }
 
@@ -16,24 +17,39 @@ class Panel extends React.Component {
     window.setTimeout(() => {
       const el = ReactDOM.findDOMNode(this);
       const height = el.querySelector('.panel__inner').scrollHeight;
+      const mainHeight = el.querySelector('.panel__label').scrollHeight;
+      console.log('Height:', height);
+      console.log('MainHeight:', mainHeight);
       this.setState({
-        height
+        height: height,
+        mainHeight: mainHeight
       });
     }, 400);
   }
 
   render() {
+    console.log('Render State:', this.state);
     const {label, content, activeTab, index, activateTab} = this.props;
-    const {height} = this.state;
+    const {height, mainHeight} = this.state;
     const isActive = activeTab === index;
     const innerStyle = {
       height: `${isActive ? height : 0}px`
     };
+    const outerStyle = {
+      height: `${
+        !isActive ? (mainHeight > 54 ? mainHeight + 60 : mainHeight) : 0
+      }px`
+    };
 
     return (
       <div className="panel" role="tabpanel" aria-expanded={isActive}>
-        <button className="panel__label" role="tab" onClick={activateTab}>
-          <div
+        <button
+          className="panel__label"
+          style={outerStyle}
+          role="tab"
+          onClick={activateTab}
+        >
+          <p
             style={{
               position: 'absolute',
               top: '50%',
@@ -42,7 +58,7 @@ class Panel extends React.Component {
             }}
           >
             {label}
-          </div>
+          </p>
         </button>
         <div
           className="panel__inner"

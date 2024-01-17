@@ -279,3 +279,8 @@ button:hover .overlay {
   box-shadow: 0 0 15px #eb89ff;
   text-shadow: 0 0 15px #eb89ff;
 }
+.registerButton:active{
+  color: #eb89ff;
+  box-shadow: 0 0 15px #eb89ff;
+  text-shadow: 0 0 15px #eb89ff;
+}

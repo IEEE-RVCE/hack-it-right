@@ -178,17 +178,20 @@ button:hover .overlay {
   .AboutMe {
     text-align: center;
   }
-  .dev-button{
-      font-size: 10px;
-      font-weight: 500;
-      width: 60%;
+  .dev-button {
+    font-size: 10px;
+    font-weight: 500;
+    width: 60%;
   }
-  .dis-button{
-      width: 30%;
+  .dis-button {
+    width: 30%;
   }
-  .svgbtn{
-    height: "12px";
-    width: "12px";
+  .svgbtn {
+    height: 12px;
+    width: 12px;
+  }
+  .registerButton {
+    block-size: 80%;
   }
 }
 
@@ -203,17 +206,20 @@ button:hover .overlay {
   .Myinfo p {
     font-size: 1.6rem;
   }
-  .dev-button{
-      font-size: 15px;
-      font-weight: 500;
-      width: 50%;
+  .dev-button {
+    font-size: 15px;
+    font-weight: 500;
+    width: 50%;
   }
-  .dis-button{
-      width: 20%;
+  .dis-button {
+    width: 20%;
   }
-  .svgbtn{
-    height: "12px";
-    width: "12px";
+  .svgbtn {
+    height: 12px;
+    width: 12px;
+  }
+  .registerButton {
+    block-size: 80%;
   }
 }
 
@@ -228,18 +234,21 @@ button:hover .overlay {
   .Myinfo p {
     font-size: 1.6rem;
   }
-  .dev-button{
-      font-size: 15px;
-      font-weight: 500;
-      width: 70%;
+  .dev-button {
+    font-size: 15px;
+    font-weight: 500;
+    width: 70%;
   }
-  .dis-button{
-      width: 25%;
-      top: 10px;
+  .dis-button {
+    width: 25%;
+    top: 10px;
   }
-  .svgbtn{
-    height: "12px";
-    width: "12px";
+  .svgbtn {
+    height: 12px;
+    width: 12px;
+  }
+  .registerButton {
+    block-size: 80%;
   }
 }
 
@@ -254,30 +263,49 @@ button:hover .overlay {
   .Myinfo p {
     font-size: 1.6rem;
   }
-  .dev-button{
-      font-size: 10px;
-      font-weight: 500;
-      width: 70%;
+  .dev-button {
+    font-size: 10px;
+    font-weight: 500;
+    width: 70%;
   }
-  .dis-button{
-      width: 25%;
+  .dis-button {
+    width: 25%;
   }
-  .svgbtn{
-    height: "12px";
-    width: "12px";
+  .svgbtn {
+    height: 12px;
+    width: 12px;
+  }
+  .registerButton {
+    block-size: 80%;
   }
 }
 
-.registerButton{
-  transition: box-shadow 0.3s,text-shadow 0.3s,color 0.3s;
+
+.registerButton {
+  background-color: transparent;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 20px;
+  width: 600px;
+  height: 150px;
+  font-size: 40px;
+  box-shadow: 0 0 15px #ff5aa2 ;
+  text-shadow: 0 0 15px #ff5aa2 ;
+  color: #ff5aa2;
+  transition: box-shadow 0.3s, text-shadow 0.3s, color 0.3s, width 0.5s, height 0.5s,font-size 0.5s;
 }
+
+
 .registerButton:hover{
   /* background-color: rgba(52, 152, 219, 0.2); Semi-transparent darker background on hover */
   /* color: greenyellow; */
   /* filter: brightness(90%); Darken the button on hover */
-  color: #eb89ff;
-  box-shadow: 0 0 15px #eb89ff;
-  text-shadow: 0 0 15px #eb89ff;
+  color: #9013fe;
+  box-shadow: 0 0 15px #9013fe;
+  text-shadow: 0 0 15px #9013fe;
+  width: 620px;
+  height:160px;
+  font-size: 45px;
 }
 .registerButton:active{
   color: #eb89ff;

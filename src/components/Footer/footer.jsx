@@ -56,10 +56,12 @@ export default function Footer() {
               <span class="logo_name">&nbsp;Hack4Soc 2.0</span>
             </div>
             <div class="middle">
-            <img src="./images/IEEE RVCE Computer Society Logo (1).png" className="compsocLogo" />
+              <img
+                src="./images/IEEE RVCE Computer Society Logo (1).png"
+                className="compsocLogo"
+              />
             </div>
             <div class="media-icons">
-             
               <a target="_blank" href={SOCIALS.instagram} rel="noreferrer">
                 <i class="iconlink fab fa-instagram"></i>
               </a>
@@ -71,7 +73,6 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          
         </div>
         <div class="bottom-details">
           <div class="bottom_text">

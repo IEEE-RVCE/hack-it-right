@@ -18,28 +18,24 @@ export default function Media() {
         </div>
         <div>
           <div className="single">
-           
             <a
               aria-label="Instagram Link"
               rel="noreferrer"
               target="_blank"
               href={SOCIALS.instagram}
-              
             >
               <i className="fab fa-3x fa-instagram"></i>
             </a>
-            
           </div>
-
-         
 
           <div className="single">
             <a rel="noreferrer" target="_blank" href={SOCIALS.linkedin}>
               <i className="fab fa-3x fa-linkedin-in"></i>
             </a>
           </div>
-       
-        
+          <div className='single'><a target="_blank" href={SOCIALS.email} rel="noreferrer">
+                <i class="iconlink fa-solid fa-3x fa-envelope" style={{color:'white'}}></i>
+              </a></div>
         </div>
       </div>
     </div>

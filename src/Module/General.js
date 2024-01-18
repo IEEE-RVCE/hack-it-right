@@ -536,7 +536,7 @@ const frequentlyAskedQuestions = [
       {
         label: 'How many participants are allowed per team?',
         content:
-          'Teams must consist of a minimum of 3 participants and a maximum of 4 participants.'
+          'Teams must consist of a minimum of 2 participants and a maximum of 4 participants.'
       }
     ],
     [

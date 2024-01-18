@@ -120,7 +120,7 @@ function TimeLine() {
               </span>
             </div>
             <p className="timeline_text" style={{fontSize: '14px'}}>
-              The main event day! Teams compete and hack the event.
+              The main event day! Teams compete for the grand prize!.
             </p>
           </section>
         </div>

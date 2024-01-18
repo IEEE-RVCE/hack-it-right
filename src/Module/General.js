@@ -75,7 +75,7 @@ const SOCIALS = {
 };
 
 const MIDDLE_SECTION = {
-  TITLE: 'What is Hac4Soc 2.0?',
+  TITLE: 'What is Hack4Soc 2.0?',
   LONG_DESCRIPTION:
     'Hack4soc 2.0 is an inter-college hackathon organized by IEEE RVCE Computer Society. Teams from colleges across the country will be invited to build solutions addressing various problem statements with a humanitarian theme , aiming to claim the prize.',
   LOGO_EFFECT: true,

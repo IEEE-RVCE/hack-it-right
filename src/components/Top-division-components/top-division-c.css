@@ -286,8 +286,8 @@ button:hover .overlay {
   border-width: 2px;
   border-style: solid;
   border-radius: 20px;
-  width: 600px;
-  height: 150px;
+  width: 350px;
+  height: 130px;
   font-size: 40px;
   box-shadow: 0 0 15px #ff5aa2 ;
   text-shadow: 0 0 15px #ff5aa2 ;
@@ -303,8 +303,8 @@ button:hover .overlay {
   color: #9013fe;
   box-shadow: 0 0 15px #9013fe;
   text-shadow: 0 0 15px #9013fe;
-  width: 620px;
-  height:160px;
+  width: 400px;
+  height:150px;
   font-size: 45px;
 }
 .registerButton:active{

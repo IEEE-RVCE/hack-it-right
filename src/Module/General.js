@@ -537,6 +537,17 @@ const frequentlyAskedQuestions = [
         label: 'How many participants are allowed per team?',
         content:
           'Teams must consist of a minimum of 2 participants and a maximum of 4 participants.'
+      },
+      {
+        label:
+          'Will the organizers furnish essential needs like food, refreshments, and internet for both days of Hack4Soc 2.0?',
+        content:
+          "Absolutely! The Hack4Soc 2.0 organizers will manage provisions for breakfast, lunch, snacks, and dinner on Day 1, as well as breakfast on Day 2. High-speed Wi-Fi will be available for all participants. You're welcome to bring your own broadband/hotspot devices for added convenience."
+      },
+      {
+        label: 'How are teams shortlisted?',
+        content:
+          'A proficient panel comprising seasoned mentors, professors, and industry professionals will meticulously review all idea submissions across various themes. The top ideas will be shortlisted, and these teams will be invited to the offline hackathon to develop their prototypes.'
       }
     ],
     [
@@ -562,17 +573,7 @@ const frequentlyAskedQuestions = [
         content:
           'Ensure you have your valid university ID card, a signed parental consent form (to be provided), and a signed college authorization letter (for non-RVCE students). Remember to bring your laptops, chargers, and any necessary hardware for your hack. Personal toiletries are also recommended. Note that firearms, weapons, alcohol, or illegal drugs are not permitted on campus. If selected, you will receive a detailed code of conduct.'
       },
-      {
-        label:
-          'Will the organizers furnish essential needs like food, refreshments, and internet for both days of Hack4Soc 2.0?',
-        content:
-          "Absolutely! The Hack4Soc 2.0 organizers will manage provisions for breakfast, lunch, snacks, and dinner on Day 1, as well as breakfast on Day 2. High-speed Wi-Fi will be available for all participants. You're welcome to bring your own broadband/hotspot devices for added convenience."
-      },
-      {
-        label: 'How are teams shortlisted?',
-        content:
-          'A proficient panel comprising seasoned mentors, professors, and industry professionals will meticulously review all idea submissions across various themes. The top ideas will be shortlisted, and these teams will be invited to the offline hackathon to develop their prototypes.'
-      },
+
       {
         label: 'Question not found?',
         content: 'If you have questions, reach out to hack4soc@gmail.com.'

@@ -19,6 +19,10 @@ import ieeeBangloreSection from './Assets/sponsorsLogos/IEEEbangloreSection.jpg'
 import hack2Skill from './Assets/sponsorsLogos/Hack2Skill.jpg';
 import digitalocean from './Assets/sponsorsLogos/do.png';
 import postman from './Assets/sponsorsLogos/pm.svg';
+import axure from "./Assets/sponsorsLogos/axure.png";
+import echo3D from "./Assets/sponsorsLogos/echo3D.jpeg";
+import chegu from "./Assets/sponsorsLogos/chegu.png";
+import bindu from "./Assets/sponsorsLogos/bindu.png"
 
 //Organisation team
 //import ashok from './Assets/teami/ashok_sir.jpg';
@@ -444,17 +448,12 @@ const JudgesInfo = [
 
 const sponsorLogos = [
   [
-    // {
-    //   src: 'https://icdds.org/img/IEEE-CS-BangaloreChapterOrange.png',
-    //   link: 'https://cs.ieeebangalore.org/'
-    // },
-    // {src: digitalocean, link: 'https://www.digitalocean.com/'},
+    {src:axure  , link:"https://www.axure.com/"},
+    {src:echo3D , link:"https://www.echo3d.com/"},
+    {src:chegu , link:"https://chegufoods.com/"},
+    {src:bindu , link:"https://www.sgcorporates.com/bindu-jeera.html#Home"},
     {src: wolfram, link: 'https://www.wolfram.com/'},
     {src: ieeeBangloreSection, link: 'https://ieeebangalore.org/'}
-    // {src: hack2Skill, link: 'https://hack2skill.com/'}
-    // {src: interviecake, link: 'https://interviewcake.com/'},
-    // {src: interviewbuddy, link: 'https://interviewbuddy.in/'},
-    // {src: streamyard, link: 'https://streamyard.com/'}
   ]
 ];
 

@@ -448,12 +448,12 @@ const JudgesInfo = [
 
 const sponsorLogos = [
   [
-    {src:axure  , link:"https://www.axure.com/"},
-    {src:echo3D , link:"https://www.echo3d.com/"},
-    {src:chegu , link:"https://chegufoods.com/"},
-    {src:bindu , link:"https://www.sgcorporates.com/bindu-jeera.html#Home"},
-    {src: wolfram, link: 'https://www.wolfram.com/'},
-    {src: ieeeBangloreSection, link: 'https://ieeebangalore.org/'}
+    {src:axure  , link:"https://www.axure.com/",type:""},
+    {src:echo3D , link:"https://www.echo3d.com/",type:""},
+    {src: wolfram, link: 'https://www.wolfram.com/',type:""},
+    {src: ieeeBangloreSection, link: 'https://ieeebangalore.org/',type:""},
+    {src:bindu , link:"https://www.sgcorporates.com/bindu-jeera.html#Home",type:"food"},
+    {src:chegu , link:"https://chegufoods.com/",type:"food"},
   ]
 ];
 

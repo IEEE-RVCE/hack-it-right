@@ -50,9 +50,12 @@ import NGOCard from 'components/NGOCard/NGOCard.jsx';
 // javascript Map for sponsors
 
 function SponsorGroup(props) {
-  return (
+  const allSponsors = props.filter(s => s.type !== "food");
+  const foodSponsors = props.filter(s => s.type === "food");
+
+  return (<>
     <Row justifyContent="center" alignItems="center">
-      {props.map((s, key) => (
+      {/* {props.map((s, key) => (
         <Col
           key={key}
           justifyContent="center"
@@ -62,11 +65,41 @@ function SponsorGroup(props) {
           md={6}
         >
           {' '}
-          <Sponsor link={s.link} srcx={s.src} />{' '}
+          {!(s.type==="food")?( <Sponsor link={s.link} srcx={s.src} /> ):null}
+          <h3>Food Sponsors</h3>
+          {(s.type==="food")?( <Sponsor link={s.link} srcx={s.src} /> ):null}
+          
+              {' '}
         </Col>
-      ))}
-      <SponsorUS />
-    </Row>
+      ))} */}
+    {allSponsors.map((s, key) => (
+      <Col
+        key={key}
+        justifyContent="center"
+        alignItems="center"
+        sm={12}
+        lg={4}
+        md={6}
+      >
+        <Sponsor link={s.link} srcx={s.src} />
+      </Col>
+    ))}</Row>
+    <div><h1 style={{ fontSize: '35px' }}>Food Sponsors</h1></div>
+    <Row justifyContent="center" alignItems="center"></Row>
+    {foodSponsors.map((s, key) => (
+      <Col
+        key={key}
+        justifyContent="center"
+        alignItems="center"
+        sm={12}
+        lg={4}
+        md={6}
+      > 
+        <Sponsor link={s.link} srcx={s.src} />
+      </Col>
+    ))}
+  <SponsorUS />
+    <Row/></>
   );
 }
 

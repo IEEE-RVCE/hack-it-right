@@ -50,12 +50,13 @@ import NGOCard from 'components/NGOCard/NGOCard.jsx';
 // javascript Map for sponsors
 
 function SponsorGroup(props) {
-  const allSponsors = props.filter(s => s.type !== "food");
-  const foodSponsors = props.filter(s => s.type === "food");
+  const allSponsors = props.filter(s => s.type !== 'food');
+  const foodSponsors = props.filter(s => s.type === 'food');
 
-  return (<>
-    <Row justifyContent="center" alignItems="center">
-      {/* {props.map((s, key) => (
+  return (
+    <>
+      <Row justifyContent="center" alignItems="center">
+        {/* {props.map((s, key) => (
         <Col
           key={key}
           justifyContent="center"
@@ -72,34 +73,36 @@ function SponsorGroup(props) {
               {' '}
         </Col>
       ))} */}
-    {allSponsors.map((s, key) => (
-      <Col
-        key={key}
-        justifyContent="center"
-        alignItems="center"
-        sm={12}
-        lg={4}
-        md={6}
-      >
-        <Sponsor link={s.link} srcx={s.src} />
-      </Col>
-    ))}</Row>
-    <div><h1 style={{ fontSize: '35px' }}>Food Sponsors</h1></div>
-    <Row justifyContent="center" alignItems="center"></Row>
-    {foodSponsors.map((s, key) => (
-      <Col
-        key={key}
-        justifyContent="center"
-        alignItems="center"
-        sm={12}
-        lg={4}
-        md={6}
-      > 
-        <Sponsor link={s.link} srcx={s.src} />
-      </Col>
-    ))}
-  <SponsorUS />
-    <Row/></>
+        {allSponsors.map((s, key) => (
+          <Col
+            key={key}
+            justifyContent="center"
+            alignItems="center"
+            sm={12}
+            lg={4}
+            md={6}
+          >
+            <Sponsor link={s.link} srcx={s.src} />
+          </Col>
+        ))}
+      </Row>
+      <h1 style={{fontSize: 60}}>Food Sponsors</h1>
+      <Row justifyContent="center" alignItems="center"></Row>
+      {foodSponsors.map((s, key) => (
+        <Col
+          key={key}
+          justifyContent="center"
+          alignItems="center"
+          sm={12}
+          lg={4}
+          md={6}
+        >
+          <Sponsor link={s.link} srcx={s.src} />
+        </Col>
+      ))}
+      <SponsorUS />
+      <Row />
+    </>
   );
 }
 
@@ -300,7 +303,7 @@ export default function HomePage(props) {
         <Row className="timeline justify-content-center" id="timeline">
           <TimeLine />
         </Row>
-        {/* <Row className="prizesection" id="prizes">
+        <Row className="prizesection" id="prizes">
           <PrizeHeading type="Prizes" />
         </Row>
         <PrizeState />
@@ -313,10 +316,12 @@ export default function HomePage(props) {
               alt=""
             />
             <h4>
-              <b>Participation Certificate & Other exciting swags</b>
+              <b>
+                Win Cash Prizes , Rewards worth $13,000 and Lot's of Swag !{' '}
+              </b>
             </h4>
           </div>
-        </div> */}
+        </div>
         <Birds top="100vh" left="0vh" type="" />
         {/* *******Prizes here ***** */}
         {/*        <Row className="prizesection" id="prizes">
@@ -399,8 +404,10 @@ const PrizeState = () => {
           src="https://img.icons8.com/emoji/96/000000/1st-place-medal-emoji.png"
           alt=""
         />
+        <br />
+        <br />
         <h4>
-          <b>Prize</b>: Cash Prize + Vouchers
+          <b>Prize</b>: Rs. 25,000
         </h4>
       </div>
       <div class="box box-down cyan">
@@ -410,8 +417,23 @@ const PrizeState = () => {
           src="https://img.icons8.com/emoji/96/000000/2nd-place-medal-emoji.png"
           alt=""
         />
+        <br />
+        <br />
         <h4>
-          <b>Prize</b>: Cash Prize + Vouchers
+          <b>Prize</b>: Rs. 15,000
+        </h4>
+      </div>
+      <div class="box box-down cyan">
+        <h2>All Tracks</h2>
+        <img
+          className="imgright"
+          src="https://img.icons8.com/emoji/96/000000/3rd-place-medal-emoji.png"
+          alt=""
+        />
+        <br />
+        <br />
+        <h4>
+          <b>Prize</b>: Rs. 10,000
         </h4>
       </div>
     </div>

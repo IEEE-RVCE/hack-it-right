@@ -50,12 +50,13 @@ import NGOCard from 'components/NGOCard/NGOCard.jsx';
 // javascript Map for sponsors
 
 function SponsorGroup(props) {
-  const allSponsors = props.filter(s => s.type !== "food");
-  const foodSponsors = props.filter(s => s.type === "food");
+  const allSponsors = props.filter(s => s.type !== 'food');
+  const foodSponsors = props.filter(s => s.type === 'food');
 
-  return (<>
-    <Row justifyContent="center" alignItems="center">
-      {/* {props.map((s, key) => (
+  return (
+    <>
+      <Row justifyContent="center" alignItems="center">
+        {/* {props.map((s, key) => (
         <Col
           key={key}
           justifyContent="center"
@@ -72,34 +73,36 @@ function SponsorGroup(props) {
               {' '}
         </Col>
       ))} */}
-    {allSponsors.map((s, key) => (
-      <Col
-        key={key}
-        justifyContent="center"
-        alignItems="center"
-        sm={12}
-        lg={4}
-        md={6}
-      >
-        <Sponsor link={s.link} srcx={s.src} />
-      </Col>
-    ))}</Row>
-    <h1 style={{fontSize:60}}>Food Sponsors</h1>
-    <Row justifyContent="center" alignItems="center"></Row>
-    {foodSponsors.map((s, key) => (
-      <Col
-        key={key}
-        justifyContent="center"
-        alignItems="center"
-        sm={12}
-        lg={4}
-        md={6}
-      > 
-        <Sponsor link={s.link} srcx={s.src} />
-      </Col>
-    ))}
-  <SponsorUS />
-    <Row/></>
+        {allSponsors.map((s, key) => (
+          <Col
+            key={key}
+            justifyContent="center"
+            alignItems="center"
+            sm={12}
+            lg={4}
+            md={6}
+          >
+            <Sponsor link={s.link} srcx={s.src} />
+          </Col>
+        ))}
+      </Row>
+      <h1 style={{fontSize: 60}}>Food Sponsors</h1>
+      <Row justifyContent="center" alignItems="center"></Row>
+      {foodSponsors.map((s, key) => (
+        <Col
+          key={key}
+          justifyContent="center"
+          alignItems="center"
+          sm={12}
+          lg={4}
+          md={6}
+        >
+          <Sponsor link={s.link} srcx={s.src} />
+        </Col>
+      ))}
+      <SponsorUS />
+      <Row />
+    </>
   );
 }
 
@@ -313,7 +316,9 @@ export default function HomePage(props) {
               alt=""
             />
             <h4>
-              <b>Win Cash Prizes , Rewards worth $13,000 and Lot's of Swag ! </b>
+              <b>
+                Win Cash Prizes , Rewards worth $13,000 and Lot's of Swag !{' '}
+              </b>
             </h4>
           </div>
         </div>
@@ -399,8 +404,8 @@ const PrizeState = () => {
           src="https://img.icons8.com/emoji/96/000000/1st-place-medal-emoji.png"
           alt=""
         />
-        <br/>
-        <br/>
+        <br />
+        <br />
         <h4>
           <b>Prize</b>: Rs. 25,000
         </h4>
@@ -412,8 +417,8 @@ const PrizeState = () => {
           src="https://img.icons8.com/emoji/96/000000/2nd-place-medal-emoji.png"
           alt=""
         />
-         <br/>
-        <br/>
+        <br />
+        <br />
         <h4>
           <b>Prize</b>: Rs. 15,000
         </h4>
@@ -425,8 +430,8 @@ const PrizeState = () => {
           src="https://img.icons8.com/emoji/96/000000/3rd-place-medal-emoji.png"
           alt=""
         />
-         <br/>
-        <br/>
+        <br />
+        <br />
         <h4>
           <b>Prize</b>: Rs. 10,000
         </h4>

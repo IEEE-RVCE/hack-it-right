@@ -41,35 +41,40 @@ function Logo() {
 }
 
 function HackathonTracks() {
+  const tracks = [
+    {
+      title: "Generative AI 4 Soc",
+      description: "Empower positive change with AI. From personalized healthcare to inclusive education, explore how AI can transform society for the better."
+    },
+    {
+      title: "Fintech 4 Soc",
+      description: "Shape a better world with Fintech. Drive financial inclusion, support micro-entrepreneurs, and enable sustainable investments to make a lasting impact on communities"
+    },
+    {
+      title: "Blockchain 4 Soc",
+      description: "Unleash the potential of Blockchain for societal good. Revolutionize supply chains, enhance identity security, and create transparent solutions for humanitarian aid."
+    }
+  ];
+  
+
   return (
     <div className="LogoSectionAbout">
-      <h1 style={{fontWeight: 600, fontSize: 35}}>{HACKATHON_TRACKS.title}</h1>
+      <h1 style={{ fontWeight: 600, fontSize: 35 }}>{HACKATHON_TRACKS.title}</h1>
       <br />
-      {HACKATHON_TRACKS.tracks.map(track => {
-        return (
-          <div>
-            <h3 style={{fontWeight: 500, fontSize: 23}}>{track.title}</h3>
-            <p>{track.description}</p>
+      <div className="track-cards">
+        {tracks.map((track, index) => (
+          <div key={index} className="track-card">
+            <div className="track-description">
+              <h3 style={{ fontWeight: 900, fontSize: 28 }}>{track.title}</h3>
+              <p>{track.description}</p>
+            </div>
           </div>
-        );
-      })}
+        ))}
+      </div>
     </div>
   );
 }
-function TrackCarousel() {
-  return (
-    <Carousel>
-      <Carousel.Item interval={500}>
-        <img className="d-block w-100 imgHeight" src={ai} />
-      </Carousel.Item>
-      <Carousel.Item interval={500}>
-        <img className="d-block w-100 imgHeight" src={fintech} />
-      </Carousel.Item>
-      <Carousel.Item interval={500}>
-        <img className="d-block w-100 imgHeight" src={blockchain} />
-      </Carousel.Item>
-    </Carousel>
-  );
-}
 
-export {Logo, LogoSectionAbout, HackathonTracks, TrackCarousel};
+
+
+export {Logo, LogoSectionAbout, HackathonTracks};

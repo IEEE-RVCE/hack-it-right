@@ -56,13 +56,63 @@ transition: 0.4s;
   top: 51px;
 }
 
-.LogoSectionAbout{
-    text-align: left;
-    width: 80%;
-    display: inline-block;
-    position: relative;
-    font-family: 'Nunito', sans-serif;
+.LogoSectionAbout {
+  text-align: center;
 }
+
+
+/* General styles */
+.track-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 40px; /* Center cards horizontally */
+  margin-right: auto;
+  width: calc(100% - 40px); /* Adjusted width for better centering and responsiveness */
+}
+
+.track-card {
+  width: calc(100% - 40px); /* One card in one row for mobile screens */
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #ffffff; /* Background color */
+  border-radius: 9px;
+  box-shadow: 0px 4px 8px rgba(82, 4, 116, 0.5); /* Box shadow */
+  transition: box-shadow 0.3s ease; /* Transition for hover effect */
+}
+
+@media (min-width: 768px) {
+  .track-card {
+    width: 900px; /* Two cards in one row with some gap for larger screens */
+  }
+}
+
+@media (min-width: 992px) {
+  .track-card {
+    width: calc(30% - 20px); /* Three cards in one row with some gap for even larger screens */
+    max-width: 300px; /* Set max-width for larger screens to control expansion */
+  }
+}
+
+.track-card:hover {
+  box-shadow: 0px 8px 16px rgba(120, 8, 161, 0.5); /* Increased box shadow on hover */
+}
+
+/* Typography */
+.track-description h3 {
+  font-weight: bold; /* Make the heading bold */
+  font-size: 1.5rem; /* Adjusted font size for mobile */
+  color: #5d0081; /* Title color */
+  margin-bottom: 10px;
+}
+
+.track-description p {
+  font-size: 1.8rem; /* Adjusted font size for mobile */
+  color: #333333; /* Description color */
+}
+
+
 .LogoSectionAbout h1{
     font-weight: 700;
     text-align: left;

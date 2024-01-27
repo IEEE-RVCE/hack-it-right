@@ -91,15 +91,15 @@ const HACKATHON_TRACKS = {
   tracks: [
     {
       title: 'Generative AI 4 Soc',
-      description: 'A world created by algorithms for social good'
+      description: 'Empower positive change with AI. From personalized healthcare to inclusive education, explore how AI can transform society for the better.'
     },
     {
       title: 'Fintech 4 Soc',
-      description: 'Innovative finance solutions driving societal impact'
+      description: 'hape a better world with Fintech. Drive financial inclusion, support micro-entrepreneurs, and enable sustainable investments to make a lasting impact on communities'
     },
     {
       title: ' Blockchain 4 Soc',
-      description: 'Revolutionizing Social Impact through Blockchain'
+      description: 'Unleash the potential of Blockchain for societal good. Revolutionize supply chains, enhance identity security, and create transparent solutions for humanitarian aid.'
     }
   ],
   images: []

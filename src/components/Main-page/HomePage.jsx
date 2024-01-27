@@ -34,7 +34,7 @@ import TimeLine from '../Timeline/Timeline.jsx';
 import filecoin from '../../Module/Assets/sponsorsLogos/filecoin.png';
 import polygon from '../../Module/Assets/sponsorsLogos/polygon.png';
 import alan from '../../Module/Assets/sponsorsLogos/alan.png';
-import {TrackCarousel} from '../logo-section/logoSection.jsx';
+//import {TrackCarousel} from '../logo-section/logoSection.jsx';
 
 import {
   TOP_SECTION,
@@ -272,20 +272,14 @@ export default function HomePage(props) {
             <Logo />
           </Col>
         </Row>
-        <Row className=" logoSection" id="about">
-          <Col className="info-div" sm={12} lg={8} md={8}>
-            <HackathonTracks />
-          </Col>
-          <Col
-            className="info-div"
-            sm={12}
-            lg={4}
-            md={4}
-            style={{margin: '-20px'}}
-          >
-            <TrackCarousel />
-          </Col>
-        </Row>
+        <Row className="logoSection" id="about">
+  <Col className="info-div" sm={12} lg={8} md={8}>
+    <HackathonTracks />
+  </Col>
+  <Col className="info-div" sm={12} lg={4} md={4} style={{ margin: '-20px' }}>
+    
+  </Col>
+</Row>
         {/*Theme Section*/}
         <Row className="prizesection non-coding" id="themes">
           <PrizeHeading type="Presented by" />

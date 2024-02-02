@@ -16,6 +16,7 @@ import taskade from './Assets/sponsorsLogos/taskade.png';
 import interviecake from './Assets/sponsorsLogos/ic.png';
 import interviewbuddy from './Assets/sponsorsLogos/ib.png';
 import ieeeBangloreSection from './Assets/sponsorsLogos/IEEEbangloreSection.jpg';
+import ieeeBangaloreCompSoc from './Assets/sponsorsLogos/IEEE-CS-BangaloreChapter-Logo-1.png';
 import hack2Skill from './Assets/sponsorsLogos/Hack2Skill.jpg';
 import digitalocean from './Assets/sponsorsLogos/do.png';
 import postman from './Assets/sponsorsLogos/pm.svg';
@@ -448,8 +449,9 @@ const JudgesInfo = [
 
 const sponsorLogos = [
   [
+    {src: ieeeBangaloreCompSoc, link: 'https://cs.ieeebangalore.org/', type: ''},
     {src: wolfram, link: 'https://www.wolfram.com/', type: ''},
-    {src: ieeeBangloreSection, link: 'https://ieeebangalore.org/', type: ''},
+    
     {src: axure, link: 'https://www.axure.com/', type: ''},
     {src: echo3D, link: 'https://www.echo3d.com/', type: ''},
 
